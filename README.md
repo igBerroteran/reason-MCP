@@ -68,8 +68,8 @@ You can use other names; see *Configuration*.
 ### 2. Install the package and the Remote codec
 
 ```bash
-git clone https://github.com/<you>/reason-mcp.git
-cd reason-mcp
+git clone https://github.com/igBerroteran/reason-MCP.git
+cd reason-MCP
 pip install -e .
 python tools/install_remote.py      # copies codec + maps to %APPDATA%\Propellerhead Software\Remote
 ```
