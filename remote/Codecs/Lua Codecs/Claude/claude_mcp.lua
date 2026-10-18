@@ -1,0 +1,253 @@
+-- Claude MCP Remote codec for Reason (generated from tools/claude_mcp.lua.in).
+--
+-- Generic virtual surface: B<n> buttons, V<n> absolute values (0..16383), D<n> deltas,
+-- T<n> text outputs, plus Keyboard / Pitch Bend / Mod Wheel / Damper Pedal.
+-- The remote map decides which remotable item each slot drives in every scope.
+--
+-- SysEx protocol (manufacturer 7D = non-commercial, then 'C' 'M'):
+--   Host -> Reason
+--     F0 7D 43 4D 01 kind ih il vh vl F7   input  (kind 0=B 1=V 2=D; idx/val 14-bit, D value offset 8192)
+--     F0 7D 43 4D 02 F7                    request full state dump
+--     F0 7D 43 4D 03 F7                    ping
+--     F0 7D 43 4D 04 F7                    debug info request
+--   Reason -> Host
+--     F0 7D 43 4D 10 kind ih il en vh vl <name> 00 <text> 00 F7   item state (kind 3=T)
+--     F0 7D 43 4D 11 <NB NV ND NT as 14-bit pairs> F7               pong / hello
+--     F0 7D 43 4D 12 <ascii> F7                                     debug info
+
+-- Slot counts per model (main follows devices, mixer is the Master Section).
+local COUNTS = {
+	["MCP"] = {162, 437, 48, 25},
+	["MCP Mixer"] = {351, 357, 10, 18},
+}
+local NB, NV, ND, NT = 0, 0, 0, 0
+
+local KIND_B, KIND_V, KIND_D, KIND_T = 0, 1, 2, 3
+local first = {}   -- kind -> item index of slot 1
+local kind_of = {} -- item index -> kind
+local slot_of = {} -- item index -> slot
+local dirty = {}
+local dirty_list = {}
+local pong_pending = false
+local MAX_NAME = 48
+local MAX_TEXT = 40
+local MAX_SENT = 8    -- state messages per remote_deliver_midi call
+local MAX_TRIES = 48  -- items examined per call (disabled ones are skipped cheaply)
+local reported = {}   -- item index -> last enabled flag sent to the host
+local dirty_head = 1
+local dirty_tail = 0
+
+local function mark(index)
+	if kind_of[index] ~= nil and not dirty[index] then
+		dirty[index] = true
+		dirty_tail = dirty_tail + 1
+		dirty_list[dirty_tail] = index
+	end
+end
+
+local last_index = 0
+
+local function mark_all()
+	for index = first[KIND_B] or 1, last_index do
+		if not dirty[index] then
+			dirty[index] = true
+			dirty_tail = dirty_tail + 1
+			dirty_list[dirty_tail] = index
+		end
+	end
+end
+
+function remote_init(manufacturer, model)
+	local c = COUNTS[model] or COUNTS["MCP"]
+	NB, NV, ND, NT = c[1], c[2], c[3], c[4]
+	-- Plain numeric loops: Reason aborts callbacks that run too many Lua instructions.
+	local items = {
+		{name="Keyboard", input="keyboard"},
+		{name="Pitch Bend", input="value", min=0, max=16383},
+		{name="Mod Wheel", input="value", min=0, max=127},
+		{name="Damper Pedal", input="value", min=0, max=127},
+	}
+	local n = 4
+	first[KIND_B] = n + 1
+	for i = 1, NB do
+		n = n + 1
+		items[n] = {name="B" .. i, input="button", output="value", min=0, max=127}
+		kind_of[n] = KIND_B
+		slot_of[n] = i
+	end
+	first[KIND_V] = n + 1
+	for i = 1, NV do
+		n = n + 1
+		items[n] = {name="V" .. i, input="value", output="value", min=0, max=16383}
+		kind_of[n] = KIND_V
+		slot_of[n] = i
+	end
+	first[KIND_D] = n + 1
+	for i = 1, ND do
+		n = n + 1
+		items[n] = {name="D" .. i, input="delta", output="value", min=0, max=16383}
+		kind_of[n] = KIND_D
+		slot_of[n] = i
+	end
+	first[KIND_T] = n + 1
+	for i = 1, NT do
+		n = n + 1
+		items[n] = {name="T" .. i, output="text"}
+		kind_of[n] = KIND_T
+		slot_of[n] = i
+	end
+	last_index = n
+	remote.define_items(items)
+
+	remote.define_auto_inputs({
+		{pattern="<100x>? yy zz", name="Keyboard"},
+		{pattern="e? xx yy", name="Pitch Bend", value="y*128 + x"},
+		{pattern="b? 01 xx", name="Mod Wheel"},
+		{pattern="b? 40 xx", name="Damper Pedal"},
+	})
+end
+
+function remote_prepare_for_use()
+	mark_all()
+	pong_pending = true
+	return {}
+end
+
+-- Reason passes every item here at start-up; keep per-item work minimal (instruction limit).
+function remote_set_state(changed_items)
+	for _, index in ipairs(changed_items) do
+		mark(index)
+	end
+end
+
+local function hex7(n)
+	return string.format("%02X", n % 128)
+end
+
+local function hex14(n)
+	if n < 0 then n = 0 end
+	if n > 16383 then n = 16383 end
+	n = math.floor(n)
+	return hex7(math.floor(n / 128)) .. " " .. hex7(n)
+end
+
+local function hexstr(s, maxlen)
+	if s == nil then return "" end
+	s = tostring(s)
+	local len = string.len(s)
+	if len > maxlen then len = maxlen end
+	local out = {}
+	for i = 1, len do
+		local b = string.byte(s, i)
+		if b < 32 or b > 126 then b = 63 end
+		out[i] = string.format("%02X", b)
+	end
+	return table.concat(out, " ")
+end
+
+-- Returns nil for items that are disabled and were never reported enabled (nothing to say).
+local function state_message(index)
+	local kind = kind_of[index]
+	local st = remote.get_item_state(index)
+	local enabled = st.is_enabled
+	if not enabled and not reported[index] then
+		return nil
+	end
+	reported[index] = enabled
+	local value = 0
+	local text = ""
+	if enabled then
+		if kind ~= KIND_T then
+			value = remote.get_item_value(index) or 0
+		end
+		text = remote.get_item_text_value(index) or ""
+	end
+	local h = "F0 7D 43 4D 10 " .. hex7(kind) .. " " .. hex14(slot_of[index]) .. " " .. hex7(enabled and 1 or 0) .. " " .. hex14(value)
+	local hn = hexstr(st.remote_item_name, MAX_NAME)
+	local ht = hexstr(text, MAX_TEXT)
+	if hn ~= "" then h = h .. " " .. hn end
+	h = h .. " 00"
+	if ht ~= "" then h = h .. " " .. ht end
+	h = h .. " 00 F7"
+	return remote.make_midi(h)
+end
+
+local last_max_bytes = -1
+local deliver_calls = 0
+local debug_pending = false
+
+function remote_deliver_midi(max_bytes, port)
+	local events = {}
+	local budget = max_bytes or 1024
+	last_max_bytes = max_bytes or -1
+	deliver_calls = deliver_calls + 1
+	if debug_pending then
+		debug_pending = false
+		local info = "mb=" .. tostring(max_bytes) .. " port=" .. tostring(port) .. " calls=" .. deliver_calls ..
+			" dirty=" .. (dirty_tail - dirty_head + 1)
+		table.insert(events, remote.make_midi("F0 7D 43 4D 12 " .. hexstr(info, 120) .. " F7"))
+	end
+	if pong_pending then
+		pong_pending = false
+		table.insert(events, remote.make_midi("F0 7D 43 4D 11 " .. hex14(NB) .. " " .. hex14(NV) .. " " .. hex14(ND) .. " " .. hex14(NT) .. " F7"))
+		budget = budget - 14
+	end
+	-- Always deliver at least one state per call so a small max_bytes cannot stall the queue.
+	-- Reason aborts callbacks that run "too many instructions": bound the work per call.
+	-- Reason's Lua sandbox has no pcall; errors surface in the Control Surfaces dialog.
+	local sent, tries = 0, 0
+	while dirty_head <= dirty_tail and tries < MAX_TRIES and sent < MAX_SENT
+		and (sent == 0 or budget > MAX_NAME + MAX_TEXT + 16) do
+		tries = tries + 1
+		local index = dirty_list[dirty_head]
+		dirty_list[dirty_head] = nil
+		dirty_head = dirty_head + 1
+		dirty[index] = nil
+		local ev = state_message(index)
+		if ev ~= nil then
+			budget = budget - (ev.size or 128)
+			table.insert(events, ev)
+			sent = sent + 1
+		end
+	end
+	if dirty_head > dirty_tail then
+		dirty_list = {}
+		dirty_head = 1
+		dirty_tail = 0
+	end
+	return events
+end
+
+local function is_ours(event)
+	return event.size >= 6 and event[1] == 240 and event[2] == 125 and event[3] == 67 and event[4] == 77
+end
+
+function remote_process_midi(event)
+	if not is_ours(event) then
+		return false
+	end
+	local cmd = event[5]
+	if cmd == 1 and event.size >= 11 then
+		local kind = event[6]
+		local slot = event[7] * 128 + event[8]
+		local value = event[9] * 128 + event[10]
+		local base = first[kind]
+		if base ~= nil and slot >= 1 then
+			local index = base + slot - 1
+			if kind_of[index] == kind then
+				if kind == KIND_D then
+					value = value - 8192
+				end
+				remote.handle_input({time_stamp=event.time_stamp, item=index, value=value})
+				mark(index)
+			end
+		end
+	elseif cmd == 2 then
+		mark_all()
+	elseif cmd == 3 then
+		pong_pending = true
+	elseif cmd == 4 then
+		debug_pending = true
+	end
+	return true
+end

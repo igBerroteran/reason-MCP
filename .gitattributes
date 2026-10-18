@@ -1,0 +1,3 @@
+# Reason reads these files as-is; keep their CRLF line endings
+remote/** -text
+*.png binary

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+
+# Extracted from a local Reason installation; never commit
+strings.txt
+*.strings.txt
+*.exe
+*.png.tmp
+screenshots/

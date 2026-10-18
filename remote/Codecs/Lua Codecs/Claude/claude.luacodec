@@ -1,0 +1,14 @@
+Version={1,0,0}
+
+function remote_supported_control_surfaces()
+	return {
+		{ manufacturer="Claude", model="MCP",
+			source="claude_mcp.lua", picture="claude.png",
+			in_ports={{description="In"}}, out_ports={{description="Out"}},
+			setup_info_text="Virtual surface driven by the Claude MCP server. In = 'Claude to Reason', Out = 'Reason to Claude' (loopMIDI). Make it Master Keyboard if Claude should play notes." },
+		{ manufacturer="Claude", model="MCP Mixer",
+			source="claude_mcp.lua", picture="claude.png",
+			in_ports={{description="In"}}, out_ports={{description="Out"}},
+			setup_info_text="Mixer surface for the Claude MCP server. In = 'Claude to Reason Mixer', Out = 'Reason to Claude Mixer'. Lock it to the Master Section (Options > Surface Locking)." },
+	}
+end

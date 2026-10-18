@@ -1,0 +1,746 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Claude
+Control Surface Model	MCP Mixer
+Map Version	1.0.0
+
+Scope	Propellerheads	Reason Master Section
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T1		"Reason Master Section"
+Map	B1		All Mutes Off
+Map	B2		All Solo Off
+Map	V1		Attack
+Map	V2		Button 1
+Map	V3		Button 2
+Map	V4		Button 3
+Map	V5		Button 4
+Map	V6		Bypass Insert FX
+Map	B3		Channel 1 Button 1
+Map	B4		Channel 1 Button 2
+Map	B5		Channel 1 Button 3
+Map	B6		Channel 1 Button 4
+Map	B7		Channel 1 Bypass Insert FX
+Map	B8		Channel 1 C Fast Atk
+Map	B9		Channel 1 C Peak
+Map	V7		Channel 1 C Ratio
+Map	V8		Channel 1 C Release
+Map	V9		Channel 1 C Threshold
+Map	T2		Channel 1 Channel Name
+Map	B10		Channel 1 Comp On
+Map	B11		Channel 1 Dyn Post EQ
+Map	B12		Channel 1 EQ E Mode
+Map	B13		Channel 1 EQ On
+Map	B14		Channel 1 Expander
+Map	B15		Channel 1 FX1 Pre Fader
+Map	V10		Channel 1 FX1 Send Level
+Map	B16		Channel 1 FX1 Send On
+Map	B17		Channel 1 FX2 Pre Fader
+Map	V11		Channel 1 FX2 Send Level
+Map	B18		Channel 1 FX2 Send On
+Map	B19		Channel 1 FX3 Pre Fader
+Map	V12		Channel 1 FX3 Send Level
+Map	B20		Channel 1 FX3 Send On
+Map	B21		Channel 1 FX4 Pre Fader
+Map	V13		Channel 1 FX4 Send Level
+Map	B22		Channel 1 FX4 Send On
+Map	B23		Channel 1 FX5 Pre Fader
+Map	D1		Channel 1 FX5 Send Level
+Map	B24		Channel 1 FX5 Send On
+Map	B25		Channel 1 FX6 Pre Fader
+Map	D2		Channel 1 FX6 Send Level
+Map	B26		Channel 1 FX6 Send On
+Map	B27		Channel 1 FX7 Pre Fader
+Map	V14		Channel 1 FX7 Send Level
+Map	B28		Channel 1 FX7 Send On
+Map	B29		Channel 1 FX8 Pre Fader
+Map	V15		Channel 1 FX8 Send Level
+Map	B30		Channel 1 FX8 Send On
+Map	B31		Channel 1 Filters Dyn S/C
+Map	B32		Channel 1 G Fast Atk
+Map	V16		Channel 1 G Hold
+Map	D3		Channel 1 G Range
+Map	V17		Channel 1 G Release
+Map	V18		Channel 1 G Threshold
+Map	B33		Channel 1 Gate On
+Map	B34		Channel 1 HF Bell
+Map	V19		Channel 1 HF Frequency
+Map	V20		Channel 1 HF Gain
+Map	B35		Channel 1 HF On
+Map	V21		Channel 1 HMF Frequency
+Map	V22		Channel 1 HMF Gain
+Map	B36		Channel 1 HMF On
+Map	V23		Channel 1 HMF Q
+Map	V24		Channel 1 HPF Frequency
+Map	B37		Channel 1 HPF On
+Map	V25		Channel 1 Input Gain
+Map	B38		Channel 1 Insert Pre
+Map	B39		Channel 1 Invert Phase
+Map	B40		Channel 1 Key On
+Map	B41		Channel 1 LF Bell
+Map	V26		Channel 1 LF Frequency
+Map	V27		Channel 1 LF Gain
+Map	B42		Channel 1 LF On
+Map	V28		Channel 1 LMF Frequency
+Map	V29		Channel 1 LMF Gain
+Map	B43		Channel 1 LMF On
+Map	V30		Channel 1 LMF Q
+Map	V31		Channel 1 LPF Frequency
+Map	B44		Channel 1 LPF On
+Map	V32		Channel 1 Level
+Map	V33		Channel 1 Mute
+Map	V34		Channel 1 Pan
+Map	V35		Channel 1 Rotary 1
+Map	V36		Channel 1 Rotary 2
+Map	V37		Channel 1 Rotary 3
+Map	V38		Channel 1 Rotary 4
+Map	B45		Channel 1 Select Next Insert FX Patch
+Map	B46		Channel 1 Select Prev Insert FX Patch
+Map	V39		Channel 1 Solo
+Map	V40		Channel 1 VU Meter
+Map	V41		Channel 1 Width
+Map	B47		Channel 2 Button 1
+Map	B48		Channel 2 Button 2
+Map	B49		Channel 2 Button 3
+Map	B50		Channel 2 Button 4
+Map	B51		Channel 2 Bypass Insert FX
+Map	B52		Channel 2 C Fast Atk
+Map	B53		Channel 2 C Peak
+Map	V42		Channel 2 C Ratio
+Map	V43		Channel 2 C Release
+Map	V44		Channel 2 C Threshold
+Map	T3		Channel 2 Channel Name
+Map	B54		Channel 2 Comp On
+Map	B55		Channel 2 Dyn Post EQ
+Map	B56		Channel 2 EQ E Mode
+Map	B57		Channel 2 EQ On
+Map	B58		Channel 2 FX1 Pre Fader
+Map	V45		Channel 2 FX1 Send Level
+Map	B59		Channel 2 FX1 Send On
+Map	B60		Channel 2 FX2 Pre Fader
+Map	V46		Channel 2 FX2 Send Level
+Map	B61		Channel 2 FX2 Send On
+Map	B62		Channel 2 FX3 Pre Fader
+Map	V47		Channel 2 FX3 Send Level
+Map	B63		Channel 2 FX3 Send On
+Map	B64		Channel 2 FX4 Pre Fader
+Map	V48		Channel 2 FX4 Send Level
+Map	B65		Channel 2 FX4 Send On
+Map	B66		Channel 2 FX5 Pre Fader
+Map	V49		Channel 2 FX5 Send Level
+Map	B67		Channel 2 FX5 Send On
+Map	B68		Channel 2 FX6 Pre Fader
+Map	V50		Channel 2 FX6 Send Level
+Map	B69		Channel 2 FX6 Send On
+Map	B70		Channel 2 FX7 Pre Fader
+Map	V51		Channel 2 FX7 Send Level
+Map	B71		Channel 2 FX7 Send On
+Map	B72		Channel 2 FX8 Pre Fader
+Map	V52		Channel 2 FX8 Send Level
+Map	B73		Channel 2 FX8 Send On
+Map	B74		Channel 2 Filters Dyn S/C
+Map	B75		Channel 2 G Fast Atk
+Map	V53		Channel 2 G Hold
+Map	V54		Channel 2 G Range
+Map	V55		Channel 2 G Release
+Map	V56		Channel 2 G Threshold
+Map	B76		Channel 2 Gate On
+Map	B77		Channel 2 HF Bell
+Map	V57		Channel 2 HF Frequency
+Map	V58		Channel 2 HF Gain
+Map	B78		Channel 2 HF On
+Map	V59		Channel 2 HMF Frequency
+Map	V60		Channel 2 HMF Gain
+Map	B79		Channel 2 HMF On
+Map	V61		Channel 2 HMF Q
+Map	V62		Channel 2 HPF Frequency
+Map	B80		Channel 2 HPF On
+Map	V63		Channel 2 Input Gain
+Map	B81		Channel 2 Insert Pre
+Map	B82		Channel 2 Invert Phase
+Map	B83		Channel 2 Key On
+Map	B84		Channel 2 LF Bell
+Map	V64		Channel 2 LF Frequency
+Map	V65		Channel 2 LF Gain
+Map	B85		Channel 2 LF On
+Map	V66		Channel 2 LMF Frequency
+Map	V67		Channel 2 LMF Gain
+Map	B86		Channel 2 LMF On
+Map	V68		Channel 2 LMF Q
+Map	V69		Channel 2 LPF Frequency
+Map	B87		Channel 2 LPF On
+Map	V70		Channel 2 Level
+Map	V71		Channel 2 Mute
+Map	V72		Channel 2 Pan
+Map	V73		Channel 2 Rotary 1
+Map	V74		Channel 2 Rotary 2
+Map	V75		Channel 2 Rotary 3
+Map	V76		Channel 2 Rotary 4
+Map	B88		Channel 2 Select Next Insert FX Patch
+Map	B89		Channel 2 Select Prev Insert FX Patch
+Map	V77		Channel 2 Solo
+Map	V78		Channel 2 VU Meter
+Map	V79		Channel 2 Width
+Map	B90		Channel 3 Button 1
+Map	B91		Channel 3 Button 2
+Map	B92		Channel 3 Button 3
+Map	B93		Channel 3 Button 4
+Map	B94		Channel 3 Bypass Insert FX
+Map	B95		Channel 3 C Fast Atk
+Map	B96		Channel 3 C Peak
+Map	V80		Channel 3 C Ratio
+Map	V81		Channel 3 C Release
+Map	V82		Channel 3 C Threshold
+Map	T4		Channel 3 Channel Name
+Map	B97		Channel 3 Comp On
+Map	B98		Channel 3 Dyn Post EQ
+Map	B99		Channel 3 EQ E Mode
+Map	B100		Channel 3 EQ On
+Map	B101		Channel 3 FX1 Pre Fader
+Map	V83		Channel 3 FX1 Send Level
+Map	B102		Channel 3 FX1 Send On
+Map	B103		Channel 3 FX2 Pre Fader
+Map	V84		Channel 3 FX2 Send Level
+Map	B104		Channel 3 FX2 Send On
+Map	B105		Channel 3 FX3 Pre Fader
+Map	V85		Channel 3 FX3 Send Level
+Map	B106		Channel 3 FX3 Send On
+Map	B107		Channel 3 FX4 Pre Fader
+Map	V86		Channel 3 FX4 Send Level
+Map	B108		Channel 3 FX4 Send On
+Map	B109		Channel 3 FX5 Pre Fader
+Map	V87		Channel 3 FX5 Send Level
+Map	B110		Channel 3 FX5 Send On
+Map	B111		Channel 3 FX6 Pre Fader
+Map	V88		Channel 3 FX6 Send Level
+Map	B112		Channel 3 FX6 Send On
+Map	B113		Channel 3 FX7 Pre Fader
+Map	V89		Channel 3 FX7 Send Level
+Map	B114		Channel 3 FX7 Send On
+Map	B115		Channel 3 FX8 Pre Fader
+Map	V90		Channel 3 FX8 Send Level
+Map	B116		Channel 3 FX8 Send On
+Map	B117		Channel 3 Filters Dyn S/C
+Map	B118		Channel 3 G Fast Atk
+Map	V91		Channel 3 G Hold
+Map	V92		Channel 3 G Range
+Map	V93		Channel 3 G Release
+Map	V94		Channel 3 G Threshold
+Map	B119		Channel 3 Gate On
+Map	B120		Channel 3 HF Bell
+Map	V95		Channel 3 HF Frequency
+Map	V96		Channel 3 HF Gain
+Map	B121		Channel 3 HF On
+Map	V97		Channel 3 HMF Frequency
+Map	V98		Channel 3 HMF Gain
+Map	B122		Channel 3 HMF On
+Map	V99		Channel 3 HMF Q
+Map	V100		Channel 3 HPF Frequency
+Map	B123		Channel 3 HPF On
+Map	V101		Channel 3 Input Gain
+Map	B124		Channel 3 Insert Pre
+Map	B125		Channel 3 Invert Phase
+Map	B126		Channel 3 Key On
+Map	B127		Channel 3 LF Bell
+Map	V102		Channel 3 LF Frequency
+Map	V103		Channel 3 LF Gain
+Map	B128		Channel 3 LF On
+Map	V104		Channel 3 LMF Frequency
+Map	V105		Channel 3 LMF Gain
+Map	B129		Channel 3 LMF On
+Map	V106		Channel 3 LMF Q
+Map	V107		Channel 3 LPF Frequency
+Map	B130		Channel 3 LPF On
+Map	V108		Channel 3 Level
+Map	V109		Channel 3 Mute
+Map	V110		Channel 3 Pan
+Map	V111		Channel 3 Rotary 1
+Map	V112		Channel 3 Rotary 2
+Map	V113		Channel 3 Rotary 3
+Map	V114		Channel 3 Rotary 4
+Map	B131		Channel 3 Select Next Insert FX Patch
+Map	B132		Channel 3 Select Prev Insert FX Patch
+Map	V115		Channel 3 Solo
+Map	V116		Channel 3 VU Meter
+Map	V117		Channel 3 Width
+Map	B133		Channel 4 Button 1
+Map	B134		Channel 4 Button 2
+Map	B135		Channel 4 Button 3
+Map	B136		Channel 4 Button 4
+Map	B137		Channel 4 Bypass Insert FX
+Map	B138		Channel 4 C Fast Atk
+Map	B139		Channel 4 C Peak
+Map	V118		Channel 4 C Ratio
+Map	V119		Channel 4 C Release
+Map	V120		Channel 4 C Threshold
+Map	T5		Channel 4 Channel Name
+Map	B140		Channel 4 Comp On
+Map	B141		Channel 4 Dyn Post EQ
+Map	B142		Channel 4 EQ E Mode
+Map	B143		Channel 4 EQ On
+Map	B144		Channel 4 FX1 Pre Fader
+Map	V121		Channel 4 FX1 Send Level
+Map	B145		Channel 4 FX1 Send On
+Map	B146		Channel 4 FX2 Pre Fader
+Map	V122		Channel 4 FX2 Send Level
+Map	B147		Channel 4 FX2 Send On
+Map	B148		Channel 4 FX3 Pre Fader
+Map	V123		Channel 4 FX3 Send Level
+Map	B149		Channel 4 FX3 Send On
+Map	B150		Channel 4 FX4 Pre Fader
+Map	V124		Channel 4 FX4 Send Level
+Map	B151		Channel 4 FX4 Send On
+Map	B152		Channel 4 FX5 Pre Fader
+Map	V125		Channel 4 FX5 Send Level
+Map	B153		Channel 4 FX5 Send On
+Map	B154		Channel 4 FX6 Pre Fader
+Map	V126		Channel 4 FX6 Send Level
+Map	B155		Channel 4 FX6 Send On
+Map	B156		Channel 4 FX7 Pre Fader
+Map	V127		Channel 4 FX7 Send Level
+Map	B157		Channel 4 FX7 Send On
+Map	B158		Channel 4 FX8 Pre Fader
+Map	V128		Channel 4 FX8 Send Level
+Map	B159		Channel 4 FX8 Send On
+Map	B160		Channel 4 Filters Dyn S/C
+Map	B161		Channel 4 G Fast Atk
+Map	V129		Channel 4 G Hold
+Map	V130		Channel 4 G Range
+Map	V131		Channel 4 G Release
+Map	V132		Channel 4 G Threshold
+Map	B162		Channel 4 Gate On
+Map	B163		Channel 4 HF Bell
+Map	V133		Channel 4 HF Frequency
+Map	V134		Channel 4 HF Gain
+Map	B164		Channel 4 HF On
+Map	V135		Channel 4 HMF Frequency
+Map	V136		Channel 4 HMF Gain
+Map	B165		Channel 4 HMF On
+Map	V137		Channel 4 HMF Q
+Map	V138		Channel 4 HPF Frequency
+Map	B166		Channel 4 HPF On
+Map	V139		Channel 4 Input Gain
+Map	B167		Channel 4 Insert Pre
+Map	B168		Channel 4 Invert Phase
+Map	B169		Channel 4 Key On
+Map	B170		Channel 4 LF Bell
+Map	V140		Channel 4 LF Frequency
+Map	V141		Channel 4 LF Gain
+Map	B171		Channel 4 LF On
+Map	V142		Channel 4 LMF Frequency
+Map	V143		Channel 4 LMF Gain
+Map	B172		Channel 4 LMF On
+Map	V144		Channel 4 LMF Q
+Map	V145		Channel 4 LPF Frequency
+Map	B173		Channel 4 LPF On
+Map	V146		Channel 4 Level
+Map	V147		Channel 4 Mute
+Map	V148		Channel 4 Pan
+Map	V149		Channel 4 Rotary 1
+Map	V150		Channel 4 Rotary 2
+Map	V151		Channel 4 Rotary 3
+Map	V152		Channel 4 Rotary 4
+Map	B174		Channel 4 Select Next Insert FX Patch
+Map	B175		Channel 4 Select Prev Insert FX Patch
+Map	V153		Channel 4 Solo
+Map	V154		Channel 4 VU Meter
+Map	V155		Channel 4 Width
+Map	B176		Channel 5 Button 1
+Map	B177		Channel 5 Button 2
+Map	B178		Channel 5 Button 3
+Map	B179		Channel 5 Button 4
+Map	B180		Channel 5 Bypass Insert FX
+Map	B181		Channel 5 C Fast Atk
+Map	B182		Channel 5 C Peak
+Map	V156		Channel 5 C Ratio
+Map	V157		Channel 5 C Release
+Map	V158		Channel 5 C Threshold
+Map	T6		Channel 5 Channel Name
+Map	B183		Channel 5 Comp On
+Map	B184		Channel 5 Dyn Post EQ
+Map	B185		Channel 5 EQ E Mode
+Map	B186		Channel 5 EQ On
+Map	B187		Channel 5 FX1 Pre Fader
+Map	V159		Channel 5 FX1 Send Level
+Map	B188		Channel 5 FX1 Send On
+Map	B189		Channel 5 FX2 Pre Fader
+Map	V160		Channel 5 FX2 Send Level
+Map	B190		Channel 5 FX2 Send On
+Map	B191		Channel 5 FX3 Pre Fader
+Map	V161		Channel 5 FX3 Send Level
+Map	B192		Channel 5 FX3 Send On
+Map	B193		Channel 5 FX4 Pre Fader
+Map	V162		Channel 5 FX4 Send Level
+Map	B194		Channel 5 FX4 Send On
+Map	B195		Channel 5 FX5 Pre Fader
+Map	V163		Channel 5 FX5 Send Level
+Map	B196		Channel 5 FX5 Send On
+Map	B197		Channel 5 FX6 Pre Fader
+Map	V164		Channel 5 FX6 Send Level
+Map	B198		Channel 5 FX6 Send On
+Map	B199		Channel 5 FX7 Pre Fader
+Map	V165		Channel 5 FX7 Send Level
+Map	B200		Channel 5 FX7 Send On
+Map	B201		Channel 5 FX8 Pre Fader
+Map	V166		Channel 5 FX8 Send Level
+Map	B202		Channel 5 FX8 Send On
+Map	B203		Channel 5 Filters Dyn S/C
+Map	B204		Channel 5 G Fast Atk
+Map	V167		Channel 5 G Hold
+Map	V168		Channel 5 G Range
+Map	V169		Channel 5 G Release
+Map	V170		Channel 5 G Threshold
+Map	B205		Channel 5 Gate On
+Map	B206		Channel 5 HF Bell
+Map	V171		Channel 5 HF Frequency
+Map	V172		Channel 5 HF Gain
+Map	B207		Channel 5 HF On
+Map	V173		Channel 5 HMF Frequency
+Map	V174		Channel 5 HMF Gain
+Map	B208		Channel 5 HMF On
+Map	V175		Channel 5 HMF Q
+Map	V176		Channel 5 HPF Frequency
+Map	B209		Channel 5 HPF On
+Map	V177		Channel 5 Input Gain
+Map	B210		Channel 5 Insert Pre
+Map	B211		Channel 5 Invert Phase
+Map	B212		Channel 5 Key On
+Map	B213		Channel 5 LF Bell
+Map	V178		Channel 5 LF Frequency
+Map	V179		Channel 5 LF Gain
+Map	B214		Channel 5 LF On
+Map	V180		Channel 5 LMF Frequency
+Map	V181		Channel 5 LMF Gain
+Map	B215		Channel 5 LMF On
+Map	V182		Channel 5 LMF Q
+Map	V183		Channel 5 LPF Frequency
+Map	B216		Channel 5 LPF On
+Map	V184		Channel 5 Level
+Map	V185		Channel 5 Mute
+Map	V186		Channel 5 Pan
+Map	V187		Channel 5 Rotary 1
+Map	V188		Channel 5 Rotary 2
+Map	V189		Channel 5 Rotary 3
+Map	V190		Channel 5 Rotary 4
+Map	B217		Channel 5 Select Next Insert FX Patch
+Map	B218		Channel 5 Select Prev Insert FX Patch
+Map	V191		Channel 5 Solo
+Map	V192		Channel 5 VU Meter
+Map	V193		Channel 5 Width
+Map	B219		Channel 6 Button 1
+Map	B220		Channel 6 Button 2
+Map	B221		Channel 6 Button 3
+Map	B222		Channel 6 Button 4
+Map	B223		Channel 6 Bypass Insert FX
+Map	B224		Channel 6 C Fast Atk
+Map	B225		Channel 6 C Peak
+Map	V194		Channel 6 C Ratio
+Map	V195		Channel 6 C Release
+Map	V196		Channel 6 C Threshold
+Map	T7		Channel 6 Channel Name
+Map	B226		Channel 6 Comp On
+Map	B227		Channel 6 Dyn Post EQ
+Map	B228		Channel 6 EQ E Mode
+Map	B229		Channel 6 EQ On
+Map	B230		Channel 6 FX1 Pre Fader
+Map	V197		Channel 6 FX1 Send Level
+Map	B231		Channel 6 FX1 Send On
+Map	B232		Channel 6 FX2 Pre Fader
+Map	V198		Channel 6 FX2 Send Level
+Map	B233		Channel 6 FX2 Send On
+Map	B234		Channel 6 FX3 Pre Fader
+Map	V199		Channel 6 FX3 Send Level
+Map	B235		Channel 6 FX3 Send On
+Map	B236		Channel 6 FX4 Pre Fader
+Map	V200		Channel 6 FX4 Send Level
+Map	B237		Channel 6 FX4 Send On
+Map	B238		Channel 6 FX5 Pre Fader
+Map	V201		Channel 6 FX5 Send Level
+Map	B239		Channel 6 FX5 Send On
+Map	B240		Channel 6 FX6 Pre Fader
+Map	V202		Channel 6 FX6 Send Level
+Map	B241		Channel 6 FX6 Send On
+Map	B242		Channel 6 FX7 Pre Fader
+Map	V203		Channel 6 FX7 Send Level
+Map	B243		Channel 6 FX7 Send On
+Map	B244		Channel 6 FX8 Pre Fader
+Map	V204		Channel 6 FX8 Send Level
+Map	B245		Channel 6 FX8 Send On
+Map	B246		Channel 6 Filters Dyn S/C
+Map	B247		Channel 6 G Fast Atk
+Map	V205		Channel 6 G Hold
+Map	V206		Channel 6 G Range
+Map	V207		Channel 6 G Release
+Map	V208		Channel 6 G Threshold
+Map	B248		Channel 6 Gate On
+Map	B249		Channel 6 HF Bell
+Map	V209		Channel 6 HF Frequency
+Map	V210		Channel 6 HF Gain
+Map	B250		Channel 6 HF On
+Map	V211		Channel 6 HMF Frequency
+Map	V212		Channel 6 HMF Gain
+Map	B251		Channel 6 HMF On
+Map	V213		Channel 6 HMF Q
+Map	V214		Channel 6 HPF Frequency
+Map	B252		Channel 6 HPF On
+Map	V215		Channel 6 Input Gain
+Map	B253		Channel 6 Insert Pre
+Map	B254		Channel 6 Invert Phase
+Map	B255		Channel 6 Key On
+Map	B256		Channel 6 LF Bell
+Map	V216		Channel 6 LF Frequency
+Map	V217		Channel 6 LF Gain
+Map	B257		Channel 6 LF On
+Map	V218		Channel 6 LMF Frequency
+Map	V219		Channel 6 LMF Gain
+Map	B258		Channel 6 LMF On
+Map	V220		Channel 6 LMF Q
+Map	V221		Channel 6 LPF Frequency
+Map	B259		Channel 6 LPF On
+Map	V222		Channel 6 Level
+Map	V223		Channel 6 Mute
+Map	V224		Channel 6 Pan
+Map	V225		Channel 6 Rotary 1
+Map	V226		Channel 6 Rotary 2
+Map	V227		Channel 6 Rotary 3
+Map	V228		Channel 6 Rotary 4
+Map	B260		Channel 6 Select Next Insert FX Patch
+Map	B261		Channel 6 Select Prev Insert FX Patch
+Map	V229		Channel 6 Solo
+Map	V230		Channel 6 VU Meter
+Map	V231		Channel 6 Width
+Map	B262		Channel 7 Button 1
+Map	B263		Channel 7 Button 2
+Map	B264		Channel 7 Button 3
+Map	B265		Channel 7 Button 4
+Map	B266		Channel 7 Bypass Insert FX
+Map	B267		Channel 7 C Fast Atk
+Map	B268		Channel 7 C Peak
+Map	V232		Channel 7 C Ratio
+Map	V233		Channel 7 C Release
+Map	V234		Channel 7 C Threshold
+Map	T8		Channel 7 Channel Name
+Map	B269		Channel 7 Comp On
+Map	B270		Channel 7 Dyn Post EQ
+Map	B271		Channel 7 EQ E Mode
+Map	B272		Channel 7 EQ On
+Map	B273		Channel 7 FX1 Pre Fader
+Map	V235		Channel 7 FX1 Send Level
+Map	B274		Channel 7 FX1 Send On
+Map	B275		Channel 7 FX2 Pre Fader
+Map	V236		Channel 7 FX2 Send Level
+Map	B276		Channel 7 FX2 Send On
+Map	B277		Channel 7 FX3 Pre Fader
+Map	V237		Channel 7 FX3 Send Level
+Map	B278		Channel 7 FX3 Send On
+Map	B279		Channel 7 FX4 Pre Fader
+Map	V238		Channel 7 FX4 Send Level
+Map	B280		Channel 7 FX4 Send On
+Map	B281		Channel 7 FX5 Pre Fader
+Map	V239		Channel 7 FX5 Send Level
+Map	B282		Channel 7 FX5 Send On
+Map	B283		Channel 7 FX6 Pre Fader
+Map	V240		Channel 7 FX6 Send Level
+Map	B284		Channel 7 FX6 Send On
+Map	B285		Channel 7 FX7 Pre Fader
+Map	V241		Channel 7 FX7 Send Level
+Map	B286		Channel 7 FX7 Send On
+Map	B287		Channel 7 FX8 Pre Fader
+Map	V242		Channel 7 FX8 Send Level
+Map	B288		Channel 7 FX8 Send On
+Map	B289		Channel 7 Filters Dyn S/C
+Map	B290		Channel 7 G Fast Atk
+Map	V243		Channel 7 G Hold
+Map	V244		Channel 7 G Range
+Map	V245		Channel 7 G Release
+Map	V246		Channel 7 G Threshold
+Map	B291		Channel 7 Gate On
+Map	B292		Channel 7 HF Bell
+Map	V247		Channel 7 HF Frequency
+Map	V248		Channel 7 HF Gain
+Map	B293		Channel 7 HF On
+Map	V249		Channel 7 HMF Frequency
+Map	V250		Channel 7 HMF Gain
+Map	B294		Channel 7 HMF On
+Map	V251		Channel 7 HMF Q
+Map	V252		Channel 7 HPF Frequency
+Map	B295		Channel 7 HPF On
+Map	V253		Channel 7 Input Gain
+Map	B296		Channel 7 Insert Pre
+Map	B297		Channel 7 Invert Phase
+Map	B298		Channel 7 Key On
+Map	B299		Channel 7 LF Bell
+Map	V254		Channel 7 LF Frequency
+Map	V255		Channel 7 LF Gain
+Map	B300		Channel 7 LF On
+Map	V256		Channel 7 LMF Frequency
+Map	V257		Channel 7 LMF Gain
+Map	B301		Channel 7 LMF On
+Map	V258		Channel 7 LMF Q
+Map	V259		Channel 7 LPF Frequency
+Map	B302		Channel 7 LPF On
+Map	V260		Channel 7 Level
+Map	V261		Channel 7 Mute
+Map	V262		Channel 7 Pan
+Map	V263		Channel 7 Rotary 1
+Map	V264		Channel 7 Rotary 2
+Map	V265		Channel 7 Rotary 3
+Map	V266		Channel 7 Rotary 4
+Map	B303		Channel 7 Select Next Insert FX Patch
+Map	B304		Channel 7 Select Prev Insert FX Patch
+Map	V267		Channel 7 Solo
+Map	V268		Channel 7 VU Meter
+Map	V269		Channel 7 Width
+Map	B305		Channel 8 Button 1
+Map	B306		Channel 8 Button 2
+Map	B307		Channel 8 Button 3
+Map	B308		Channel 8 Button 4
+Map	B309		Channel 8 Bypass Insert FX
+Map	B310		Channel 8 C Fast Atk
+Map	B311		Channel 8 C Peak
+Map	V270		Channel 8 C Ratio
+Map	V271		Channel 8 C Release
+Map	V272		Channel 8 C Threshold
+Map	T9		Channel 8 Channel Name
+Map	B312		Channel 8 Comp On
+Map	B313		Channel 8 Dyn Post EQ
+Map	B314		Channel 8 EQ E Mode
+Map	B315		Channel 8 EQ On
+Map	B316		Channel 8 FX1 Pre Fader
+Map	V273		Channel 8 FX1 Send Level
+Map	B317		Channel 8 FX1 Send On
+Map	B318		Channel 8 FX2 Pre Fader
+Map	V274		Channel 8 FX2 Send Level
+Map	B319		Channel 8 FX2 Send On
+Map	B320		Channel 8 FX3 Pre Fader
+Map	V275		Channel 8 FX3 Send Level
+Map	B321		Channel 8 FX3 Send On
+Map	B322		Channel 8 FX4 Pre Fader
+Map	V276		Channel 8 FX4 Send Level
+Map	B323		Channel 8 FX4 Send On
+Map	B324		Channel 8 FX5 Pre Fader
+Map	V277		Channel 8 FX5 Send Level
+Map	B325		Channel 8 FX5 Send On
+Map	B326		Channel 8 FX6 Pre Fader
+Map	V278		Channel 8 FX6 Send Level
+Map	B327		Channel 8 FX6 Send On
+Map	B328		Channel 8 FX7 Pre Fader
+Map	V279		Channel 8 FX7 Send Level
+Map	B329		Channel 8 FX7 Send On
+Map	B330		Channel 8 FX8 Pre Fader
+Map	V280		Channel 8 FX8 Send Level
+Map	B331		Channel 8 FX8 Send On
+Map	B332		Channel 8 Filters Dyn S/C
+Map	B333		Channel 8 G Fast Atk
+Map	V281		Channel 8 G Hold
+Map	V282		Channel 8 G Range
+Map	V283		Channel 8 G Release
+Map	V284		Channel 8 G Threshold
+Map	B334		Channel 8 Gate On
+Map	B335		Channel 8 HF Bell
+Map	V285		Channel 8 HF Frequency
+Map	V286		Channel 8 HF Gain
+Map	V287		Channel 8 HMF Frequency
+Map	V288		Channel 8 HMF Gain
+Map	V289		Channel 8 HMF Q
+Map	V290		Channel 8 HPF Frequency
+Map	B336		Channel 8 HPF On
+Map	V291		Channel 8 Input Gain
+Map	B337		Channel 8 Insert Pre
+Map	B338		Channel 8 Invert Phase
+Map	B339		Channel 8 Key On
+Map	B340		Channel 8 LF Bell
+Map	V292		Channel 8 LF Frequency
+Map	V293		Channel 8 LF Gain
+Map	V294		Channel 8 LMF Frequency
+Map	V295		Channel 8 LMF Gain
+Map	V296		Channel 8 LMF Q
+Map	V297		Channel 8 LPF Frequency
+Map	B341		Channel 8 LPF On
+Map	V298		Channel 8 Level
+Map	V299		Channel 8 Mute
+Map	V300		Channel 8 Pan
+Map	V301		Channel 8 Rotary 1
+Map	V302		Channel 8 Rotary 2
+Map	V303		Channel 8 Rotary 3
+Map	V304		Channel 8 Rotary 4
+Map	B342		Channel 8 Select Next Insert FX Patch
+Map	B343		Channel 8 Select Prev Insert FX Patch
+Map	V305		Channel 8 Solo
+Map	V306		Channel 8 VU Meter
+Map	V307		Channel 8 Width
+Map	V308		Compressor On
+Map	B344		Ctrl Room FX Select
+Map	V309		Ctrl Room Level
+Map	B345		Ctrl Room Source
+Map	B346		Dim -20dB
+Map	V310		FX1 Mute
+Map	T10		FX1 Name
+Map	V311		FX1 Pan
+Map	V312		FX1 Return Level
+Map	V313		FX1 Return Level Meter
+Map	D4		FX1 Send Level
+Map	V314		FX2 Mute
+Map	T11		FX2 Name
+Map	V315		FX2 Pan
+Map	V316		FX2 Return Level
+Map	V317		FX2 Return Level Meter
+Map	D5		FX2 Send Level
+Map	V318		FX3 Mute
+Map	T12		FX3 Name
+Map	V319		FX3 Pan
+Map	V320		FX3 Return Level
+Map	V321		FX3 Return Level Meter
+Map	D6		FX3 Send Level
+Map	V322		FX4 Mute
+Map	T13		FX4 Name
+Map	V323		FX4 Pan
+Map	V324		FX4 Return Level
+Map	V325		FX4 Return Level Meter
+Map	D7		FX4 Send Level
+Map	V326		FX5 Mute
+Map	T14		FX5 Name
+Map	V327		FX5 Pan
+Map	V328		FX5 Return Level
+Map	V329		FX5 Return Level Meter
+Map	D8		FX5 Send Level
+Map	V330		FX6 Mute
+Map	T15		FX6 Name
+Map	V331		FX6 Pan
+Map	V332		FX6 Return Level
+Map	V333		FX6 Return Level Meter
+Map	D9		FX6 Send Level
+Map	V334		FX7 Mute
+Map	T16		FX7 Name
+Map	V335		FX7 Pan
+Map	V336		FX7 Return Level
+Map	V337		FX7 Return Level Meter
+Map	V338		FX8 Mute
+Map	T17		FX8 Name
+Map	V339		FX8 Pan
+Map	V340		FX8 Return Level
+Map	V341		FX8 Return Level Meter
+Map	V342		Gain Reduction
+Map	T18		Insert FX Patch Name
+Map	V343		Inserts Pre
+Map	B347		Key On
+Map	V344		Make-Up Gain
+Map	V345		Master Level
+Map	V346		Master Level Meter Left
+Map	V347		Master Level Meter Right
+Map	V348		Next 8 Remote Base Channel
+Map	B348		Next Remote Base Channel
+Map	V349		Previous 8 Remote Base Channel
+Map	B349		Previous Remote Base Channel
+Map	V350		Ratio
+Map	V351		Release
+Map	V352		Remote Base Channel
+Map	D10		Remote Base Channel Delta
+Map	V353		Rotary 1
+Map	V354		Rotary 2
+Map	V355		Rotary 3
+Map	V356		Rotary 4
+Map	B350		Select Next Insert FX Patch
+Map	B351		Select Prev Insert FX Patch
+Map	V357		Threshold
+

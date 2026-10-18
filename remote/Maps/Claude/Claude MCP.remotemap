@@ -1,0 +1,7158 @@
+Propellerhead Remote Mapping File
+File Format Version	1.0.0
+Control Surface Manufacturer	Claude
+Control Surface Model	MCP
+Map Version	1.0.0
+
+Scope	Propellerheads	Master Keyboard
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Keyboard		Keyboard
+Map	Pitch Bend		Pitch Bend
+Map	Mod Wheel		Mod Wheel
+Map	Damper Pedal		Damper Pedal
+
+Scope	Propellerheads	Reason Document
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	B1		Any Track Mute
+Map	B2		Any Track Solo
+Map	V1		Audio Left Peak Meter
+Map	V2		Audio Right Peak Meter
+Map	B3		Auto-quantize
+Map	D1		Bar Position
+Map	B4		Bar Position Down
+Map	B5		Bar Position Up
+Map	D2		Beat Position
+Map	V3		Click Level
+Map	V4		Click On/Off
+Map	V5		Fast Forward
+Map	B6		Goto Left Locator
+Map	B7		Goto Right Locator
+Map	V6		Hour Position
+Map	D3		Left Loop
+Map	D4		Left Loop 16th
+Map	D5		Left Loop Bar
+Map	D6		Left Loop Beat
+Map	B8		Loop On/Off
+Map	V7		Minute Position
+Map	B9		Move Loop One bar Left
+Map	B10		Move Loop One bar Right
+Map	B11		New Alternative Take
+Map	B12		New Overdub
+Map	B13		Play
+Map	B14		Precount On/Off
+Map	V8		Punched-In
+Map	T1		Reason App
+Map	T2		Reason Version
+Map	B15		Record
+Map	B16		Redo
+Map	B17		Reset Automation Override
+Map	B18		Reset Meter Clipping
+Map	B19		Return To Zero
+Map	V9		Rewind
+Map	D7		Right Loop
+Map	D8		Right Loop 16th
+Map	D9		Right Loop Bar
+Map	D10		Right Loop Beat
+Map	B20		Second Dn
+Map	V10		Second Position
+Map	B21		Second Up
+Map	D11		Select Keyboard Shortcut Variation (Delta)
+Map	V11		Select Next Keyboard Shortcut Variation
+Map	B22		Select Next Patch for Target Device
+Map	D12		Select Patch for Target Device (Delta)
+Map	B23		Select Prev Patch for Target Device
+Map	V12		Select Previous Keyboard Shortcut Variation
+Map	D13		Sixteenth Position
+Map	D14		Song Position
+Map	B24		Stop
+Map	B25		Tap Tempo
+Map	V13		Target Next Track
+Map	V14		Target Previous Track
+Map	D15		Target Track (Delta)
+Map	B26		Target Track Enable Automation Recording
+Map	B27		Target Track Mute
+Map	T3		Target Track Name
+Map	B28		Target Track Solo
+Map	V15		Tempo
+Map	V16		Tempo BPM
+Map	B29		Tempo BPM Down
+Map	B30		Tempo BPM Up
+Map	D16		Tempo Decimal
+Map	B31		Undo
+Map	T4		Document Name
+Map	V17		Tick Position
+Map	V18		Millisecond Position
+Map	V19		Pre Count Bars
+Map	B32		Send All Notes Off
+Map	B33		Target Track Enable Monitoring
+Map	B34		Target Track Enable Tuner
+Map	T5		Target Track Tuner Note
+Map	V20		Target Track Tuner Cents
+Map	V21		Ableton Link Num Links
+Map	V22		Time Position
+Map	B35		Move Loop Left
+Map	B36		Move Loop Right
+
+Scope	Propellerheads	Alligator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Alligator"
+Map	V23		Amp Env Attack
+Map	V24		Amp Env Decay
+Map	V25		Amp Env Release
+Map	V26		Band Pass Delay Amount
+Map	V27		Band Pass Drive Amount
+Map	V28		Band Pass Env Amount
+Map	V29		Band Pass Filter On
+Map	V30		Band Pass Frequency
+Map	V31		Band Pass LFO Amount
+Map	V32		Band Pass Pan
+Map	V33		Band Pass Phaser Amount
+Map	V34		Band Pass Resonance
+Map	V35		Band Pass Volume
+Map	V36		Delay Feedback
+Map	V37		Delay Pan
+Map	V38		Delay Time
+Map	V39		DelaySync
+Map	T7		Device Name
+Map	V40		Dry Pan
+Map	V41		Dry Volume
+Map	V42		Ducking
+Map	V43		Enabled
+Map	V44		Filter Env Attack
+Map	V45		Filter Env Decay
+Map	V46		Filter Env Release
+Map	V47		Gate 1 Open
+Map	V48		Gate 1 Trig
+Map	V49		Gate 2 Open
+Map	V50		Gate 2 Trig
+Map	V51		Gate 3 Open
+Map	V52		Gate 3 Trig
+Map	V53		High Pass Delay Amount
+Map	V54		High Pass Drive Amount
+Map	V55		High Pass Env Amount
+Map	V56		High Pass Filter On
+Map	V57		High Pass Frequency
+Map	V58		High Pass LFO Amount
+Map	V59		High Pass Pan
+Map	V60		High Pass Phaser Amount
+Map	V61		High Pass Resonance
+Map	V62		High Pass Volume
+Map	B37		Input Peak Meter
+Map	V63		LFO Freq
+Map	V64		LFO Waveform
+Map	V65		LFOSync
+Map	V66		Low Pass Delay Amount
+Map	V67		Low Pass Drive Amount
+Map	V68		Low Pass Env Amount
+Map	V69		Low Pass Filter On
+Map	V70		Low Pass Frequency
+Map	V71		Low Pass LFO Amount
+Map	V72		Low Pass Pan
+Map	V73		Low Pass Phaser Amount
+Map	V74		Low Pass Resonance
+Map	V75		Low Pass Volume
+Map	V76		Master Volume
+Map	T8		Patch Name
+Map	V77		Pattern
+Map	V78		Pattern Enable
+Map	V79		Phaser Feedback
+Map	V80		Phaser Rate
+Map	V81		Resolution
+Map	V82		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V83		Select Previous Patch
+Map	V84		Shift
+Map	V85		Shuffle
+
+Scope	Propellerheads	BV512 Digital Vocoder
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"BV512 Digital Vocoder"
+Map	V23		Attack
+Map	V24		Band Count
+Map	V25		Band Level 1
+Map	V26		Band Level 10
+Map	V27		Band Level 11
+Map	V28		Band Level 12
+Map	V29		Band Level 13
+Map	V30		Band Level 14
+Map	V31		Band Level 15
+Map	V32		Band Level 16
+Map	V33		Band Level 17
+Map	V34		Band Level 18
+Map	V35		Band Level 19
+Map	V36		Band Level 2
+Map	V37		Band Level 20
+Map	V38		Band Level 21
+Map	V39		Band Level 22
+Map	V40		Band Level 23
+Map	V41		Band Level 24
+Map	V42		Band Level 25
+Map	V43		Band Level 26
+Map	V44		Band Level 27
+Map	V45		Band Level 28
+Map	V46		Band Level 29
+Map	V47		Band Level 3
+Map	V48		Band Level 30
+Map	V49		Band Level 31
+Map	V50		Band Level 32
+Map	V51		Band Level 4
+Map	V52		Band Level 5
+Map	V53		Band Level 6
+Map	V54		Band Level 7
+Map	V55		Band Level 8
+Map	V56		Band Level 9
+Map	V57		Decay
+Map	T7		Device Name
+Map	V58		Dry/Wet
+Map	V59		Enabled
+Map	V60		HF Emphasis
+Map	V61		Hold
+Map	V62		Mod Level 1
+Map	V63		Mod Level 10
+Map	V64		Mod Level 11
+Map	V65		Mod Level 12
+Map	V66		Mod Level 13
+Map	V67		Mod Level 14
+Map	V68		Mod Level 15
+Map	V69		Mod Level 16
+Map	V70		Mod Level 17
+Map	V71		Mod Level 18
+Map	V72		Mod Level 19
+Map	V73		Mod Level 2
+Map	V74		Mod Level 20
+Map	V75		Mod Level 21
+Map	V76		Mod Level 22
+Map	V77		Mod Level 23
+Map	V78		Mod Level 24
+Map	V79		Mod Level 25
+Map	V80		Mod Level 26
+Map	V81		Mod Level 27
+Map	V82		Mod Level 28
+Map	V83		Mod Level 29
+Map	V84		Mod Level 3
+Map	V85		Mod Level 30
+Map	V86		Mod Level 31
+Map	V87		Mod Level 32
+Map	V88		Mod Level 4
+Map	V89		Mod Level 5
+Map	V90		Mod Level 6
+Map	V91		Mod Level 7
+Map	V92		Mod Level 8
+Map	V93		Mod Level 9
+Map	V94		Modulator Peak Meter
+Map	V95		Shift
+Map	V96		Source Peak Meter
+Map	V97		Vocoder/Equalizer
+
+Scope	Propellerheads	CF-101 Chorus/Flanger
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"CF-101 Chorus/Flanger"
+Map	V23		Delay
+Map	T7		Device Name
+Map	V24		Enabled
+Map	V25		Feedback
+Map	V26		LFO Sync Enable
+Map	V27		Modulation Amount
+Map	V28		Peak Meter
+Map	V29		Rate
+Map	V30		Send/Insert Mode
+
+Scope	Propellerheads	COMP-01 Compressor/Limiter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"COMP-01 Compressor/Limiter"
+Map	V23		Attack
+Map	T7		Device Name
+Map	V24		Enabled
+Map	V25		Gain
+Map	V26		Peak Meter
+Map	V27		Ratio
+Map	V28		Release
+Map	V29		Threshold
+
+Scope	Propellerheads	Combinator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Combinator"
+Map	V23		Audio In Indicator
+Map	V24		Audio Out Indicator
+Map	V25		Button 1
+Map	B37		Button 10
+Map	B38		Button 11
+Map	B39		Button 12
+Map	V26		Button 2
+Map	V27		Button 3
+Map	V28		Button 4
+Map	B40		Button 5
+Map	B41		Button 6
+Map	B42		Button 7
+Map	B43		Button 8
+Map	B44		Button 9
+Map	B45		Bypass All FX
+Map	T7		Device Name
+Map	B46		Enabled
+Map	V29		Mod Wheel
+Map	B47		Note On Indicator
+Map	T8		Patch Name
+Map	V30		Pitch Bend
+Map	V31		Rotary 1
+Map	V32		Rotary 10
+Map	V33		Rotary 11
+Map	V34		Rotary 12
+Map	V35		Rotary 13
+Map	V36		Rotary 14
+Map	V37		Rotary 15
+Map	V38		Rotary 16
+Map	V39		Rotary 2
+Map	V40		Rotary 3
+Map	V41		Rotary 4
+Map	V42		Rotary 5
+Map	V43		Rotary 6
+Map	V44		Rotary 7
+Map	V45		Rotary 8
+Map	V46		Rotary 9
+Map	B48		Run Pattern Devices
+Map	V47		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V48		Select Previous Patch
+
+Scope	Propellerheads	D-11 Foldback Distortion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"D-11 Foldback Distortion"
+Map	V23		Amount
+Map	T7		Device Name
+Map	V24		Enabled
+Map	V25		Foldback
+Map	V26		Peak Meter
+
+Scope	Propellerheads	DDL-1 Digital Delay Line
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"DDL-1 Digital Delay Line"
+Map	V23		DelayTime (ms)
+Map	V24		DelayTime (steps)
+Map	T7		Device Name
+Map	V25		Dry/Wet Balance
+Map	V26		Enabled
+Map	V27		Feedback
+Map	V28		Pan
+Map	V29		Peak Meter
+Map	V30		Step Length
+Map	V31		Unit
+
+Scope	Propellerheads	Dr.REX Loop Player
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Dr.REX Loop Player"
+Map	V23		Amp Env Attack
+Map	V24		Amp Env Decay
+Map	V25		Amp Env Release
+Map	V26		Amp Env Sustain
+Map	V27		Amp Vel Amount
+Map	T7		Device Name
+Map	B37		Enable Loop Playback
+Map	V28		Filter Decay Mod Wheel Amount
+Map	V29		Filter Decay Vel Amount
+Map	V30		Filter Env Amount
+Map	V31		Filter Env Attack
+Map	V32		Filter Env Decay
+Map	V33		Filter Env Release
+Map	V34		Filter Env Sustain
+Map	V35		Filter Env Vel Amount
+Map	V36		Filter Freq
+Map	V37		Filter Freq Mod Wheel Amount
+Map	V38		Filter Mode
+Map	V39		Filter On/Off
+Map	V40		Filter Res
+Map	V41		Filter Res Mod Wheel Amount
+Map	B38		Follow Loop Playback
+Map	V42		High Quality Interpolation
+Map	V43		LFO Sync Enable
+Map	V44		LFO1 Amount
+Map	V45		LFO1 Dest
+Map	V46		LFO1 Rate
+Map	V47		LFO1 Wave
+Map	V48		Loop Level
+Map	V49		Loop Transpose
+Map	B39		Low Bandwidth On/Off
+Map	V50		Master Level
+Map	V51		Mod Wheel
+Map	B40		Note On Indicator
+Map	V52		Notes to Slot
+Map	V53		Osc Env Amount
+Map	V54		Osc Fine Tune
+Map	V55		Osc Octave
+Map	T8		Patch Name
+Map	V56		Pitch Bend
+Map	V57		Pitch Bend Range
+Map	V58		Polyphony
+Map	V59		Run
+Map	B41		Select Loop 1
+Map	B42		Select Loop 2
+Map	B43		Select Loop 3
+Map	B44		Select Loop 4
+Map	B45		Select Loop 5
+Map	B46		Select Loop 6
+Map	B47		Select Loop 7
+Map	B48		Select Loop 8
+Map	V60		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V61		Select Previous Patch
+Map	V62		Selected Loop Slot
+Map	V63		Selected Loop in Editor
+Map	V64		Transpose
+Map	B49		Trigger Next Setting
+
+Scope	Propellerheads	ECF-42 Envelope Controlled Filter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"ECF-42 Envelope Controlled Filter"
+Map	V23		Attack
+Map	V24		Decay
+Map	T7		Device Name
+Map	V25		Enabled
+Map	V26		Env Amount
+Map	V27		Frequency
+Map	V28		Mode
+Map	V29		Peak Meter
+Map	V30		Release
+Map	V31		Resonance
+Map	V32		Sustain
+Map	V33		Trigger
+Map	V34		Velocity
+
+Scope	Propellerheads	ID8 Instrument Device
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"ID8 Instrument Device"
+Map	V23		Category
+Map	T7		Category Name
+Map	T8		Device Name
+Map	V24		Mod Wheel
+Map	B37		Note On Indicator
+Map	V25		Parameter 1
+Map	V26		Parameter 2
+Map	V27		Pitch Bend
+Map	B38		Preset
+Map	V28		Select Next Category
+Map	V29		Select Next Preset
+Map	V30		Select Next Sound
+Map	V31		Select Previous Category
+Map	V32		Select Previous Preset
+Map	V33		Select Previous Sound
+Map	V34		Sound
+Map	V35		Sound A
+Map	V36		Sound B
+Map	V37		Sound C
+Map	V38		Sound D
+Map	T9		Sound Name
+Map	V39		Volume
+
+Scope	Propellerheads	Kong Drum Designer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Kong Drum Designer"
+Map	V23		Bus FX On
+Map	V24		Bus FX P1
+Map	V25		Bus FX P2
+Map	T7		Device Name
+Map	V26		Drum 1 Aux 1 Send
+Map	V27		Drum 1 Aux 2 Send
+Map	V28		Drum 1 Bus FX Send
+Map	V29		Drum 1 DM Decay
+Map	V30		Drum 1 DM Level
+Map	B37		Drum 1 DM On
+Map	V31		Drum 1 DM Pitch
+Map	V32		Drum 1 DM Variable
+Map	V33		Drum 1 Decay Offset
+Map	V34		Drum 1 FX1 On
+Map	V35		Drum 1 FX1 P1
+Map	V36		Drum 1 FX1 P2
+Map	V37		Drum 1 FX2 On
+Map	V38		Drum 1 FX2 P1
+Map	V39		Drum 1 FX2 P2
+Map	V40		Drum 1 Level
+Map	V41		Drum 1 Pan
+Map	V42		Drum 1 Pitch Offset
+Map	V43		Drum 1 Tone
+Map	V44		Drum 10 Aux 1 Send
+Map	V45		Drum 10 Aux 2 Send
+Map	V46		Drum 10 Bus FX Send
+Map	V47		Drum 10 DM Decay
+Map	V48		Drum 10 DM Level
+Map	B38		Drum 10 DM On
+Map	V49		Drum 10 DM Pitch
+Map	V50		Drum 10 DM Variable
+Map	V51		Drum 10 Decay Offset
+Map	V52		Drum 10 FX1 On
+Map	V53		Drum 10 FX1 P1
+Map	V54		Drum 10 FX1 P2
+Map	V55		Drum 10 FX2 On
+Map	V56		Drum 10 FX2 P1
+Map	V57		Drum 10 FX2 P2
+Map	V58		Drum 10 Level
+Map	V59		Drum 10 Pan
+Map	V60		Drum 10 Pitch Offset
+Map	V61		Drum 10 Tone
+Map	V62		Drum 11 Aux 1 Send
+Map	V63		Drum 11 Aux 2 Send
+Map	V64		Drum 11 Bus FX Send
+Map	V65		Drum 11 DM Decay
+Map	V66		Drum 11 DM Level
+Map	B39		Drum 11 DM On
+Map	V67		Drum 11 DM Pitch
+Map	V68		Drum 11 DM Variable
+Map	V69		Drum 11 Decay Offset
+Map	V70		Drum 11 FX1 On
+Map	V71		Drum 11 FX1 P1
+Map	V72		Drum 11 FX1 P2
+Map	V73		Drum 11 FX2 On
+Map	V74		Drum 11 FX2 P1
+Map	V75		Drum 11 FX2 P2
+Map	V76		Drum 11 Level
+Map	V77		Drum 11 Pan
+Map	V78		Drum 11 Pitch Offset
+Map	V79		Drum 11 Tone
+Map	V80		Drum 12 Aux 1 Send
+Map	V81		Drum 12 Aux 2 Send
+Map	V82		Drum 12 Bus FX Send
+Map	V83		Drum 12 DM Decay
+Map	V84		Drum 12 DM Level
+Map	B40		Drum 12 DM On
+Map	V85		Drum 12 DM Pitch
+Map	V86		Drum 12 DM Variable
+Map	V87		Drum 12 Decay Offset
+Map	V88		Drum 12 FX1 On
+Map	V89		Drum 12 FX1 P1
+Map	V90		Drum 12 FX1 P2
+Map	V91		Drum 12 FX2 On
+Map	V92		Drum 12 FX2 P1
+Map	V93		Drum 12 FX2 P2
+Map	V94		Drum 12 Level
+Map	V95		Drum 12 Pan
+Map	V96		Drum 12 Pitch Offset
+Map	V97		Drum 12 Tone
+Map	V98		Drum 13 Aux 1 Send
+Map	V99		Drum 13 Aux 2 Send
+Map	V100		Drum 13 Bus FX Send
+Map	V101		Drum 13 DM Decay
+Map	V102		Drum 13 DM Level
+Map	B41		Drum 13 DM On
+Map	V103		Drum 13 DM Pitch
+Map	V104		Drum 13 DM Variable
+Map	V105		Drum 13 Decay Offset
+Map	V106		Drum 13 FX1 On
+Map	V107		Drum 13 FX1 P1
+Map	V108		Drum 13 FX1 P2
+Map	V109		Drum 13 FX2 On
+Map	V110		Drum 13 FX2 P1
+Map	V111		Drum 13 FX2 P2
+Map	V112		Drum 13 Level
+Map	V113		Drum 13 Pan
+Map	V114		Drum 13 Pitch Offset
+Map	V115		Drum 13 Tone
+Map	V116		Drum 14 Aux 1 Send
+Map	V117		Drum 14 Aux 2 Send
+Map	V118		Drum 14 Bus FX Send
+Map	V119		Drum 14 DM Decay
+Map	V120		Drum 14 DM Level
+Map	B42		Drum 14 DM On
+Map	V121		Drum 14 DM Pitch
+Map	V122		Drum 14 DM Variable
+Map	V123		Drum 14 Decay Offset
+Map	V124		Drum 14 FX1 On
+Map	V125		Drum 14 FX1 P1
+Map	V126		Drum 14 FX1 P2
+Map	V127		Drum 14 FX2 On
+Map	V128		Drum 14 FX2 P1
+Map	V129		Drum 14 FX2 P2
+Map	V130		Drum 14 Level
+Map	V131		Drum 14 Pan
+Map	V132		Drum 14 Pitch Offset
+Map	V133		Drum 14 Tone
+Map	V134		Drum 15 Aux 1 Send
+Map	V135		Drum 15 Aux 2 Send
+Map	V136		Drum 15 Bus FX Send
+Map	V137		Drum 15 DM Decay
+Map	V138		Drum 15 DM Level
+Map	B43		Drum 15 DM On
+Map	V139		Drum 15 DM Pitch
+Map	V140		Drum 15 DM Variable
+Map	V141		Drum 15 Decay Offset
+Map	V142		Drum 15 FX1 On
+Map	V143		Drum 15 FX1 P1
+Map	V144		Drum 15 FX1 P2
+Map	V145		Drum 15 FX2 On
+Map	V146		Drum 15 FX2 P1
+Map	V147		Drum 15 FX2 P2
+Map	V148		Drum 15 Level
+Map	V149		Drum 15 Pan
+Map	V150		Drum 15 Pitch Offset
+Map	V151		Drum 15 Tone
+Map	V152		Drum 16 Aux 1 Send
+Map	V153		Drum 16 Aux 2 Send
+Map	V154		Drum 16 Bus FX Send
+Map	V155		Drum 16 DM Decay
+Map	V156		Drum 16 DM Level
+Map	B44		Drum 16 DM On
+Map	V157		Drum 16 DM Pitch
+Map	V158		Drum 16 DM Variable
+Map	V159		Drum 16 Decay Offset
+Map	V160		Drum 16 FX1 On
+Map	V161		Drum 16 FX1 P1
+Map	V162		Drum 16 FX1 P2
+Map	V163		Drum 16 FX2 On
+Map	V164		Drum 16 FX2 P1
+Map	V165		Drum 16 FX2 P2
+Map	V166		Drum 16 Level
+Map	V167		Drum 16 Pan
+Map	V168		Drum 16 Pitch Offset
+Map	V169		Drum 16 Tone
+Map	V170		Drum 2 Aux 1 Send
+Map	V171		Drum 2 Aux 2 Send
+Map	V172		Drum 2 Bus FX Send
+Map	V173		Drum 2 DM Decay
+Map	V174		Drum 2 DM Level
+Map	B45		Drum 2 DM On
+Map	V175		Drum 2 DM Pitch
+Map	V176		Drum 2 DM Variable
+Map	V177		Drum 2 Decay Offset
+Map	V178		Drum 2 FX1 On
+Map	V179		Drum 2 FX1 P1
+Map	V180		Drum 2 FX1 P2
+Map	V181		Drum 2 FX2 On
+Map	V182		Drum 2 FX2 P1
+Map	V183		Drum 2 FX2 P2
+Map	V184		Drum 2 Level
+Map	V185		Drum 2 Pan
+Map	V186		Drum 2 Pitch Offset
+Map	V187		Drum 2 Tone
+Map	V188		Drum 3 Aux 1 Send
+Map	V189		Drum 3 Aux 2 Send
+Map	V190		Drum 3 Bus FX Send
+Map	V191		Drum 3 DM Decay
+Map	V192		Drum 3 DM Level
+Map	B46		Drum 3 DM On
+Map	V193		Drum 3 DM Pitch
+Map	V194		Drum 3 DM Variable
+Map	V195		Drum 3 Decay Offset
+Map	V196		Drum 3 FX1 On
+Map	V197		Drum 3 FX1 P1
+Map	V198		Drum 3 FX1 P2
+Map	V199		Drum 3 FX2 On
+Map	V200		Drum 3 FX2 P1
+Map	V201		Drum 3 FX2 P2
+Map	V202		Drum 3 Level
+Map	V203		Drum 3 Pan
+Map	V204		Drum 3 Pitch Offset
+Map	V205		Drum 3 Tone
+Map	V206		Drum 4 Aux 1 Send
+Map	V207		Drum 4 Aux 2 Send
+Map	V208		Drum 4 Bus FX Send
+Map	V209		Drum 4 DM Decay
+Map	V210		Drum 4 DM Level
+Map	B47		Drum 4 DM On
+Map	V211		Drum 4 DM Pitch
+Map	V212		Drum 4 DM Variable
+Map	V213		Drum 4 Decay Offset
+Map	V214		Drum 4 FX1 On
+Map	V215		Drum 4 FX1 P1
+Map	V216		Drum 4 FX1 P2
+Map	V217		Drum 4 FX2 On
+Map	V218		Drum 4 FX2 P1
+Map	V219		Drum 4 FX2 P2
+Map	V220		Drum 4 Level
+Map	V221		Drum 4 Pan
+Map	V222		Drum 4 Pitch Offset
+Map	V223		Drum 4 Tone
+Map	V224		Drum 5 Aux 1 Send
+Map	V225		Drum 5 Aux 2 Send
+Map	V226		Drum 5 Bus FX Send
+Map	V227		Drum 5 DM Decay
+Map	V228		Drum 5 DM Level
+Map	B48		Drum 5 DM On
+Map	V229		Drum 5 DM Pitch
+Map	V230		Drum 5 DM Variable
+Map	V231		Drum 5 Decay Offset
+Map	V232		Drum 5 FX1 On
+Map	V233		Drum 5 FX1 P1
+Map	V234		Drum 5 FX1 P2
+Map	V235		Drum 5 FX2 On
+Map	V236		Drum 5 FX2 P1
+Map	V237		Drum 5 FX2 P2
+Map	V238		Drum 5 Level
+Map	V239		Drum 5 Pan
+Map	V240		Drum 5 Pitch Offset
+Map	V241		Drum 5 Tone
+Map	V242		Drum 6 Aux 1 Send
+Map	V243		Drum 6 Aux 2 Send
+Map	V244		Drum 6 Bus FX Send
+Map	V245		Drum 6 DM Decay
+Map	V246		Drum 6 DM Level
+Map	B49		Drum 6 DM On
+Map	V247		Drum 6 DM Pitch
+Map	V248		Drum 6 DM Variable
+Map	V249		Drum 6 Decay Offset
+Map	V250		Drum 6 FX1 On
+Map	V251		Drum 6 FX1 P1
+Map	V252		Drum 6 FX1 P2
+Map	V253		Drum 6 FX2 On
+Map	V254		Drum 6 FX2 P1
+Map	V255		Drum 6 FX2 P2
+Map	V256		Drum 6 Level
+Map	V257		Drum 6 Pan
+Map	V258		Drum 6 Pitch Offset
+Map	V259		Drum 6 Tone
+Map	V260		Drum 7 Aux 1 Send
+Map	V261		Drum 7 Aux 2 Send
+Map	V262		Drum 7 Bus FX Send
+Map	V263		Drum 7 DM Decay
+Map	V264		Drum 7 DM Level
+Map	B50		Drum 7 DM On
+Map	V265		Drum 7 DM Pitch
+Map	V266		Drum 7 DM Variable
+Map	V267		Drum 7 Decay Offset
+Map	V268		Drum 7 FX1 On
+Map	V269		Drum 7 FX1 P1
+Map	V270		Drum 7 FX1 P2
+Map	V271		Drum 7 FX2 On
+Map	V272		Drum 7 FX2 P1
+Map	V273		Drum 7 FX2 P2
+Map	V274		Drum 7 Level
+Map	V275		Drum 7 Pan
+Map	V276		Drum 7 Pitch Offset
+Map	V277		Drum 7 Tone
+Map	V278		Drum 8 Aux 1 Send
+Map	V279		Drum 8 Aux 2 Send
+Map	V280		Drum 8 Bus FX Send
+Map	V281		Drum 8 DM Decay
+Map	V282		Drum 8 DM Level
+Map	B51		Drum 8 DM On
+Map	V283		Drum 8 DM Pitch
+Map	V284		Drum 8 DM Variable
+Map	V285		Drum 8 Decay Offset
+Map	V286		Drum 8 FX1 On
+Map	V287		Drum 8 FX1 P1
+Map	V288		Drum 8 FX1 P2
+Map	V289		Drum 8 FX2 On
+Map	V290		Drum 8 FX2 P1
+Map	V291		Drum 8 FX2 P2
+Map	V292		Drum 8 Level
+Map	V293		Drum 8 Pan
+Map	V294		Drum 8 Pitch Offset
+Map	V295		Drum 8 Tone
+Map	V296		Drum 9 Aux 1 Send
+Map	V297		Drum 9 Aux 2 Send
+Map	V298		Drum 9 Bus FX Send
+Map	V299		Drum 9 DM Decay
+Map	V300		Drum 9 DM Level
+Map	B52		Drum 9 DM On
+Map	V301		Drum 9 DM Pitch
+Map	V302		Drum 9 DM Variable
+Map	V303		Drum 9 Decay Offset
+Map	V304		Drum 9 FX1 On
+Map	V305		Drum 9 FX1 P1
+Map	V306		Drum 9 FX1 P2
+Map	V307		Drum 9 FX2 On
+Map	V308		Drum 9 FX2 P1
+Map	V309		Drum 9 FX2 P2
+Map	V310		Drum 9 Level
+Map	V311		Drum 9 Pan
+Map	V312		Drum 9 Pitch Offset
+Map	V313		Drum 9 Tone
+Map	V314		Level Bus FX to Master FX
+Map	V315		Master FX On
+Map	V316		Master FX P1
+Map	V317		Master FX P2
+Map	V318		Master Level
+Map	V319		Mod Wheel
+Map	V320		Note On Indicator
+Map	B53		Pad 1 Hit Indication
+Map	V321		Pad 1 Mute
+Map	V322		Pad 1 Solo
+Map	B54		Pad 10 Hit Indication
+Map	V323		Pad 10 Mute
+Map	V324		Pad 10 Solo
+Map	B55		Pad 11 Hit Indication
+Map	V325		Pad 11 Mute
+Map	V326		Pad 11 Solo
+Map	B56		Pad 12 Hit Indication
+Map	V327		Pad 12 Mute
+Map	V328		Pad 12 Solo
+Map	B57		Pad 13 Hit Indication
+Map	V329		Pad 13 Mute
+Map	V330		Pad 13 Solo
+Map	B58		Pad 14 Hit Indication
+Map	V331		Pad 14 Mute
+Map	V332		Pad 14 Solo
+Map	B59		Pad 15 Hit Indication
+Map	V333		Pad 15 Mute
+Map	V334		Pad 15 Solo
+Map	B60		Pad 16 Hit Indication
+Map	V335		Pad 16 Mute
+Map	V336		Pad 16 Solo
+Map	B61		Pad 2 Hit Indication
+Map	V337		Pad 2 Mute
+Map	V338		Pad 2 Solo
+Map	B62		Pad 3 Hit Indication
+Map	V339		Pad 3 Mute
+Map	V340		Pad 3 Solo
+Map	B63		Pad 4 Hit Indication
+Map	V341		Pad 4 Mute
+Map	V342		Pad 4 Solo
+Map	B64		Pad 5 Hit Indication
+Map	V343		Pad 5 Mute
+Map	V344		Pad 5 Solo
+Map	B65		Pad 6 Hit Indication
+Map	V345		Pad 6 Mute
+Map	V346		Pad 6 Solo
+Map	B66		Pad 7 Hit Indication
+Map	V347		Pad 7 Mute
+Map	V348		Pad 7 Solo
+Map	B67		Pad 8 Hit Indication
+Map	V349		Pad 8 Mute
+Map	V350		Pad 8 Solo
+Map	B68		Pad 9 Hit Indication
+Map	V351		Pad 9 Mute
+Map	V352		Pad 9 Solo
+Map	T8		Patch Name
+Map	V353		Pitch Bend
+Map	V354		Quick Sample
+Map	V355		Sample Loading Progress
+Map	V356		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V357		Select Previous Patch
+Map	B69		Set all Mutes and Solos to Off
+
+Scope	Propellerheads	Line 6 Bass Amp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Line 6 Bass Amp"
+Map	V23		Bass
+Map	V24		Comp Threshold
+Map	V25		Compressor On
+Map	T7		Device Name
+Map	V26		Drive
+Map	V27		Enabled
+Map	V28		Hi Mid
+Map	V29		Lo Mid
+Map	T8		Patch Name
+Map	V30		Select Next Amp Model
+Map	V31		Select Next Cab Model
+Map	V32		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V33		Select Previous Amp Model
+Map	V34		Select Previous Cab Model
+Map	V35		Select Previous Patch
+Map	V36		Treble
+Map	V37		Volume
+
+Scope	Propellerheads	Line 6 Guitar Amp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Line 6 Guitar Amp"
+Map	V23		Bass
+Map	T7		Device Name
+Map	V24		Drive
+Map	V25		Enabled
+Map	V26		middle
+Map	T8		Patch Name
+Map	V27		Presence
+Map	V28		Select Next Amp Model
+Map	V29		Select Next Cab Model
+Map	V30		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V31		Select Previous Amp Model
+Map	V32		Select Previous Cab Model
+Map	V33		Select Previous Patch
+Map	V34		Treble
+Map	V35		Volume
+Map	V36		Volume Pedal
+Map	V37		Wah Pedal
+Map	V38		Wah Pedal On
+
+Scope	Propellerheads	Line Mixer 6:2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Line Mixer 6:2"
+Map	V23		Aux Pre/Post
+Map	V24		Aux Return Level
+Map	V25		Channel 1 Aux Send
+Map	V26		Channel 1 Level
+Map	V27		Channel 1 Mute
+Map	T7		Channel 1 Name
+Map	V28		Channel 1 Pan
+Map	V29		Channel 1 Peak Meter
+Map	V30		Channel 1 Solo
+Map	V31		Channel 2 Aux Send
+Map	V32		Channel 2 Level
+Map	V33		Channel 2 Mute
+Map	T8		Channel 2 Name
+Map	V34		Channel 2 Pan
+Map	V35		Channel 2 Peak Meter
+Map	V36		Channel 2 Solo
+Map	V37		Channel 3 Aux Send
+Map	V38		Channel 3 Level
+Map	V39		Channel 3 Mute
+Map	T9		Channel 3 Name
+Map	V40		Channel 3 Pan
+Map	V41		Channel 3 Peak Meter
+Map	V42		Channel 3 Solo
+Map	V43		Channel 4 Aux Send
+Map	V44		Channel 4 Level
+Map	V45		Channel 4 Mute
+Map	T10		Channel 4 Name
+Map	V46		Channel 4 Pan
+Map	V47		Channel 4 Peak Meter
+Map	V48		Channel 4 Solo
+Map	V49		Channel 5 Aux Send
+Map	V50		Channel 5 Level
+Map	V51		Channel 5 Mute
+Map	T11		Channel 5 Name
+Map	V52		Channel 5 Pan
+Map	V53		Channel 5 Peak Meter
+Map	V54		Channel 5 Solo
+Map	V55		Channel 6 Aux Send
+Map	V56		Channel 6 Level
+Map	V57		Channel 6 Mute
+Map	T12		Channel 6 Name
+Map	V58		Channel 6 Pan
+Map	V59		Channel 6 Peak Meter
+Map	V60		Channel 6 Solo
+Map	T13		Device Name
+Map	V61		Master Left Peak Meter
+Map	V62		Master Level
+Map	V63		Master Right Peak Meter
+
+Scope	Propellerheads	MClass Compressor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"MClass Compressor"
+Map	V23		Adapt
+Map	V24		Attack
+Map	T7		Device Name
+Map	V25		Enabled
+Map	V26		Gain Meter
+Map	V27		Input Gain
+Map	V28		Output Gain
+Map	V29		Peak Meter
+Map	V30		Ratio
+Map	V31		Release
+Map	V32		Sidechain Active
+Map	V33		Sidechain Solo
+Map	V34		Soft Knee
+Map	V35		Threshold
+
+Scope	Propellerheads	MClass Equalizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"MClass Equalizer"
+Map	T7		Device Name
+Map	V23		Enabled
+Map	V24		Hi Shelf Enable
+Map	V25		Hi Shelf Frequency
+Map	V26		Hi Shelf Gain
+Map	V27		Hi Shelf Q
+Map	V28		Low Cut Enable
+Map	V29		Low Shelf Enable
+Map	V30		Low Shelf Frequency
+Map	V31		Low Shelf Gain
+Map	V32		Low Shelf Q
+Map	V33		Parametric 1 Enable
+Map	V34		Parametric 1 Frequency
+Map	V35		Parametric 1 Gain
+Map	V36		Parametric 1 Q
+Map	V37		Parametric 2 Enable
+Map	V38		Parametric 2 Frequency
+Map	V39		Parametric 2 Gain
+Map	V40		Parametric 2 Q
+Map	V41		Peak Meter
+
+Scope	Propellerheads	MClass Maximizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"MClass Maximizer"
+Map	V23		Attack Speed
+Map	T7		Device Name
+Map	V24		Enabled
+Map	V25		Gain Meter
+Map	V26		Input Gain
+Map	V27		Limiter Enable
+Map	V28		Look Ahead Enable
+Map	V29		Output Gain
+Map	V30		Output Level Left
+Map	V31		Output Level Meter Mode
+Map	V32		Output Level Right
+Map	V33		Peak Meter
+Map	V34		Release Speed
+Map	V35		Soft Clip Amount
+Map	V36		Soft Clip Enable
+
+Scope	Propellerheads	MClass Stereo Imager
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"MClass Stereo Imager"
+Map	T7		Device Name
+Map	V23		Enabled
+Map	V24		High Band Active
+Map	V25		High Width
+Map	V26		High Width Meter
+Map	V27		Low Band Active
+Map	V28		Low Width
+Map	V29		Low Width Meter
+Map	V30		Peak Meter
+Map	V31		Separate Out Mode
+Map	V32		Solo Mode
+Map	V33		X-Over Frequency
+
+Scope	Propellerheads	Malstrom Graintable Synthesizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Malstrom Graintable Synthesizer"
+Map	T7		Device Name
+Map	V23		Filter A Env
+Map	V24		Filter A Freq
+Map	B37		Filter A Kbd Track
+Map	V25		Filter A Mode
+Map	V26		Filter A On/Off
+Map	V27		Filter A Resonance
+Map	V28		Filter B Env
+Map	V29		Filter B Freq
+Map	B38		Filter B Kbd Track
+Map	V30		Filter B Mode
+Map	V31		Filter B On/Off
+Map	V32		Filter B Resonance
+Map	V33		Filter Env Amount
+Map	V34		Filter Env Attack
+Map	V35		Filter Env Decay
+Map	V36		Filter Env Invert
+Map	V37		Filter Env Release
+Map	V38		Filter Env Sustain
+Map	V39		Legato On/Off
+Map	V40		Master Level
+Map	V41		Mod Wheel
+Map	V42		Mod Wheel Target
+Map	V43		Mod Wheel To Filter
+Map	V44		Mod Wheel To Index
+Map	V45		Mod Wheel To Modulator
+Map	V46		Mod Wheel To Shift
+Map	V47		Modulator A Curve
+Map	V48		Modulator A On/Off
+Map	V49		Modulator A One Shot
+Map	V50		Modulator A Rate
+Map	V51		Modulator A Sync
+Map	V52		Modulator A Target
+Map	V53		Modulator A To Index
+Map	V54		Modulator A To Pitch
+Map	V55		Modulator A To Shift
+Map	V56		Modulator B Curve
+Map	V57		Modulator B On/Off
+Map	V58		Modulator B One Shot
+Map	V59		Modulator B Rate
+Map	V60		Modulator B Sync
+Map	V61		Modulator B Target
+Map	V62		Modulator B To Filter
+Map	V63		Modulator B To Level
+Map	V64		Modulator B To Modulator A
+Map	V65		Modulator B To Motion
+Map	B39		Note On Indicator
+Map	V66		Oscillator A Attack
+Map	V67		Oscillator A Cent
+Map	V68		Oscillator A Decay
+Map	V69		Oscillator A Gain
+Map	V70		Oscillator A Index
+Map	V71		Oscillator A Motion
+Map	V72		Oscillator A Octave
+Map	V73		Oscillator A On/Off
+Map	V74		Oscillator A Release
+Map	V75		Oscillator A Semi
+Map	V76		Oscillator A Shift
+Map	V77		Oscillator A Sustain
+Map	V78		Oscillator B Attack
+Map	V79		Oscillator B Cent
+Map	V80		Oscillator B Decay
+Map	V81		Oscillator B Gain
+Map	V82		Oscillator B Index
+Map	V83		Oscillator B Motion
+Map	V84		Oscillator B Octave
+Map	V85		Oscillator B On/Off
+Map	V86		Oscillator B Release
+Map	V87		Oscillator B Semi
+Map	V88		Oscillator B Shift
+Map	V89		Oscillator B Sustain
+Map	T8		Patch Name
+Map	V90		Pitch Bend
+Map	V91		Pitch Bend Range
+Map	V92		Polyphony
+Map	V93		Portamento
+Map	V94		Route Filter B To Shaper
+Map	V95		Route Oscillator A To Filter B
+Map	V96		Route Oscillator A To Shaper
+Map	V97		Route Oscillator B To Filter B
+Map	V98		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V99		Select Previous Patch
+Map	V100		Shaper Amount
+Map	V101		Shaper Mode
+Map	V102		Shaper On/Off
+Map	V103		Spread Amount
+Map	V104		Velocity Target
+Map	V105		Velocity To Attack
+Map	V106		Velocity To Filter Env
+Map	V107		Velocity To Level A
+Map	V108		Velocity To Level B
+Map	V109		Velocity To Modulator
+Map	V110		Velocity To Shift
+
+Scope	Propellerheads	Matrix Pattern Sequencer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Matrix Pattern Sequencer"
+Map	V23		A1 Groove Amount
+Map	V24		A1 Pre-Align
+Map	V25		A1 Shuffle
+Map	V26		A1 Slide
+Map	B37		A1 Use Global Shuffle
+Map	V27		A2 Groove Amount
+Map	V28		A2 Pre-Align
+Map	V29		A2 Shuffle
+Map	V30		A2 Slide
+Map	B38		A2 Use Global Shuffle
+Map	V31		A3 Groove Amount
+Map	V32		A3 Pre-Align
+Map	V33		A3 Shuffle
+Map	V34		A3 Slide
+Map	B39		A3 Use Global Shuffle
+Map	V35		A4 Groove Amount
+Map	V36		A4 Pre-Align
+Map	V37		A4 Shuffle
+Map	V38		A4 Slide
+Map	B40		A4 Use Global Shuffle
+Map	V39		A5 Groove Amount
+Map	V40		A5 Pre-Align
+Map	V41		A5 Shuffle
+Map	V42		A5 Slide
+Map	B41		A5 Use Global Shuffle
+Map	V43		A6 Groove Amount
+Map	V44		A6 Pre-Align
+Map	V45		A6 Shuffle
+Map	V46		A6 Slide
+Map	B42		A6 Use Global Shuffle
+Map	V47		A7 Groove Amount
+Map	V48		A7 Pre-Align
+Map	V49		A7 Shuffle
+Map	V50		A7 Slide
+Map	B43		A7 Use Global Shuffle
+Map	V51		A8 Groove Amount
+Map	V52		A8 Pre-Align
+Map	V53		A8 Shuffle
+Map	V54		A8 Slide
+Map	B44		A8 Use Global Shuffle
+Map	V55		Bank A
+Map	V56		Bank B
+Map	V57		Bank C
+Map	V58		Bank D
+Map	V59		Bank Select
+Map	T7		Device Name
+Map	V60		Pattern 1
+Map	V61		Pattern 2
+Map	V62		Pattern 3
+Map	V63		Pattern 4
+Map	V64		Pattern 5
+Map	V65		Pattern 6
+Map	V66		Pattern 7
+Map	V67		Pattern 8
+Map	V68		Pattern Enable
+Map	V69		Pattern Select
+Map	V70		Pattern Select in Bank
+Map	V71		Pattern Shuffle
+Map	V72		Resolution
+Map	V73		Run
+
+Scope	Propellerheads	Mixer 14:2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Mixer 14:2"
+Map	V23		Aux 1 Return Level
+Map	T7		Aux 1 Return Name
+Map	V24		Aux 2 Return Level
+Map	T8		Aux 2 Return Name
+Map	V25		Aux 3 Return Level
+Map	T9		Aux 3 Return Name
+Map	V26		Aux 4 Return Level
+Map	T10		Aux 4 Return Name
+Map	V27		Channel 1 Aux 1 Send
+Map	V28		Channel 1 Aux 2 Send
+Map	V29		Channel 1 Aux 3 Send
+Map	B37		Channel 1 Aux 4 Pre Fader On/Off
+Map	V30		Channel 1 Aux 4 Send
+Map	V31		Channel 1 Bass Amount
+Map	B38		Channel 1 EQ On/Off
+Map	V32		Channel 1 Level
+Map	V33		Channel 1 Mute
+Map	T11		Channel 1 Name
+Map	V34		Channel 1 Pan
+Map	V35		Channel 1 Peak Meter
+Map	B39		Channel 1 Solo
+Map	V36		Channel 1 Treble Amount
+Map	V37		Channel 10 Aux 1 Send
+Map	V38		Channel 10 Aux 2 Send
+Map	V39		Channel 10 Aux 3 Send
+Map	B40		Channel 10 Aux 4 Pre Fader On/Off
+Map	V40		Channel 10 Aux 4 Send
+Map	V41		Channel 10 Bass Amount
+Map	B41		Channel 10 EQ On/Off
+Map	V42		Channel 10 Level
+Map	V43		Channel 10 Mute
+Map	T12		Channel 10 Name
+Map	V44		Channel 10 Pan
+Map	V45		Channel 10 Peak Meter
+Map	B42		Channel 10 Solo
+Map	V46		Channel 10 Treble Amount
+Map	V47		Channel 11 Aux 1 Send
+Map	V48		Channel 11 Aux 2 Send
+Map	V49		Channel 11 Aux 3 Send
+Map	B43		Channel 11 Aux 4 Pre Fader On/Off
+Map	V50		Channel 11 Aux 4 Send
+Map	V51		Channel 11 Bass Amount
+Map	B44		Channel 11 EQ On/Off
+Map	V52		Channel 11 Level
+Map	V53		Channel 11 Mute
+Map	T13		Channel 11 Name
+Map	V54		Channel 11 Pan
+Map	V55		Channel 11 Peak Meter
+Map	B45		Channel 11 Solo
+Map	V56		Channel 11 Treble Amount
+Map	V57		Channel 12 Aux 1 Send
+Map	V58		Channel 12 Aux 2 Send
+Map	V59		Channel 12 Aux 3 Send
+Map	B46		Channel 12 Aux 4 Pre Fader On/Off
+Map	V60		Channel 12 Aux 4 Send
+Map	V61		Channel 12 Bass Amount
+Map	B47		Channel 12 EQ On/Off
+Map	V62		Channel 12 Level
+Map	V63		Channel 12 Mute
+Map	T14		Channel 12 Name
+Map	V64		Channel 12 Pan
+Map	V65		Channel 12 Peak Meter
+Map	B48		Channel 12 Solo
+Map	V66		Channel 12 Treble Amount
+Map	V67		Channel 13 Aux 1 Send
+Map	V68		Channel 13 Aux 2 Send
+Map	V69		Channel 13 Aux 3 Send
+Map	B49		Channel 13 Aux 4 Pre Fader On/Off
+Map	V70		Channel 13 Aux 4 Send
+Map	V71		Channel 13 Bass Amount
+Map	B50		Channel 13 EQ On/Off
+Map	V72		Channel 13 Level
+Map	V73		Channel 13 Mute
+Map	T15		Channel 13 Name
+Map	V74		Channel 13 Pan
+Map	V75		Channel 13 Peak Meter
+Map	B51		Channel 13 Solo
+Map	V76		Channel 13 Treble Amount
+Map	V77		Channel 14 Aux 1 Send
+Map	V78		Channel 14 Aux 2 Send
+Map	V79		Channel 14 Aux 3 Send
+Map	B52		Channel 14 Aux 4 Pre Fader On/Off
+Map	V80		Channel 14 Aux 4 Send
+Map	V81		Channel 14 Bass Amount
+Map	B53		Channel 14 EQ On/Off
+Map	V82		Channel 14 Level
+Map	V83		Channel 14 Mute
+Map	T16		Channel 14 Name
+Map	V84		Channel 14 Pan
+Map	V85		Channel 14 Peak Meter
+Map	B54		Channel 14 Solo
+Map	V86		Channel 14 Treble Amount
+Map	V87		Channel 2 Aux 1 Send
+Map	V88		Channel 2 Aux 2 Send
+Map	V89		Channel 2 Aux 3 Send
+Map	B55		Channel 2 Aux 4 Pre Fader On/Off
+Map	V90		Channel 2 Aux 4 Send
+Map	V91		Channel 2 Bass Amount
+Map	B56		Channel 2 EQ On/Off
+Map	V92		Channel 2 Level
+Map	V93		Channel 2 Mute
+Map	T17		Channel 2 Name
+Map	V94		Channel 2 Pan
+Map	V95		Channel 2 Peak Meter
+Map	B57		Channel 2 Solo
+Map	V96		Channel 2 Treble Amount
+Map	V97		Channel 3 Aux 1 Send
+Map	V98		Channel 3 Aux 2 Send
+Map	V99		Channel 3 Aux 3 Send
+Map	B58		Channel 3 Aux 4 Pre Fader On/Off
+Map	V100		Channel 3 Aux 4 Send
+Map	V101		Channel 3 Bass Amount
+Map	B59		Channel 3 EQ On/Off
+Map	V102		Channel 3 Level
+Map	V103		Channel 3 Mute
+Map	T18		Channel 3 Name
+Map	V104		Channel 3 Pan
+Map	V105		Channel 3 Peak Meter
+Map	B60		Channel 3 Solo
+Map	V106		Channel 3 Treble Amount
+Map	V107		Channel 4 Aux 1 Send
+Map	V108		Channel 4 Aux 2 Send
+Map	V109		Channel 4 Aux 3 Send
+Map	B61		Channel 4 Aux 4 Pre Fader On/Off
+Map	V110		Channel 4 Aux 4 Send
+Map	V111		Channel 4 Bass Amount
+Map	B62		Channel 4 EQ On/Off
+Map	V112		Channel 4 Level
+Map	V113		Channel 4 Mute
+Map	T19		Channel 4 Name
+Map	V114		Channel 4 Pan
+Map	V115		Channel 4 Peak Meter
+Map	B63		Channel 4 Solo
+Map	V116		Channel 4 Treble Amount
+Map	V117		Channel 5 Aux 1 Send
+Map	V118		Channel 5 Aux 2 Send
+Map	V119		Channel 5 Aux 3 Send
+Map	B64		Channel 5 Aux 4 Pre Fader On/Off
+Map	V120		Channel 5 Aux 4 Send
+Map	V121		Channel 5 Bass Amount
+Map	B65		Channel 5 EQ On/Off
+Map	V122		Channel 5 Level
+Map	V123		Channel 5 Mute
+Map	T20		Channel 5 Name
+Map	V124		Channel 5 Pan
+Map	V125		Channel 5 Peak Meter
+Map	B66		Channel 5 Solo
+Map	V126		Channel 5 Treble Amount
+Map	V127		Channel 6 Aux 1 Send
+Map	V128		Channel 6 Aux 2 Send
+Map	V129		Channel 6 Aux 3 Send
+Map	B67		Channel 6 Aux 4 Pre Fader On/Off
+Map	V130		Channel 6 Aux 4 Send
+Map	V131		Channel 6 Bass Amount
+Map	B68		Channel 6 EQ On/Off
+Map	V132		Channel 6 Level
+Map	V133		Channel 6 Mute
+Map	T21		Channel 6 Name
+Map	V134		Channel 6 Pan
+Map	V135		Channel 6 Peak Meter
+Map	B69		Channel 6 Solo
+Map	V136		Channel 6 Treble Amount
+Map	V137		Channel 7 Aux 1 Send
+Map	V138		Channel 7 Aux 2 Send
+Map	V139		Channel 7 Aux 3 Send
+Map	B70		Channel 7 Aux 4 Pre Fader On/Off
+Map	V140		Channel 7 Aux 4 Send
+Map	V141		Channel 7 Bass Amount
+Map	B71		Channel 7 EQ On/Off
+Map	V142		Channel 7 Level
+Map	V143		Channel 7 Mute
+Map	T22		Channel 7 Name
+Map	V144		Channel 7 Pan
+Map	V145		Channel 7 Peak Meter
+Map	B72		Channel 7 Solo
+Map	V146		Channel 7 Treble Amount
+Map	V147		Channel 8 Aux 1 Send
+Map	V148		Channel 8 Aux 2 Send
+Map	V149		Channel 8 Aux 3 Send
+Map	B73		Channel 8 Aux 4 Pre Fader On/Off
+Map	V150		Channel 8 Aux 4 Send
+Map	V151		Channel 8 Bass Amount
+Map	B74		Channel 8 EQ On/Off
+Map	V152		Channel 8 Level
+Map	V153		Channel 8 Mute
+Map	T23		Channel 8 Name
+Map	V154		Channel 8 Pan
+Map	V155		Channel 8 Peak Meter
+Map	B75		Channel 8 Solo
+Map	V156		Channel 8 Treble Amount
+Map	V157		Channel 9 Aux 1 Send
+Map	V158		Channel 9 Aux 2 Send
+Map	V159		Channel 9 Aux 3 Send
+Map	B76		Channel 9 Aux 4 Pre Fader On/Off
+Map	V160		Channel 9 Aux 4 Send
+Map	V161		Channel 9 Bass Amount
+Map	B77		Channel 9 EQ On/Off
+Map	V162		Channel 9 Level
+Map	V163		Channel 9 Mute
+Map	T24		Channel 9 Name
+Map	V164		Channel 9 Pan
+Map	V165		Channel 9 Peak Meter
+Map	B78		Channel 9 Solo
+Map	V166		Channel 9 Treble Amount
+Map	T25		Device Name
+Map	V167		Master Left Peak Meter
+Map	V168		Master Level
+Map	V169		Master Right Peak Meter
+
+Scope	Propellerheads	NN-XT Advanced Sampler
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"NN-XT Advanced Sampler"
+Map	V23		Amp Env Attack
+Map	V24		Amp Env Decay
+Map	V25		Amp Env Release
+Map	T7		Device Name
+Map	V26		External Controller
+Map	V27		External Controller Source
+Map	V28		Filter Freq
+Map	V29		Filter Res
+Map	V30		High Quality Interpolation
+Map	V31		Master Volume
+Map	V32		Mod Env Decay
+Map	V33		Mod Wheel
+Map	B37		Note On Indicator
+Map	T8		Patch Name
+Map	V34		Pitch Bend
+Map	V35		Sample
+Map	V36		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V37		Select Previous Patch
+
+Scope	Propellerheads	NN19 Digital Sampler
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"NN19 Digital Sampler"
+Map	V23		Amp Attack Vel Amount
+Map	V24		Amp Env Attack
+Map	V25		Amp Env Decay
+Map	V26		Amp Env Release
+Map	V27		Amp Env Sustain
+Map	V28		Amp Ext Mod
+Map	V29		Amp Mod Wheel Amount
+Map	V30		Amp Vel Amount
+Map	T7		Device Name
+Map	V31		Ext Mod Select
+Map	V32		Filter Decay Mod Wheel Amount
+Map	V33		Filter Decay Vel Amount
+Map	V34		Filter Env Amount
+Map	V35		Filter Env Attack
+Map	V36		Filter Env Decay
+Map	V37		Filter Env Invert
+Map	V38		Filter Env Release
+Map	V39		Filter Env Sustain
+Map	V40		Filter Env Vel Amount
+Map	V41		Filter Freq
+Map	V42		Filter Freq Ext Mod
+Map	V43		Filter Freq Mod Wheel Amount
+Map	V44		Filter Kbd Track
+Map	V45		Filter Mode
+Map	V46		Filter On/Off
+Map	V47		Filter Res
+Map	V48		Filter Res Mod Wheel Amount
+Map	V49		High Quality Interpolation
+Map	V50		Key Mode
+Map	V51		LFO Amount
+Map	V52		LFO Dest
+Map	V53		LFO Ext Mod
+Map	V54		LFO Mod Wheel Amount
+Map	V55		LFO Rate
+Map	V56		LFO Sync Enable
+Map	V57		LFO Wave
+Map	V58		Low Bandwidth On/Off
+Map	V59		Master Level
+Map	V60		Mod Wheel
+Map	B37		Note On Indicator
+Map	V61		Osc Env Amount
+Map	V62		Osc Fine Tune
+Map	V63		Osc Kbd Track
+Map	V64		Osc Octave
+Map	V65		Osc Semitone
+Map	T8		Patch Name
+Map	V66		Pitch Bend
+Map	V67		Pitch Bend Range
+Map	V68		Polyphony
+Map	V69		Portamento
+Map	V70		Sample
+Map	V71		Sample Start
+Map	V72		Sample Start Vel Amount
+Map	V73		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V74		Select Previous Patch
+Map	V75		Solo Sample
+Map	V76		Spread Mode
+Map	V77		Stereo Spread
+
+Scope	Propellerheads	Neptune Pitch Adjuster
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Neptune Pitch Adjuster"
+Map	V23		Catch Zone
+Map	V24		Cent
+Map	V25		Correction Speed
+Map	T7		Device Name
+Map	V26		Enabled
+Map	V27		Formant On/Off
+Map	V28		Formant Shift
+Map	V29		Live Mode
+Map	V30		Low Freq Input
+Map	V31		MIDI Destination
+Map	V32		Mod Wheel
+Map	V33		Pitch Adjust Amount
+Map	V34		Pitch Adjust On/Off
+Map	V35		Pitch Bend
+Map	V36		Pitch Bend Range
+Map	V37		Pitched Signal Level
+Map	V38		Preserve Expression
+Map	V39		Scale Memory
+Map	V40		Semitones
+Map	V41		Transpose On/Off
+Map	V42		Vibrato Rate
+Map	V43		Voice Synth Level
+Map	V44		Wide Vibrato
+
+Scope	Propellerheads	PEQ-2 Two Band Parametric EQ
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"PEQ-2 Two Band Parametric EQ"
+Map	T7		Device Name
+Map	V23		Enabled
+Map	V24		Filter A Freq
+Map	V25		Filter A Gain
+Map	V26		Filter A Q
+Map	V27		Filter B Freq
+Map	V28		Filter B Gain
+Map	V29		Filter B On/Off
+Map	V30		Filter B Q
+Map	V31		Peak Meter
+
+Scope	Propellerheads	PH-90 Phaser
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"PH-90 Phaser"
+Map	T7		Device Name
+Map	V23		Enabled
+Map	V24		Feedback
+Map	V25		Frequency
+Map	V26		Frequency Modulation
+Map	V27		LFO Sync Enable
+Map	V28		Peak Meter
+Map	V29		Rate
+Map	V30		Split
+Map	V31		Width
+
+Scope	Propellerheads	Pulveriser
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Pulveriser"
+Map	V23		Blend
+Map	T7		Device Name
+Map	V24		Dirt
+Map	V25		Enabled
+Map	V26		Filter Frequency
+Map	V27		Filter Mode
+Map	B37		Follow
+Map	V28		Follower Attack
+Map	V29		Follower Release
+Map	V30		Follower Threshold
+Map	V31		Follower Trig
+Map	V32		Follower to Frequency
+Map	V33		Follower to Rate
+Map	B38		Input Peak Meter
+Map	T8		Patch Name
+Map	V34		Peak
+Map	V35		Release
+Map	V36		Routing
+Map	V37		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V38		Select Previous Patch
+Map	V39		Squash
+Map	V40		Sync
+Map	V41		Tone
+Map	V42		Tremor Lag
+Map	V43		Tremor Rate
+Map	V44		Tremor Spread
+Map	V45		Tremor Waveform
+Map	V46		Tremor to Frequency
+Map	V47		Tremor to Volume
+Map	V48		Volume
+
+Scope	Propellerheads	RPG-8 Monophonic Arpeggiator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"RPG-8 Monophonic Arpeggiator"
+Map	V23		A1 Groove Amount
+Map	B37		A1 Pre-Align
+Map	V24		A1 Shuffle
+Map	V25		A1 Slide
+Map	B38		A1 Use Global Shuffle
+Map	V26		A2 Groove Amount
+Map	B39		A2 Pre-Align
+Map	V27		A2 Shuffle
+Map	V28		A2 Slide
+Map	B40		A2 Use Global Shuffle
+Map	V29		A3 Groove Amount
+Map	B41		A3 Pre-Align
+Map	V30		A3 Shuffle
+Map	V31		A3 Slide
+Map	B42		A3 Use Global Shuffle
+Map	V32		A4 Groove Amount
+Map	B43		A4 Pre-Align
+Map	V33		A4 Shuffle
+Map	V34		A4 Slide
+Map	B44		A4 Use Global Shuffle
+Map	V35		A5 Groove Amount
+Map	B45		A5 Pre-Align
+Map	V36		A5 Shuffle
+Map	V37		A5 Slide
+Map	B46		A5 Use Global Shuffle
+Map	V38		A6 Groove Amount
+Map	B47		A6 Pre-Align
+Map	V39		A6 Shuffle
+Map	V40		A6 Slide
+Map	B48		A6 Use Global Shuffle
+Map	V41		A7 Groove Amount
+Map	B49		A7 Pre-Align
+Map	V42		A7 Shuffle
+Map	V43		A7 Slide
+Map	B50		A7 Use Global Shuffle
+Map	V44		A8 Groove Amount
+Map	B51		A8 Pre-Align
+Map	V45		A8 Shuffle
+Map	V46		A8 Slide
+Map	B52		A8 Use Global Shuffle
+Map	V47		Aftertouch
+Map	V48		Arpeggiator Enable
+Map	V49		Breath
+Map	T7		Device Name
+Map	V50		Expression
+Map	V51		Gate Length
+Map	V52		Hold
+Map	V53		Insert
+Map	B53		Insert 3-1
+Map	B54		Insert 4-2
+Map	B55		Insert High
+Map	B56		Insert Low
+Map	B57		Insert Off
+Map	V54		Manual Velocity
+Map	V55		Mod Wheel
+Map	V56		Mode
+Map	V57		Octave
+Map	B58		Octave 1
+Map	B59		Octave 2
+Map	B60		Octave 3
+Map	B61		Octave 4
+Map	V58		Octave Shift
+Map	B62		Octave Shift Down
+Map	B63		Octave Shift Up
+Map	V59		Pattern Enable
+Map	V60		Pattern Length Down
+Map	V61		Pattern Length Up
+Map	V62		Pattern Shuffle
+Map	V63		Pattern Step 1
+Map	V64		Pattern Step 10
+Map	V65		Pattern Step 11
+Map	V66		Pattern Step 12
+Map	B64		Pattern Step 13
+Map	B65		Pattern Step 14
+Map	B66		Pattern Step 15
+Map	B67		Pattern Step 16
+Map	V67		Pattern Step 2
+Map	V68		Pattern Step 3
+Map	V69		Pattern Step 4
+Map	V70		Pattern Step 5
+Map	V71		Pattern Step 6
+Map	V72		Pattern Step 7
+Map	V73		Pattern Step 8
+Map	V74		Pattern Step 9
+Map	V75		Pattern Step Count
+Map	V76		Rate
+Map	V77		Shuffle
+Map	V78		Single Note Repeat
+Map	V79		Sync
+Map	V80		Velocity/Manual
+
+Scope	Propellerheads	RV-7 Digital Reverb
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"RV-7 Digital Reverb"
+Map	V23		Algorithm
+Map	V24		Damping
+Map	V25		Decay
+Map	T7		Device Name
+Map	V26		Dry/Wet
+Map	V27		Enabled
+Map	V28		Peak Meter
+Map	V29		Size
+
+Scope	Propellerheads	RV7000 Advanced Reverb
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"RV7000 Advanced Reverb"
+Map	V23		Decay
+Map	T7		Device Name
+Map	V24		Dry/Wet
+Map	V25		EQ On/Off
+Map	V26		Edit Mode
+Map	T8		Edit Mode Name
+Map	V27		Enabled
+Map	V28		Gate On/Off
+Map	V29		HF Damp
+Map	V30		Hi EQ
+Map	V31		Input Peak Meter
+Map	T9		Patch Name
+Map	V32		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V33		Select Previous Patch
+Map	V34		Soft Knob 1
+Map	V35		Soft Knob 2
+Map	V36		Soft Knob 3
+Map	V37		Soft Knob 4
+Map	V38		Soft Knob 5
+Map	V39		Soft Knob 6
+Map	V40		Soft Knob 7
+Map	V41		Soft Knob 8
+
+Scope	Propellerheads	ReBirth Input Machine
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"ReBirth Input Machine"
+Map	B37		active
+Map	T7		Device Name
+Map	V23		Peak Channel 1
+Map	V24		Peak Channel 10
+Map	V25		Peak Channel 11
+Map	V26		Peak Channel 12
+Map	V27		Peak Channel 13
+Map	V28		Peak Channel 14
+Map	V29		Peak Channel 15
+Map	V30		Peak Channel 16
+Map	V31		Peak Channel 17
+Map	V32		Peak Channel 18
+Map	V33		Peak Channel 2
+Map	V34		Peak Channel 3
+Map	V35		Peak Channel 4
+Map	V36		Peak Channel 5
+Map	V37		Peak Channel 6
+Map	V38		Peak Channel 7
+Map	V39		Peak Channel 8
+Map	V40		Peak Channel 9
+
+Scope	Propellerheads	ReGroove Mixer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"ReGroove Mixer"
+Map	V23		A1 Groove Amount
+Map	B37		A1 Groove Ch On
+Map	V24		A1 Pre-Align
+Map	B38		A1 Select Next Patch
+Map	D17		A1 Select Patch
+Map	B39		A1 Select Previous Patch
+Map	V25		A1 Shuffle
+Map	V26		A1 Slide
+Map	B40		A1 Use Global Shuffle
+Map	V27		A2 Groove Amount
+Map	B41		A2 Groove Ch On
+Map	V28		A2 Pre-Align
+Map	D18		A2 Select Patch
+Map	V29		A2 Shuffle
+Map	V30		A2 Slide
+Map	B42		A2 Use Global Shuffle
+Map	V31		A3 Groove Amount
+Map	B43		A3 Groove Ch On
+Map	V32		A3 Pre-Align
+Map	D19		A3 Select Patch
+Map	V33		A3 Shuffle
+Map	V34		A3 Slide
+Map	B44		A3 Use Global Shuffle
+Map	V35		A4 Groove Amount
+Map	B45		A4 Groove Ch On
+Map	V36		A4 Pre-Align
+Map	D20		A4 Select Patch
+Map	V37		A4 Shuffle
+Map	V38		A4 Slide
+Map	B46		A4 Use Global Shuffle
+Map	V39		A5 Groove Amount
+Map	B47		A5 Groove Ch On
+Map	V40		A5 Pre-Align
+Map	D21		A5 Select Patch
+Map	V41		A5 Shuffle
+Map	V42		A5 Slide
+Map	B48		A5 Use Global Shuffle
+Map	V43		A6 Groove Amount
+Map	B49		A6 Groove Ch On
+Map	V44		A6 Pre-Align
+Map	D22		A6 Select Patch
+Map	V45		A6 Shuffle
+Map	V46		A6 Slide
+Map	B50		A6 Use Global Shuffle
+Map	V47		A7 Groove Amount
+Map	B51		A7 Groove Ch On
+Map	V48		A7 Pre-Align
+Map	D23		A7 Select Patch
+Map	V49		A7 Shuffle
+Map	V50		A7 Slide
+Map	B52		A7 Use Global Shuffle
+Map	V51		A8 Groove Amount
+Map	B53		A8 Groove Ch On
+Map	V52		A8 Pre-Align
+Map	D24		A8 Select Patch
+Map	V53		A8 Shuffle
+Map	V54		A8 Slide
+Map	B54		A8 Use Global Shuffle
+Map	V55		B1 Groove Amount
+Map	B55		B1 Groove Ch On
+Map	V56		B1 Pre-Align
+Map	D25		B1 Select Patch
+Map	V57		B1 Shuffle
+Map	V58		B1 Slide
+Map	B56		B1 Use Global Shuffle
+Map	V59		B2 Groove Amount
+Map	B57		B2 Groove Ch On
+Map	V60		B2 Pre-Align
+Map	D26		B2 Select Patch
+Map	V61		B2 Shuffle
+Map	V62		B2 Slide
+Map	B58		B2 Use Global Shuffle
+Map	V63		B3 Groove Amount
+Map	B59		B3 Groove Ch On
+Map	V64		B3 Pre-Align
+Map	D27		B3 Select Patch
+Map	V65		B3 Shuffle
+Map	V66		B3 Slide
+Map	B60		B3 Use Global Shuffle
+Map	V67		B4 Groove Amount
+Map	B61		B4 Groove Ch On
+Map	V68		B4 Pre-Align
+Map	D28		B4 Select Patch
+Map	V69		B4 Shuffle
+Map	V70		B4 Slide
+Map	B62		B4 Use Global Shuffle
+Map	V71		B5 Groove Amount
+Map	B63		B5 Groove Ch On
+Map	V72		B5 Pre-Align
+Map	D29		B5 Select Patch
+Map	V73		B5 Shuffle
+Map	V74		B5 Slide
+Map	B64		B5 Use Global Shuffle
+Map	V75		B6 Groove Amount
+Map	B65		B6 Groove Ch On
+Map	V76		B6 Pre-Align
+Map	D30		B6 Select Patch
+Map	V77		B6 Shuffle
+Map	V78		B6 Slide
+Map	B66		B6 Use Global Shuffle
+Map	V79		B7 Groove Amount
+Map	B67		B7 Groove Ch On
+Map	V80		B7 Pre-Align
+Map	D31		B7 Select Patch
+Map	V81		B7 Shuffle
+Map	V82		B7 Slide
+Map	B68		B7 Use Global Shuffle
+Map	V83		B8 Groove Amount
+Map	B69		B8 Groove Ch On
+Map	V84		B8 Pre-Align
+Map	D32		B8 Select Patch
+Map	V85		B8 Shuffle
+Map	V86		B8 Slide
+Map	B70		B8 Use Global Shuffle
+Map	V87		C1 Groove Amount
+Map	B71		C1 Groove Ch On
+Map	B72		C1 Pre-Align
+Map	D33		C1 Select Patch
+Map	V88		C1 Shuffle
+Map	V89		C1 Slide
+Map	B73		C1 Use Global Shuffle
+Map	V90		C2 Groove Amount
+Map	B74		C2 Groove Ch On
+Map	B75		C2 Pre-Align
+Map	D34		C2 Select Patch
+Map	V91		C2 Shuffle
+Map	V92		C2 Slide
+Map	B76		C2 Use Global Shuffle
+Map	V93		C3 Groove Amount
+Map	B77		C3 Groove Ch On
+Map	B78		C3 Pre-Align
+Map	D35		C3 Select Patch
+Map	V94		C3 Shuffle
+Map	V95		C3 Slide
+Map	B79		C3 Use Global Shuffle
+Map	V96		C4 Groove Amount
+Map	B80		C4 Groove Ch On
+Map	B81		C4 Pre-Align
+Map	D36		C4 Select Patch
+Map	V97		C4 Shuffle
+Map	V98		C4 Slide
+Map	B82		C4 Use Global Shuffle
+Map	V99		C5 Groove Amount
+Map	B83		C5 Groove Ch On
+Map	B84		C5 Pre-Align
+Map	D37		C5 Select Patch
+Map	V100		C5 Shuffle
+Map	V101		C5 Slide
+Map	B85		C5 Use Global Shuffle
+Map	V102		C6 Groove Amount
+Map	B86		C6 Groove Ch On
+Map	B87		C6 Pre-Align
+Map	D38		C6 Select Patch
+Map	V103		C6 Shuffle
+Map	V104		C6 Slide
+Map	B88		C6 Use Global Shuffle
+Map	V105		C7 Groove Amount
+Map	B89		C7 Groove Ch On
+Map	B90		C7 Pre-Align
+Map	D39		C7 Select Patch
+Map	V106		C7 Shuffle
+Map	V107		C7 Slide
+Map	B91		C7 Use Global Shuffle
+Map	V108		C8 Groove Amount
+Map	B92		C8 Groove Ch On
+Map	B93		C8 Pre-Align
+Map	D40		C8 Select Patch
+Map	V109		C8 Shuffle
+Map	V110		C8 Slide
+Map	B94		C8 Use Global Shuffle
+Map	V111		D1 Groove Amount
+Map	B95		D1 Groove Ch On
+Map	B96		D1 Pre-Align
+Map	D41		D1 Select Patch
+Map	V112		D1 Shuffle
+Map	V113		D1 Slide
+Map	B97		D1 Use Global Shuffle
+Map	V114		D2 Groove Amount
+Map	B98		D2 Groove Ch On
+Map	B99		D2 Pre-Align
+Map	D42		D2 Select Patch
+Map	V115		D2 Shuffle
+Map	V116		D2 Slide
+Map	B100		D2 Use Global Shuffle
+Map	V117		D3 Groove Amount
+Map	B101		D3 Groove Ch On
+Map	B102		D3 Pre-Align
+Map	D43		D3 Select Patch
+Map	V118		D3 Shuffle
+Map	V119		D3 Slide
+Map	B103		D3 Use Global Shuffle
+Map	V120		D4 Groove Amount
+Map	B104		D4 Groove Ch On
+Map	B105		D4 Pre-Align
+Map	D44		D4 Select Patch
+Map	V121		D4 Shuffle
+Map	V122		D4 Slide
+Map	B106		D4 Use Global Shuffle
+Map	V123		D5 Groove Amount
+Map	B107		D5 Groove Ch On
+Map	B108		D5 Pre-Align
+Map	D45		D5 Select Patch
+Map	V124		D5 Shuffle
+Map	V125		D5 Slide
+Map	B109		D5 Use Global Shuffle
+Map	V126		D6 Groove Amount
+Map	B110		D6 Groove Ch On
+Map	B111		D6 Pre-Align
+Map	D46		D6 Select Patch
+Map	V127		D6 Shuffle
+Map	V128		D6 Slide
+Map	B112		D6 Use Global Shuffle
+Map	V129		D7 Groove Amount
+Map	B113		D7 Groove Ch On
+Map	B114		D7 Pre-Align
+Map	D47		D7 Select Patch
+Map	V130		D7 Shuffle
+Map	V131		D7 Slide
+Map	B115		D7 Use Global Shuffle
+Map	V132		D8 Groove Amount
+Map	B116		D8 Groove Ch On
+Map	B117		D8 Pre-Align
+Map	D48		D8 Select Patch
+Map	V133		D8 Shuffle
+Map	V134		D8 Slide
+Map	B118		D8 Use Global Shuffle
+Map	V135		Pattern Shuffle
+
+Scope	Propellerheads	Reason Main Mixer Channel
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Reason Main Mixer Channel"
+Map	V23		Button 1
+Map	V24		Button 2
+Map	V25		Button 3
+Map	V26		Button 4
+Map	V27		Bypass Insert FX
+Map	V28		C Fast Atk
+Map	V29		C Peak
+Map	V30		C Ratio
+Map	V31		C Release
+Map	V32		C Threshold
+Map	T7		Channel Name
+Map	V33		Comp Gain Reduction
+Map	V34		Comp On
+Map	B37		Dyn Post EQ
+Map	V35		EQ E Mode
+Map	V36		EQ On
+Map	V37		Expander
+Map	B38		FX1 Pre Fader
+Map	V38		FX1 Send Level
+Map	V39		FX1 Send On
+Map	B39		FX2 Pre Fader
+Map	V40		FX2 Send Level
+Map	V41		FX2 Send On
+Map	B40		FX3 Pre Fader
+Map	V42		FX3 Send Level
+Map	V43		FX3 Send On
+Map	B41		FX4 Pre Fader
+Map	V44		FX4 Send Level
+Map	V45		FX4 Send On
+Map	B42		FX5 Pre Fader
+Map	V46		FX5 Send Level
+Map	V47		FX5 Send On
+Map	B43		FX6 Pre Fader
+Map	V48		FX6 Send Level
+Map	V49		FX6 Send On
+Map	B44		FX7 Pre Fader
+Map	V50		FX7 Send Level
+Map	V51		FX7 Send On
+Map	B45		FX8 Pre Fader
+Map	V52		FX8 Send Level
+Map	V53		FX8 Send On
+Map	B46		Filters Dyn S/C
+Map	V54		G Fast Atk
+Map	V55		G Hold
+Map	V56		G Range
+Map	V57		G Release
+Map	V58		G Threshold
+Map	V59		Gate Gain Reduction
+Map	V60		Gate On
+Map	V61		HF Bell
+Map	V62		HF Frequency
+Map	V63		HF Gain
+Map	B47		HF On
+Map	V64		HMF Frequency
+Map	V65		HMF Gain
+Map	B48		HMF On
+Map	V66		HMF Q
+Map	V67		HPF Frequency
+Map	V68		HPF On
+Map	V69		Input Gain
+Map	T8		Insert FX Patch Name
+Map	B49		Insert Pre
+Map	V70		Invert Phase
+Map	V71		Key On
+Map	V72		LF Bell
+Map	V73		LF Frequency
+Map	V74		LF Gain
+Map	B50		LF On
+Map	V75		LMF Frequency
+Map	V76		LMF Gain
+Map	B51		LMF On
+Map	V77		LMF Q
+Map	V78		LPF Frequency
+Map	V79		LPF On
+Map	V80		Level
+Map	V81		Mute
+Map	V82		Pan
+Map	V83		Rotary 1
+Map	V84		Rotary 2
+Map	V85		Rotary 3
+Map	V86		Rotary 4
+Map	B52		Select Next Insert FX Patch
+Map	B53		Select Prev Insert FX Patch
+Map	V87		Solo
+Map	V88		VU Meter
+Map	V89		Width
+
+Scope	Propellerheads	Redrum Drum Computer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Redrum Drum Computer"
+Map	B37		Bank A
+Map	B38		Bank B
+Map	B39		Bank C
+Map	B40		Bank D
+Map	V23		Bank Select
+Map	B41		Channel 1 Play
+Map	B42		Channel 1 Sample
+Map	B43		Channel 10 Play
+Map	B44		Channel 10 Sample
+Map	B45		Channel 2 Play
+Map	B46		Channel 2 Sample
+Map	B47		Channel 3 Play
+Map	B48		Channel 3 Sample
+Map	B49		Channel 4 Play
+Map	B50		Channel 4 Sample
+Map	B51		Channel 5 Play
+Map	B52		Channel 5 Sample
+Map	B53		Channel 6 Play
+Map	B54		Channel 6 Sample
+Map	B55		Channel 7 Play
+Map	B56		Channel 7 Sample
+Map	B57		Channel 8 Play
+Map	B58		Channel 8 Sample
+Map	B59		Channel 8 and 9 Exclusive
+Map	B60		Channel 9 Play
+Map	B61		Channel 9 Sample
+Map	T7		Device Name
+Map	V24		Drum 1 Decay/Gate Mode
+Map	V25		Drum 1 Length
+Map	V26		Drum 1 Level
+Map	B62		Drum 1 Mute
+Map	V27		Drum 1 Pan
+Map	V28		Drum 1 Pitch
+Map	V29		Drum 1 Send 1 Amount
+Map	V30		Drum 1 Send 2 Amount
+Map	B63		Drum 1 Solo
+Map	V31		Drum 1 Tone
+Map	V32		Drum 1 Vel to Level
+Map	V33		Drum 1 Vel to Tone
+Map	B64		Drum 1 is playing
+Map	V34		Drum 10 Decay/Gate Mode
+Map	V35		Drum 10 Length
+Map	V36		Drum 10 Level
+Map	B65		Drum 10 Mute
+Map	V37		Drum 10 Pan
+Map	V38		Drum 10 Pitch
+Map	V39		Drum 10 Send 1 Amount
+Map	V40		Drum 10 Send 2 Amount
+Map	B66		Drum 10 Solo
+Map	V41		Drum 10 Tone
+Map	V42		Drum 10 Vel to Level
+Map	V43		Drum 10 Vel to Tone
+Map	B67		Drum 10 is playing
+Map	V44		Drum 2 Decay/Gate Mode
+Map	V45		Drum 2 Length
+Map	V46		Drum 2 Level
+Map	B68		Drum 2 Mute
+Map	V47		Drum 2 Pan
+Map	V48		Drum 2 Pitch
+Map	V49		Drum 2 Send 1 Amount
+Map	V50		Drum 2 Send 2 Amount
+Map	B69		Drum 2 Solo
+Map	V51		Drum 2 Tone
+Map	V52		Drum 2 Vel to Level
+Map	V53		Drum 2 Vel to Tone
+Map	B70		Drum 2 is playing
+Map	V54		Drum 3 Decay/Gate Mode
+Map	V55		Drum 3 Length
+Map	V56		Drum 3 Level
+Map	B71		Drum 3 Mute
+Map	V57		Drum 3 Pan
+Map	V58		Drum 3 Pitch
+Map	V59		Drum 3 Sample Start
+Map	V60		Drum 3 Send 1 Amount
+Map	V61		Drum 3 Send 2 Amount
+Map	B72		Drum 3 Solo
+Map	V62		Drum 3 Vel to Level
+Map	V63		Drum 3 Vel to Sample Start
+Map	B73		Drum 3 is playing
+Map	V64		Drum 4 Decay/Gate Mode
+Map	V65		Drum 4 Length
+Map	V66		Drum 4 Level
+Map	B74		Drum 4 Mute
+Map	V67		Drum 4 Pan
+Map	V68		Drum 4 Pitch
+Map	V69		Drum 4 Sample Start
+Map	V70		Drum 4 Send 1 Amount
+Map	V71		Drum 4 Send 2 Amount
+Map	B75		Drum 4 Solo
+Map	V72		Drum 4 Vel to Level
+Map	V73		Drum 4 Vel to Sample Start
+Map	B76		Drum 4 is playing
+Map	V74		Drum 5 Decay/Gate Mode
+Map	V75		Drum 5 Length
+Map	V76		Drum 5 Level
+Map	B77		Drum 5 Mute
+Map	V77		Drum 5 Pan
+Map	V78		Drum 5 Pitch
+Map	V79		Drum 5 Sample Start
+Map	V80		Drum 5 Send 1 Amount
+Map	V81		Drum 5 Send 2 Amount
+Map	B78		Drum 5 Solo
+Map	V82		Drum 5 Vel to Level
+Map	V83		Drum 5 Vel to Sample Start
+Map	B79		Drum 5 is playing
+Map	V84		Drum 6 Decay/Gate Mode
+Map	V85		Drum 6 Length
+Map	V86		Drum 6 Level
+Map	B80		Drum 6 Mute
+Map	V87		Drum 6 Pan
+Map	V88		Drum 6 Pitch
+Map	V89		Drum 6 Pitch Bend Amount
+Map	V90		Drum 6 Pitch Bend Rate
+Map	V91		Drum 6 Send 1 Amount
+Map	V92		Drum 6 Send 2 Amount
+Map	B81		Drum 6 Solo
+Map	V93		Drum 6 Vel to Level
+Map	V94		Drum 6 Vel to Pitch Bend
+Map	B82		Drum 6 is playing
+Map	V95		Drum 7 Decay/Gate Mode
+Map	V96		Drum 7 Length
+Map	V97		Drum 7 Level
+Map	B83		Drum 7 Mute
+Map	V98		Drum 7 Pan
+Map	V99		Drum 7 Pitch
+Map	V100		Drum 7 Pitch Bend Amount
+Map	V101		Drum 7 Pitch Bend Rate
+Map	V102		Drum 7 Send 1 Amount
+Map	V103		Drum 7 Send 2 Amount
+Map	B84		Drum 7 Solo
+Map	V104		Drum 7 Vel to Level
+Map	V105		Drum 7 Vel to Pitch Bend
+Map	B85		Drum 7 is playing
+Map	V106		Drum 8 Decay/Gate Mode
+Map	V107		Drum 8 Length
+Map	V108		Drum 8 Level
+Map	B86		Drum 8 Mute
+Map	V109		Drum 8 Pan
+Map	V110		Drum 8 Pitch
+Map	V111		Drum 8 Sample Start
+Map	V112		Drum 8 Send 1 Amount
+Map	V113		Drum 8 Send 2 Amount
+Map	B87		Drum 8 Solo
+Map	V114		Drum 8 Vel to Level
+Map	V115		Drum 8 Vel to Sample Start
+Map	B88		Drum 8 is playing
+Map	V116		Drum 9 Decay/Gate Mode
+Map	V117		Drum 9 Length
+Map	V118		Drum 9 Level
+Map	B89		Drum 9 Mute
+Map	V119		Drum 9 Pan
+Map	V120		Drum 9 Pitch
+Map	V121		Drum 9 Sample Start
+Map	V122		Drum 9 Send 1 Amount
+Map	V123		Drum 9 Send 2 Amount
+Map	B90		Drum 9 Solo
+Map	V124		Drum 9 Vel to Level
+Map	V125		Drum 9 Vel to Sample Start
+Map	B91		Drum 9 is playing
+Map	B92		Edit Accent
+Map	B93		Edit Steps
+Map	B94		Enable Pattern Section Playback
+Map	V126		Flam Amount
+Map	B95		High Quality Interpolation
+Map	V127		Master Level
+Map	T8		Patch Name
+Map	B96		Pattern 1
+Map	B97		Pattern 2
+Map	B98		Pattern 3
+Map	B99		Pattern 4
+Map	B100		Pattern 5
+Map	B101		Pattern 6
+Map	B102		Pattern 7
+Map	B103		Pattern 8
+Map	V128		Pattern Enable
+Map	V129		Pattern Select in Bank
+Map	V130		Resolution
+Map	V131		Run
+Map	B104		Select Drum 1
+Map	B105		Select Drum 10
+Map	B106		Select Drum 2
+Map	B107		Select Drum 3
+Map	B108		Select Drum 4
+Map	B109		Select Drum 5
+Map	B110		Select Drum 6
+Map	B111		Select Drum 7
+Map	B112		Select Drum 8
+Map	B113		Select Drum 9
+Map	V132		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V133		Select Previous Patch
+Map	B114		Selected Drum Step 1
+Map	B115		Selected Drum Step 10
+Map	B116		Selected Drum Step 11
+Map	B117		Selected Drum Step 12
+Map	B118		Selected Drum Step 13
+Map	B119		Selected Drum Step 14
+Map	B120		Selected Drum Step 15
+Map	B121		Selected Drum Step 16
+Map	B122		Selected Drum Step 2
+Map	B123		Selected Drum Step 3
+Map	B124		Selected Drum Step 4
+Map	B125		Selected Drum Step 5
+Map	B126		Selected Drum Step 6
+Map	B127		Selected Drum Step 7
+Map	B128		Selected Drum Step 8
+Map	B129		Selected Drum Step 9
+Map	B130		Selected Drum Step Out 1
+Map	B131		Selected Drum Step Out 10
+Map	B132		Selected Drum Step Out 11
+Map	B133		Selected Drum Step Out 12
+Map	B134		Selected Drum Step Out 13
+Map	B135		Selected Drum Step Out 14
+Map	B136		Selected Drum Step Out 15
+Map	B137		Selected Drum Step Out 16
+Map	B138		Selected Drum Step Out 2
+Map	B139		Selected Drum Step Out 3
+Map	B140		Selected Drum Step Out 4
+Map	B141		Selected Drum Step Out 5
+Map	B142		Selected Drum Step Out 6
+Map	B143		Selected Drum Step Out 7
+Map	B144		Selected Drum Step Out 8
+Map	B145		Selected Drum Step Out 9
+Map	B146		Selected Drum Toggle Step 1
+Map	B147		Selected Drum Toggle Step 10
+Map	B148		Selected Drum Toggle Step 11
+Map	B149		Selected Drum Toggle Step 12
+Map	B150		Selected Drum Toggle Step 13
+Map	B151		Selected Drum Toggle Step 14
+Map	B152		Selected Drum Toggle Step 15
+Map	B153		Selected Drum Toggle Step 16
+Map	B154		Selected Drum Toggle Step 2
+Map	B155		Selected Drum Toggle Step 3
+Map	B156		Selected Drum Toggle Step 4
+Map	B157		Selected Drum Toggle Step 5
+Map	B158		Selected Drum Toggle Step 6
+Map	B159		Selected Drum Toggle Step 7
+Map	B160		Selected Drum Toggle Step 8
+Map	B161		Selected Drum Toggle Step 9
+Map	V134		Selected Pattern
+Map	B162		Shuffle
+
+Scope	Propellerheads	Scream 4 Distortion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Scream 4 Distortion"
+Map	V23		Body Auto
+Map	V24		Body On/Off
+Map	V25		Body Resonance
+Map	V26		Body Scale
+Map	V27		Body Type
+Map	V28		Cut Hi
+Map	V29		Cut Lo
+Map	V30		Cut Mid
+Map	V31		Cut On/Off
+Map	V32		Damage Control
+Map	V33		Damage On/Off
+Map	V34		Damage Type
+Map	T7		Device Name
+Map	V35		Enabled
+Map	V36		Input Peak Meter
+Map	V37		Master Level
+Map	V38		Parameter 1
+Map	V39		Parameter 2
+Map	T8		Patch Name
+Map	V40		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V41		Select Previous Patch
+
+Scope	Propellerheads	Spider Audio Merger & Splitter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Spider Audio Merger & Splitter"
+Map	T7		Device Name
+Map	B37		Merge Input 1 Left Activity
+Map	B38		Merge Input 1 Right Activity
+Map	B39		Merge Input 2 Left Activity
+Map	B40		Merge Input 2 Right Activity
+Map	B41		Merge Input 3 Left Activity
+Map	B42		Merge Input 3 Right Activity
+Map	B43		Merge Input 4 Left Activity
+Map	B44		Merge Input 4 Right Activity
+Map	B45		Split Input Left Activity
+Map	B46		Split Input Right Activity
+
+Scope	Propellerheads	Spider CV Merger & Splitter
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"Spider CV Merger & Splitter"
+Map	V23		A1 Groove Amount
+Map	B37		A1 Pre-Align
+Map	V24		A1 Shuffle
+Map	V25		A1 Slide
+Map	B38		A1 Use Global Shuffle
+Map	V26		A2 Groove Amount
+Map	B39		A2 Pre-Align
+Map	V27		A2 Shuffle
+Map	V28		A2 Slide
+Map	B40		A2 Use Global Shuffle
+Map	V29		A3 Groove Amount
+Map	B41		A3 Pre-Align
+Map	V30		A3 Shuffle
+Map	V31		A3 Slide
+Map	B42		A3 Use Global Shuffle
+Map	V32		A4 Groove Amount
+Map	B43		A4 Pre-Align
+Map	V33		A4 Shuffle
+Map	V34		A4 Slide
+Map	B44		A4 Use Global Shuffle
+Map	V35		A5 Groove Amount
+Map	B45		A5 Pre-Align
+Map	V36		A5 Shuffle
+Map	V37		A5 Slide
+Map	B46		A5 Use Global Shuffle
+Map	V38		A6 Groove Amount
+Map	B47		A6 Pre-Align
+Map	V39		A6 Shuffle
+Map	V40		A6 Slide
+Map	B48		A6 Use Global Shuffle
+Map	V41		A7 Groove Amount
+Map	B49		A7 Pre-Align
+Map	V42		A7 Shuffle
+Map	V43		A7 Slide
+Map	B50		A7 Use Global Shuffle
+Map	V44		A8 Groove Amount
+Map	B51		A8 Pre-Align
+Map	V45		A8 Shuffle
+Map	V46		A8 Slide
+Map	B52		A8 Use Global Shuffle
+Map	T7		Device Name
+Map	B53		Merge Input 1 Activity
+Map	B54		Merge Input 2 Activity
+Map	B55		Merge Input 3 Activity
+Map	B56		Merge Input 4 Activity
+Map	V47		Pattern Shuffle
+Map	B57		Split A Input Activity
+Map	B58		Split B Input Activity
+
+Scope	Propellerheads	SubTractor Analog Synthesizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"SubTractor Analog Synthesizer"
+Map	V23		Amp Attack Vel Amount
+Map	V24		Amp Env Attack
+Map	V25		Amp Env Decay
+Map	V26		Amp Env Release
+Map	V27		Amp Env Sustain
+Map	V28		Amp Ext Mod
+Map	V29		Amp Vel Amount
+Map	T7		Device Name
+Map	V30		Ext Mod Select
+Map	V31		FM Amount
+Map	V32		FM Ext Mod
+Map	V33		FM Mod Wheel Amount
+Map	V34		FM Vel Amount
+Map	V35		Filter Decay Vel Amount
+Map	V36		Filter Env Amount
+Map	V37		Filter Env Attack
+Map	V38		Filter Env Decay
+Map	V39		Filter Env Invert
+Map	V40		Filter Env Release
+Map	V41		Filter Env Sustain
+Map	V42		Filter Env Vel Amount
+Map	V43		Filter Freq
+Map	V44		Filter Freq Ext Mod
+Map	V45		Filter Freq Mod Wheel Amount
+Map	V46		Filter Kbd Track
+Map	V47		Filter Link Freq On/Off
+Map	V48		Filter Res
+Map	V49		Filter Res Mod Wheel Amount
+Map	V50		Filter Type
+Map	V51		Filter2 Freq
+Map	V52		Filter2 Freq Vel Amount
+Map	V53		Filter2 On/Off
+Map	V54		Filter2 Res
+Map	V55		Key Mode
+Map	V56		LFO Sync Enable
+Map	V57		LFO1 Amount
+Map	V58		LFO1 Dest
+Map	V59		LFO1 Ext Mod
+Map	V60		LFO1 Mod Wheel Amount
+Map	V61		LFO1 Rate
+Map	V62		LFO1 Wave
+Map	V63		LFO2 Amount
+Map	V64		LFO2 Delay
+Map	V65		LFO2 Dest
+Map	V66		LFO2 Kbd Track
+Map	V67		LFO2 Rate
+Map	B37		Low Bandwidth On/Off
+Map	V68		Master Level
+Map	V69		Mix Vel Amount
+Map	V70		Mod Env Attack
+Map	V71		Mod Env Decay
+Map	V72		Mod Env Dest
+Map	V73		Mod Env Gain
+Map	V74		Mod Env Invert
+Map	V75		Mod Env Release
+Map	V76		Mod Env Sustain
+Map	V77		Mod Env Vel Amount
+Map	V78		Mod Wheel
+Map	V79		Noise Color
+Map	V80		Noise Decay
+Map	V81		Noise Level
+Map	V82		Noise On/Off
+Map	B38		Note On Indicator
+Map	V83		Osc Mix
+Map	V84		Osc1 Fine Tune
+Map	V85		Osc1 Kbd Track
+Map	V86		Osc1 Octave
+Map	V87		Osc1 Phase Diff
+Map	V88		Osc1 Phase Mode
+Map	V89		Osc1 Semitone
+Map	V90		Osc1 Wave
+Map	V91		Osc2 Fine Tune
+Map	V92		Osc2 Kbd Track
+Map	V93		Osc2 Octave
+Map	V94		Osc2 On/Off
+Map	V95		Osc2 Phase Diff
+Map	V96		Osc2 Phase Mode
+Map	V97		Osc2 Semitone
+Map	V98		Osc2 Wave
+Map	T8		Patch Name
+Map	V99		Phase Diff Mod Wheel Amount
+Map	V100		Phase Vel Amount
+Map	V101		Pitch Bend
+Map	V102		Pitch Bend Range
+Map	V103		Polyphony
+Map	V104		Portamento
+Map	V105		Ring Mod
+Map	V106		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V107		Select Previous Patch
+
+Scope	Propellerheads	The Echo
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"The Echo"
+Map	V23		Delay Time
+Map	T7		Device Name
+Map	V24		Diffuse Amount
+Map	V25		Diffuse On
+Map	V26		Diffuse Spread
+Map	V27		Drive Amount
+Map	V28		Drive Type
+Map	V29		Dry/Wet Balance
+Map	V30		Ducking
+Map	V31		Enabled
+Map	V32		ENVELOPE
+Map	V33		Feedback
+Map	V34		Filter Frequency
+Map	V35		Filter On
+Map	V36		Filter Resonance
+Map	V37		Input Mode
+Map	B37		Input Peak Meter
+Map	V38		Keep Pitch
+Map	V39		LFO Amount
+Map	V40		LFO Rate
+Map	T8		Patch Name
+Map	V41		Ping-Pong Mode
+Map	V42		Ping-Pong Pan
+Map	V43		Right Ch Feedback Offset
+Map	V44		Right Ch Time Offset
+Map	V45		Roll Enabled
+Map	V46		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V47		Select Previous Patch
+Map	V48		Sync
+Map	V49		Trig
+Map	V50		Wobble
+
+Scope	Propellerheads	UN-16 Unison
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"UN-16 Unison"
+Map	V23		Detune
+Map	T7		Device Name
+Map	V24		Dry/Wet
+Map	V25		Enabled
+Map	V26		Peak Meter
+Map	V27		Voice Count
+
+Scope	LAB ONE Recordings	co.uk.labonerecordings.ReQ131
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"co.uk.labonerecordings.ReQ131"
+Map	V23		Dry/Wet
+Map	V24		Enabled
+Map	V25		Gain
+Map	V26		HP Bypass
+Map	V27		Hear EQ
+Map	V28		High Pass
+Map	V29		LP Bypass
+Map	V30		Low Pass
+Map	D17		Select Patch Delta
+
+Scope	Audio Damage, Inc.	com.audiodamage.roughrider
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.audiodamage.roughrider"
+Map	V23		Attack
+Map	V24		Enabled
+Map	V25		MakeUp
+Map	V26		Mix
+Map	V27		Ratio
+Map	V28		Release
+Map	D17		Select Patch Delta
+Map	V29		Sensitivity
+
+Scope	Black and Orange	com.blackandorange.AutoArp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.blackandorange.AutoArp"
+Map	D17		Select Patch Delta
+Map	V23		Shuffle
+Map	V24		Velocity
+Map	V25		arpPlayCount
+Map	V26		arpPlayDirection
+Map	V27		arpPlayMode
+Map	V28		extendDownNotes
+Map	V29		extendUpNotes
+Map	V30		gateLength
+Map	V31		humanTiming
+Map	V32		maxChordSize
+Map	V33		note1_ChordSelect
+Map	V34		note2_ChordSelect
+Map	V35		note3_ChordSelect
+Map	V36		note4_ChordSelect
+Map	V37		note5_ChordSelect
+Map	V38		note6_ChordSelect
+Map	V39		note7_ChordSelect
+Map	V40		note8_ChordSelect
+Map	V41		rateFree
+Map	V42		rateSynced
+Map	V43		repeatNoteFrequency
+Map	V44		repeatNoteVelocity
+Map	V45		scale
+Map	V46		velocityVariationMax
+Map	V47		velocityVariationMin
+
+Scope	Black and Orange	com.blackandorange.ReVolt
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.blackandorange.ReVolt"
+Map	D17		Select Patch Delta
+Map	V23		addamount
+Map	V24		blendmode
+Map	V25		conformToRange
+Map	V26		maxoutput
+Map	V27		maxoutputUni
+Map	V28		minoutput
+Map	V29		minoutputUni
+Map	V30		polaritymode
+Map	V31		relativeaddmode
+Map	V32		scaleamount
+Map	V33		splitAOffStaticValue
+Map	V34		splitAOnMode
+Map	V35		splitLevel
+Map	V36		splitSmoothing
+Map	V37		staticoutput
+Map	V38		staticoutputenabled
+
+Scope	Black and Orange	com.blackandorange.TrafficControl
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.blackandorange.TrafficControl"
+Map	D17		Select Patch Delta
+
+Scope	Blamsoft, Inc.	com.blamsoft.Distributor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.blamsoft.Distributor"
+Map	V23		Combination
+Map	V24		Mod Wheel
+Map	V25		Number of Voices
+Map	V26		Octave
+Map	V27		Order Mode
+Map	D17		Select Patch Delta
+Map	V28		Start Position
+Map	V29		Voices Mode
+
+Scope	Blamsoft, Inc.	com.blamsoft.Resampler
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.blamsoft.Resampler"
+Map	V23		Downsample Algorithm
+Map	V24		Downsample Pitch Env Amt
+Map	V25		Downsample Rate
+Map	V26		Downsample Vol Env Amt
+Map	V27		Quantize Algorithm
+Map	V28		Quantize Depth
+Map	V29		Quantize Pitch Env Amt
+Map	V30		Quantize Vol Env Amt
+Map	D17		Select Patch Delta
+Map	V31		Wet Percentage
+
+Scope	Blamsoft, Inc.	com.blamsoft.Viking
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.blamsoft.Viking"
+Map	V23		cutoff
+Map	V24		Filter Attack
+Map	V25		Filter Decay
+Map	V26		Filter Release
+Map	V27		Filter Sustain
+Map	V28		Lfo Rate Synced
+Map	V29		Mod Wheel Amount
+Map	V30		Mod Wheel Source
+Map	V31		On Amount
+Map	V32		On Source
+Map	V33		Osc 1 Octave
+Map	V34		Osc 1 Wave
+Map	V35		Osc 2 Frequency
+Map	V36		Osc 2 Octave
+Map	V37		Osc 2 Wave
+Map	V38		Osc 3 Frequency
+Map	V39		Osc 3 Octave
+Map	V40		Osc 3 Wave
+Map	V41		Resonance
+Map	D17		Select Patch Delta
+Map	V42		Spacing
+Map	V43		Vol Attack
+Map	V44		Vol Decay
+Map	V45		Vol Release
+Map	V46		Vol Sustain
+
+Scope	Cakewalk	com.cakewalk.RE2A
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.cakewalk.RE2A"
+Map	V23		Compress/Limit
+Map	V24		MeterSetting
+Map	V25		OutputGain
+Map	V26		PeakReduction
+Map	V27		R37
+Map	D17		Select Patch Delta
+
+Scope	Deadman Audio Devices	com.deadmanaudiodevices.getlayedsound
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.deadmanaudiodevices.getlayedsound"
+Map	V23		Combined Volume
+Map	V24		Delay Pan 2
+Map	V25		Delay Pan 3
+Map	V26		Delay Pan 4
+Map	V27		Delay Pan 5
+Map	V28		Delay Pan 6
+Map	V29		Delay Pan 7
+Map	V30		Delay Pan 8
+Map	V31		Delay Pan 9
+Map	V32		Delay Pan Direct
+Map	V33		Delay Sync
+Map	V34		Delay Time
+Map	V35		Delay Time (Synced)
+Map	V36		Delay Volume 2
+Map	V37		Delay Volume 3
+Map	V38		Delay Volume 4
+Map	V39		Delay Volume 5
+Map	V40		Delay Volume 6
+Map	V41		Delay Volume 7
+Map	V42		Delay Volume 8
+Map	V43		Delay Volume 9
+Map	V44		Delay Volume Direct
+Map	D17		Select Patch Delta
+
+Scope	Deadman Audio Devices	com.deadmanaudiodevices.getlayedvoltage
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.deadmanaudiodevices.getlayedvoltage"
+Map	V23		Delay Sync
+Map	V24		Delay Time
+Map	V25		Delay Time (Synced)
+Map	V26		Note 1 Out 2
+Map	V27		Note 1 Out 3
+Map	V28		Note 1 Out 4
+Map	V29		Note 1 Out 5
+Map	V30		Note 1 Out 6
+Map	V31		Note 1 Out 7
+Map	V32		Note 1 Out 8
+Map	V33		Note 1 Out 9
+Map	V34		Note 1 Out Direct
+Map	V35		Note 2 Out 2
+Map	V36		Note 2 Out 3
+Map	V37		Note 2 Out 4
+Map	V38		Note 2 Out 5
+Map	V39		Note 2 Out 6
+Map	V40		Note 2 Out 7
+Map	V41		Note 2 Out 8
+Map	V42		Note 2 Out 9
+Map	V43		Note 2 Out Direct
+Map	V44		Octave Correction
+
+Scope	DLD Technology	com.dldtechnology.dr4
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.dldtechnology.dr4"
+Map	V23		Offset 1
+Map	V24		Offset 2
+Map	V25		Offset 3
+Map	V26		Offset 4
+Map	V27		Pattern 1
+Map	V28		Pattern 2
+Map	V29		Pattern 3
+Map	V30		Pattern 4
+Map	V31		Swing
+
+Scope	Peff	com.peff.Alias8cv
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.peff.Alias8cv"
+Map	V23		CV Mod A2
+Map	V24		Fader 1
+Map	V25		Fader 2
+Map	V26		Fader 3
+Map	V27		Fader 4
+Map	V28		Fader 5
+Map	V29		Fader 6
+Map	V30		Fader 7
+Map	V31		Fader 8
+Map	V32		Knob A1
+Map	V33		Knob A2
+Map	V34		Knob A3
+Map	V35		Knob A4
+Map	V36		Knob A5
+Map	V37		Knob A6
+Map	V38		Knob A7
+Map	V39		Knob A8
+Map	V40		Knob B1
+Map	V41		Knob B2
+Map	V42		Knob B3
+Map	V43		Knob B4
+Map	V44		Knob B5
+Map	V45		Knob B6
+Map	V46		Knob B7
+Map	V47		Knob B8
+Map	V48		Master Fader
+Map	B37		Momentary 1
+Map	B38		Momentary 2
+Map	B39		Momentary 3
+Map	B40		Momentary 4
+Map	B41		Momentary 5
+Map	B42		Momentary 6
+Map	B43		Momentary 7
+Map	B44		Momentary 8
+Map	V49		Scale A2
+Map	V50		select
+Map	D17		Select Patch Delta
+Map	V51		Toggle 1
+Map	V52		Toggle 2
+Map	V53		Toggle 3
+Map	V54		Toggle 4
+Map	V55		Toggle 5
+Map	V56		Toggle 6
+Map	V57		Toggle 7
+Map	V58		Toggle 8
+
+Scope	Peff	com.peff.Buffre
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.peff.Buffre"
+Map	V23		Aux 1
+Map	V24		Aux 2
+Map	V25		Aux 3
+Map	B37		Aux1 On
+Map	B38		Aux2 On
+Map	B39		Aux3 On
+Map	B40		Gate Enable
+Map	V26		Gate Length
+Map	V27		Gate Start
+Map	B41		Link Random
+Map	B42		Loop On
+Map	V28		Mod Wheel
+Map	B43		OneShot
+Map	V29		Pitch
+Map	B44		Pitch Snap
+Map	V30		Play Mode
+Map	B45		Position Advance Quarter
+Map	B46		Position Backward Quarter
+Map	V31		Random
+Map	V32		Release
+Map	B47		Reset Position
+Map	B48		Reverse
+Map	B49		Trigger
+Map	V33		Trigger Length
+Map	B50		Triplets
+Map	V34		Volume
+
+Scope	Peff	com.peff.Directre
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"com.peff.Directre"
+Map	V23		Crossfade Length A
+Map	V24		Crossfade Length B
+Map	B37		Crossfade Select 1
+Map	B38		Crossfade Select 2
+Map	B39		Crossfade Select 3
+Map	B40		Crossfade Select 4
+Map	B41		Crossfade Select 5
+Map	B42		Crossfade Select 6
+Map	B43		Crossfade Select 7
+Map	B44		Crossfade Select 8
+Map	B45		Enable 1
+Map	B46		Enable 2
+Map	B47		Enable 3
+Map	B48		Enable 4
+Map	B49		Enable 5
+Map	B50		Enable 6
+Map	B51		Enable 7
+Map	B52		Enable 8
+Map	V25		Gain 1
+Map	V26		Gain 2
+Map	V27		Gain 3
+Map	V28		Gain 4
+Map	V29		Gain 5
+Map	V30		Gain 6
+Map	V31		Gain 7
+Map	V32		Gain 8
+Map	V33		Input Gain
+Map	V34		Quantize Mode
+
+Scope	KORG	jp.co.korg.MonoPoly
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"jp.co.korg.MonoPoly"
+Map	B37		ARP Latch
+Map	B38		ARP Mode
+Map	B39		ARP Range
+Map	B40		Arpeggio
+Map	V23		Detune
+Map	B41		Key Assign Mode
+Map	V24		MG 1 Base Note
+Map	V25		MG 1 Frequency
+Map	B42		MG 1 Key SYNC
+Map	B43		MG 1 Tempo SYNC
+Map	V26		MG 1 Times
+Map	B44		MG 1 Waveform
+Map	V27		MG 2 Base Note
+Map	V28		MG 2 Frequency
+Map	B45		MG 2 Key SYNC
+Map	B46		MG 2 Tempo SYNC
+Map	V29		MG 2 Times
+Map	B47		MG 2 Waveform
+Map	V30		Noise
+Map	V31		Output Pan
+Map	V32		Output Volume
+Map	V33		PW Width
+Map	V34		PWM Intensity
+Map	B48		PWM SRC Bipolar
+Map	B49		PWM Source
+Map	V35		Portamento
+Map	B50		Select Next Patch
+Map	B51		Select Previous Patch
+Map	V36		VCA EG Attack
+Map	V37		VCA EG Decay
+Map	V38		VCA EG Release
+Map	V39		VCA EG Sustain
+Map	V40		VCF Cutoff
+Map	V41		VCF EG Attack
+Map	V42		VCF EG Decay
+Map	V43		VCF EG Intensity
+Map	V44		VCF EG Release
+Map	V45		VCF EG Sustain
+Map	V46		VCF Resonance
+Map	V47		VCO 1 Level
+Map	V48		VCO 1 Semitone
+Map	B52		VCO 1 Wave Form
+Map	V49		VCO 2 Level
+Map	V50		VCO 2 Semitone
+Map	B53		VCO 2 Wave Form
+Map	V51		VCO 3 Level
+Map	V52		VCO 3 Semitone
+Map	B54		VCO 3 Wave Form
+Map	V53		VCO 4 Level
+Map	V54		VCO 4 Semitone
+Map	B55		VCO 4 Wave Form
+Map	B56		VCO MOD FREQ MOD Bipolar
+Map	V55		VCO MOD FREQ MOD INT
+Map	B57		VCO MOD FREQ MOD Source
+Map	B58		VCO MOD Mode
+Map	B59		VCO MOD Type
+Map	V56		VCO MOD X-MOD Intensity
+Map	B60		VCO Modulation
+
+Scope	KORG	jp.co.korg.Polysix
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"jp.co.korg.Polysix"
+Map	B37		ARP BASE NOTE
+Map	B38		ARP KEY SYNC
+Map	B39		ARP LATCH
+Map	B40		ARP MODE
+Map	B41		ARP RANGE
+Map	V23		ARP SPEED
+Map	B42		ARP TEMPO SYNC
+Map	B43		Arpeggio
+Map	V24		EG ATTACK
+Map	V25		EG DECAY
+Map	V26		EG RELEASE
+Map	V27		EG SUSTAIN
+Map	B44		FX MODE
+Map	V28		FX SPEED
+Map	B45		KEY ASSIGN
+Map	V29		MG BASE NOTE
+Map	B46		MG DESTINATION
+Map	V30		MG FREQUENCY
+Map	V31		MG LEVEL
+Map	B47		MG TEMPO SYNC
+Map	V32		MG TIMES
+Map	B48		Select Next Patch
+Map	B49		Select Previous Patch
+Map	V33		UNISON DETUNE
+Map	V34		UNISON SPREAD
+Map	V35		VCF CUTOFF
+Map	V36		VCF EG INTENSITY
+Map	V37		VCF RESONANCE
+Map	B50		VCO OCTAVE
+Map	V38		VCO PWM ADJUST
+Map	V39		VCO PWM SPEED
+Map	B51		VCO SUB OSC
+Map	B52		VCO WAVE FORM
+Map	V40		Volume
+
+Scope	Propellerhead Software	se.propellerheads.AcousticGuitarist
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.AcousticGuitarist"
+Map	V23		Attack
+Map	V24		Character
+Map	B37		Doubling
+Map	V25		Feel
+Map	B38		Latch
+Map	B39		Select Next Patch
+Map	B40		Select Previous Patch
+Map	V26		Swing
+Map	B41		Type
+Map	V27		Volume
+
+Scope	Propellerhead Software	se.propellerheads.Algoritm
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Algoritm"
+Map	V23		Aftertouch
+Map	V24		Attack 1
+Map	V25		Attack 2
+Map	V26		Attack 3
+Map	V27		Attack 4
+Map	V28		Attack 5
+Map	V29		Attack 6
+Map	V30		Attack 7
+Map	V31		Attack 8
+Map	V32		Attack 9
+Map	V33		Breath Control
+Map	V34		Comp Attack
+Map	B37		Comp On
+Map	V35		Comp Ratio
+Map	V36		Comp Release
+Map	V37		Comp Threshold
+Map	V38		Curve 1 Bipolar
+Map	V39		Curve 1 Global
+Map	V40		Curve 1 Key Sync
+Map	V41		Curve 1 Length
+Map	V42		Curve 1 OneShot
+Map	V43		Curve 1 Rate
+Map	V44		Curve 1 Stepped
+Map	V45		Curve 1 Sync Rate
+Map	V46		Curve 1 Tempo Sync
+Map	V47		Curve 2 Bipolar
+Map	V48		Curve 2 Global
+Map	V49		Curve 2 Key Sync
+Map	V50		Curve 2 Length
+Map	V51		Curve 2 Oneshot
+Map	V52		Curve 2 Rate
+Map	V53		Curve 2 Stepped
+Map	V54		Curve 2 Sync Rate
+Map	V55		Curve 2 Tempo Sync
+Map	V56		Decay 1
+Map	V57		Decay 2
+Map	V58		Decay 3
+Map	V59		Decay 4
+Map	V60		Decay 5
+Map	V61		Decay 6
+Map	V62		Decay 7
+Map	V63		Decay 8
+Map	V64		Decay 9
+Map	V65		Decay/Release Offset
+Map	V66		Delay Amount
+Map	V67		Delay Feedback
+Map	B38		Delay On
+Map	B39		Delay PingPong
+Map	B40		Delay Sync
+Map	V68		Delay Synced Time
+Map	V69		Delay Time
+Map	T7		Device Name
+Map	V70		Dist Amount
+Map	V71		Dist Drive
+Map	B41		Dist On
+Map	V72		Dist Tone
+Map	V73		Dist Type
+Map	V74		EQ Freq
+Map	V75		EQ Gain
+Map	V76		EQ Hi Gain
+Map	V77		EQ Lo Gain
+Map	V78		EQ On
+Map	V79		EQ Q
+Map	B42		Effect Select
+Map	V80		FM Amount Offset
+Map	V81		FM Key Scale
+Map	V82		Feedback
+Map	V83		Freq 1
+Map	V84		Freq 2
+Map	V85		Freq 3
+Map	V86		Freq 4
+Map	V87		Freq 5
+Map	V88		Freq 6
+Map	V89		Freq 7
+Map	V90		Freq 8
+Map	V91		Freq 9
+Map	B43		Key Mode
+Map	V92		LFO 1 Delay
+Map	V93		LFO 1 Global
+Map	V94		LFO 1 Key Sync
+Map	V95		LFO 1 Rate
+Map	V96		LFO 1 Sync Rate
+Map	V97		LFO 1 Tempo Sync
+Map	V98		LFO 1 Wave
+Map	V99		LFO 2 Delay
+Map	V100		LFO 2 Global
+Map	V101		LFO 2 Key Sync
+Map	V102		LFO 2 Rate
+Map	V103		LFO 2 Sync Rate
+Map	V104		LFO 2 Tempo Sync
+Map	V105		LFO 2 Wave
+Map	V106		LFO 3 Delay
+Map	V107		LFO 3 Global
+Map	V108		LFO 3 Key Sync
+Map	V109		LFO 3 Rate
+Map	V110		LFO 3 Sync Rate
+Map	V111		LFO 3 Tempo Sync
+Map	V112		LFO 3 Wave
+Map	V113		LFO Select
+Map	V114		Level 1
+Map	V115		Level 2
+Map	V116		Level 3
+Map	V117		Level 4
+Map	V118		Level 5
+Map	V119		Level 6
+Map	V120		Level 7
+Map	V121		Level 8
+Map	V122		Level 9
+Map	V123		Master
+Map	V124		Mod Effect Amount
+Map	V125		Mod Effect Feedback
+Map	V126		Mod Effect Spread
+Map	V127		Mod Effect Type
+Map	V128		Mode1
+Map	V129		Mode2
+Map	V130		Mode3
+Map	V131		Mode4
+Map	V132		Mode5
+Map	V133		Mode6
+Map	V134		Mode7
+Map	V135		Mode8
+Map	V136		Mode9
+Map	V137		Octave
+Map	V138		Osc Sync
+Map	V139		Out 1
+Map	V140		Out 2
+Map	V141		Out 3
+Map	V142		Out 4
+Map	V143		Out 5
+Map	V144		Out 6
+Map	V145		Out 7
+Map	V146		Out 8
+Map	V147		Out 9
+Map	T8		Patch Name
+Map	B44		Phaser On
+Map	V148		Pitch Bend Range
+Map	V149		Portamento
+Map	V150		Portamento Mode
+Map	V151		Rate Key Scale
+Map	V152		Release 1
+Map	V153		Release 2
+Map	V154		Release 3
+Map	V155		Release 4
+Map	V156		Release 5
+Map	V157		Release 6
+Map	V158		Release 7
+Map	V159		Release 8
+Map	V160		Release 9
+Map	V161		Resonator Decay
+Map	V162		Resonator Mix
+Map	B45		Resonator On
+Map	V163		Resonator Pitch
+Map	B46		Resonator Select
+Map	V164		Resonator Width
+Map	V165		Reverb Amount
+Map	V166		Reverb Damp
+Map	V167		Reverb Decay
+Map	V168		Reverb Early Reflections
+Map	B47		Reverb On
+Map	V169		Reverb Size
+Map	V170		Select Next Patch
+Map	V171		Select Previous Patch
+Map	V172		Sustain 1
+Map	V173		Sustain 2
+Map	V174		Sustain 3
+Map	V175		Sustain 4
+Map	V176		Sustain 5
+Map	V177		Sustain 6
+Map	V178		Sustain 7
+Map	V179		Sustain 8
+Map	V180		Sustain 9
+Map	V181		Sustain Pedal
+Map	V182		Unison Blend
+Map	V183		Unison Count
+Map	V184		Unison Detune
+Map	B48		Unison On
+Map	V185		Unison Spread
+Map	V186		Unison Timing
+Map	V187		pp1
+Map	V188		pp2
+
+Scope	Propellerhead Software	se.propellerheads.Arpeggio
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Arpeggio"
+Map	B37		Arpeggio On 1
+Map	B38		Arpeggio On 2
+Map	B39		Direction 1
+Map	B40		Direction 2
+Map	V23		Gate Length 1
+Map	V24		Gate Length 2
+Map	B41		Hold
+Map	T7		Patch Name
+Map	B42		Repeat 1
+Map	B43		Repeat 2
+Map	B44		Select Next Patch
+Map	B45		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.ArpeggioLab
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ArpeggioLab"
+Map	V23		Anchor Fixed Velocity
+Map	V24		Anchor Note Length
+Map	V25		Anchor Octave
+Map	B37		Anchor On
+Map	V26		Anchor Pattern
+Map	B38		Anchor Velocity Mode
+Map	V27		Anchor Velocity Offset
+Map	T7		Device Name
+Map	D17		Hold Mode
+Map	V28		Hold On
+Map	V29		Movement Density
+Map	V30		Movement Fixed Velocity
+Map	V31		Movement Humanize
+Map	V32		Movement Note Length
+Map	V33		Movement Octave
+Map	B39		Movement On
+Map	V34		Movement Shape
+Map	V35		Movement Shift Rhythm
+Map	B40		Movement Velocity Mode
+Map	V36		Movement Velocity Offset
+Map	V37		Octave Mod Amount
+Map	B41		Octave Mod Movement Only
+Map	V38		Octave Mod Transpose
+Map	V39		Octave Modifier On
+Map	T8		Patch Name
+Map	B42		Play Mode
+Map	V40		Rhythm Mod Amount
+Map	B43		Rhythm Mod Movement Only
+Map	V41		Rhythm Mod Notes
+Map	V42		Rhythm Modifier On
+Map	B44		Select Next Patch
+Map	B45		Select Previous Patch
+Map	V43		Steps
+
+Scope	Propellerhead Software	se.propellerheads.Audiomatic
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Audiomatic"
+Map	T7		Device Name
+Map	V23		Dry Wet
+Map	B37		Enabled
+Map	V24		Input Gain
+Map	T8		Patch Name
+Map	V25		Preset
+Map	B38		Select Next Patch
+Map	B39		Select Previous Patch
+Map	V26		Transform
+Map	V27		Volume
+
+Scope	Propellerhead Software	se.propellerheads.BVXVocoder
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.BVXVocoder"
+Map	B37		Amp Mode
+Map	V23		Attack
+Map	V24		Auto Play
+Map	V25		Band Count
+Map	V26		Band Resonance
+Map	V27		Carrier Mix
+Map	V28		Carrier Mode
+Map	V29		Decay
+Map	T7		Device Name
+Map	V30		Effect Mix
+Map	B38		Effect On
+Map	V31		Effect P1
+Map	V32		Effect P2
+Map	V33		Effect Select
+Map	B39		Enabled
+Map	V34		Env Attack
+Map	V35		Env Decay
+Map	V36		Env Release
+Map	V37		Env Sustain
+Map	V38		FFT Resolution
+Map	V39		Fifth Level
+Map	V40		Formant Shift
+Map	B40		Gain Curve On
+Map	V41		High Frequency Gain
+Map	B41		Hold
+Map	V42		Key Mode
+Map	V43		LFO Beat Sync
+Map	V44		LFO Key Sync
+Map	V45		LFO Rate
+Map	V46		LFO Synced Rate
+Map	V47		LFO Wave
+Map	V48		Level 1
+Map	V49		Level 10
+Map	V50		Level 11
+Map	V51		Level 12
+Map	V52		Level 13
+Map	V53		Level 14
+Map	V54		Level 15
+Map	V55		Level 16
+Map	V56		Level 17
+Map	V57		Level 18
+Map	V58		Level 19
+Map	V59		Level 2
+Map	V60		Level 20
+Map	V61		Level 21
+Map	V62		Level 22
+Map	V63		Level 23
+Map	V64		Level 24
+Map	V65		Level 25
+Map	V66		Level 26
+Map	V67		Level 27
+Map	V68		Level 28
+Map	V69		Level 29
+Map	V70		Level 3
+Map	V71		Level 30
+Map	V72		Level 31
+Map	V73		Level 32
+Map	V74		Level 4
+Map	V75		Level 5
+Map	V76		Level 6
+Map	V77		Level 7
+Map	V78		Level 8
+Map	V79		Level 9
+Map	B42		Limiter On
+Map	V80		Low Frequency
+Map	V81		Master Volume
+Map	V82		Mod1 Amt
+Map	V83		Mod1 Source
+Map	V84		Mod2 Amt
+Map	V85		Mod2 Source
+Map	V86		Mod3 Amt
+Map	V87		Mod3 Source
+Map	V88		Mod4 Amt
+Map	V89		Mod4 Source
+Map	V90		Mod5 Amt
+Map	V91		Mod5 Source
+Map	V92		Mod6 Amt
+Map	V93		Mod6 Source
+Map	V94		Mod7 Amt
+Map	V95		Mod7 Source
+Map	V96		Mod8 Amt
+Map	V97		Mod8 Source
+Map	V98		Modulator Gain
+Map	V99		Modulator Mix
+Map	V100		Noise Auto
+Map	V101		Noise Color
+Map	V102		Noise Gate
+Map	V103		Noise Mix
+Map	V104		Oct Fifth Level
+Map	V105		Oct Level
+Map	V106		Octave
+Map	V107		Pitchbend Range
+Map	V108		Portamento
+Map	V109		Portamento Mode
+Map	V110		Reverb Decay
+Map	V111		Reverb Early Level
+Map	V112		Reverb LF Damp
+Map	V113		Reverb Level
+Map	B43		Reverb On
+Map	V114		Reverb Type
+Map	V115		Root Level
+Map	B44		Scale On
+Map	B45		Select Next Patch
+Map	B46		Select Previous Patch
+Map	V116		Semitone
+Map	V117		Spectral Spread
+Map	V118		Stereo In
+Map	V119		Sub Level
+Map	V120		Transfer Curve Amount
+Map	V121		Transfer Curve Type
+Map	V122		Unison Blend
+Map	V123		Unison Count
+Map	V124		Unison Detune
+Map	B47		Unison On
+Map	V125		Unison Spread
+Map	V126		Unison Timing
+Map	V127		Vibrato Amount
+Map	V128		Vibrato Delay
+Map	V129		Vibrato Rate
+Map	V130		Vibrato Wave
+Map	V131		Vibrato Wheel Scale
+Map	V132		Vocoder Mix
+Map	V133		Vocoder Mode
+Map	B48		Wave Select
+Map	V134		Wave Shape
+
+Scope	Propellerhead Software	se.propellerheads.BeatMap
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.BeatMap"
+Map	V23		Beat Map
+Map	V24		Hat Density
+Map	B37		Hat Hit Indication
+Map	V25		Hat Mirror Velocity
+Map	V26		Kick Density
+Map	B38		Kick Hit Indication
+Map	V27		Kick Mirror Velocity
+Map	V28		Perc Density
+Map	B39		Perc Hit Indication
+Map	V29		Perc Mirror Velocity
+Map	V30		Shuffle
+Map	V31		Snare Density
+Map	B40		Snare Hit Indication
+Map	V32		Snare Mirror Velocity
+Map	V33		X Position
+Map	V34		Y Position
+
+Scope	Propellerhead Software	se.propellerheads.ChannelDynamics
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ChannelDynamics"
+Map	V23		Comp Fast On
+Map	V24		Comp On
+Map	V25		Comp Peak On
+Map	V26		Comp Ratio
+Map	V27		Comp Release
+Map	V28		Comp Threshold
+Map	T7		Device Name
+Map	V29		Enabled
+Map	V30		Gate Exp On
+Map	V31		Gate Fast On
+Map	V32		Gate Hold
+Map	V33		Gate On
+Map	V34		Gate Range
+Map	V35		Gate Release
+Map	V36		Gate Threshold
+Map	V37		Input Gain
+Map	V38		Mix
+Map	T8		Patch Name
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+Map	V39		Sidechain
+
+Scope	Propellerhead Software	se.propellerheads.ChannelEQ
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ChannelEQ"
+Map	T7		Device Name
+Map	V23		E Mode On
+Map	V24		Enabled
+Map	V25		Gain
+Map	V26		HF Bell On
+Map	V27		HF Frequency
+Map	V28		HF Gain
+Map	V29		HMF Frequency
+Map	V30		HMF Gain
+Map	V31		HMF Q
+Map	V32		HPF Frequency
+Map	V33		HPF On
+Map	V34		LF Bell On
+Map	V35		LF Frequency
+Map	V36		LF Gain
+Map	V37		LMF Frequency
+Map	V38		LMF Gain
+Map	V39		LMF Q
+Map	V40		LPF Frequency
+Map	V41		LPF On
+Map	T8		Patch Name
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.Complex
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Complex"
+Map	V23		Amp 1 Amt
+Map	V24		Amp 2 Amt
+Map	V25		Amp 3 Amt
+Map	V26		Attack
+Map	B37		Auto
+Map	V27		Bend Range
+Map	V28		Clock 1 Rate
+Map	V29		Clock 2 Rate
+Map	V30		Clock Rate Multiply
+Map	V31		Comb DryWet
+Map	V32		Comb FB
+Map	V33		Comb Freq
+Map	V34		Comb Freq Amt
+Map	V35		Comb Gain
+Map	V36		Comb Peak
+Map	V37		Comb Pitch
+Map	V38		Comb Pitch Amt
+Map	V39		Comb Pitch To Freq
+Map	V40		Decay
+Map	T7		Device Name
+Map	V41		Filter Drive
+Map	V42		Filter FM Amt
+Map	V43		Filter FM In
+Map	V44		Filter Freq
+Map	V45		Filter Freq Amt1
+Map	V46		Filter Freq Amt2
+Map	V47		Filter Freq In1
+Map	V48		Filter Freq In2
+Map	V49		Filter In
+Map	V50		Filter Reso
+Map	V51		Filter Reso Amt
+Map	V52		Function X In
+Map	V53		Function Y In
+Map	V54		LFO Rate
+Map	V55		LFO Rate Amt
+Map	V56		LPG 1 Attack Amt
+Map	V57		LPG 1 Filter
+Map	V58		LPG 1 In
+Map	V59		LPG 1 Release
+Map	V60		LPG 1 Release Amt
+Map	V61		LPG 1 Trig In
+Map	V62		LPG 2 Attack
+Map	V63		LPG 2 Attack Amt
+Map	V64		LPG 2 Filter
+Map	V65		LPG 2 In
+Map	V66		LPG 2 Release
+Map	V67		LPG 2 Release Amt
+Map	V68		LPG 2 Trig In
+Map	V69		LPG1 Attack
+Map	V70		Lag
+Map	V71		Master Level
+Map	V72		Mix 1 Amt
+Map	V73		Mix 1 In1
+Map	V74		Mix 1 In2
+Map	V75		Mix 2 Amt
+Map	V76		Mix 2 In1
+Map	V77		Mix 2 In2
+Map	V78		Mix 3 Amt
+Map	V79		Mix 3 In1
+Map	V80		Mix 3 In2
+Map	V81		Noise Color
+Map	V82		Noise Color Amt
+Map	V83		Noise Rate
+Map	V84		Noise Rate Amt
+Map	B38		Noise Type
+Map	V85		Osc 1 AM Amt
+Map	V86		Osc 1 FM Amt
+Map	V87		Osc 1 Pitch
+Map	V88		Osc 1 Shape
+Map	V89		Osc 1 Shape Amt
+Map	V90		Osc 1 Tune
+Map	V91		Osc 1 Wave
+Map	V92		Osc 2 AM Amt
+Map	V93		Osc 2 FM Amt
+Map	V94		Osc 2 Pitch
+Map	V95		Osc 2 Shape
+Map	V96		Osc 2 Shape Amt
+Map	V97		Osc 2 Tune
+Map	V98		Osc 2 Wave
+Map	V99		Osc 3 Pitch
+Map	V100		Osc 3 Shape
+Map	V101		Osc 3 Shape Amt
+Map	V102		Osc Mix
+Map	V103		Osc Mix Amt
+Map	V104		Osc Mix In
+Map	B39		Osc Sync
+Map	V105		Osc1 To Osc2 AM
+Map	V106		Osc1 To Osc2 AM In
+Map	V107		Osc1 To Osc2 FM
+Map	V108		Osc1 To Osc2 FM In
+Map	T8		Patch Name
+Map	V109		Portamento
+Map	V110		Release
+Map	V111		Retrig
+Map	D17		Reverb Decay
+Map	V112		Reverb Level
+Map	B40		Reverb On
+Map	B41		Reverb Type
+Map	V113		Select Next Patch
+Map	V114		Select Previous Patch
+Map	V115		Shaper Drive
+Map	V116		Shaper Drive Amt
+Map	V117		Shaper Sym
+Map	V118		Shaper Type
+Map	V119		Sustain
+Map	V120		Vol 1
+Map	V121		Vol 2
+Map	V122		Vol 3
+
+Scope	Propellerhead Software	se.propellerheads.DMFC
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.DMFC"
+Map	V23		Compressor_Ratio
+Map	V24		Compressor_Threshold
+Map	V25		Delay_Feedback
+Map	V26		Delay_Time
+Map	T7		Device Name
+Map	V27		Drum_1_Delay_Amount
+Map	V28		Drum_1_Dist_Drive
+Map	V29		Drum_1_Mute
+Map	V30		Drum_1_Pan
+Map	V31		Drum_1_Pitch
+Map	V32		Drum_1_Solo
+Map	V33		Drum_1_Volume
+Map	V34		Drum_2_Delay_Amount
+Map	V35		Drum_2_Dist_Drive
+Map	V36		Drum_2_Mute
+Map	V37		Drum_2_Pan
+Map	V38		Drum_2_Pitch
+Map	V39		Drum_2_Solo
+Map	V40		Drum_2_Volume
+Map	V41		Drum_3_Delay_Amount
+Map	V42		Drum_3_Dist_Drive
+Map	V43		Drum_3_Mute
+Map	V44		Drum_3_Pan
+Map	V45		Drum_3_Pitch
+Map	V46		Drum_3_Solo
+Map	V47		Drum_3_Volume
+Map	V48		Drum_4_Delay_Amount
+Map	V49		Drum_4_Dist_Drive
+Map	V50		Drum_4_Mute
+Map	V51		Drum_4_Pan
+Map	V52		Drum_4_Pitch
+Map	V53		Drum_4_Solo
+Map	V54		Drum_4_Volume
+Map	V55		Drum_5_Delay_Amount
+Map	V56		Drum_5_Dist_Drive
+Map	V57		Drum_5_Mute
+Map	V58		Drum_5_Pan
+Map	V59		Drum_5_Pitch
+Map	V60		Drum_5_Solo
+Map	V61		Drum_5_Volume
+Map	V62		Drum_6_Delay_Amount
+Map	V63		Drum_6_Dist_Drive
+Map	V64		Drum_6_Mute
+Map	V65		Drum_6_Pan
+Map	V66		Drum_6_Pitch
+Map	V67		Drum_6_Solo
+Map	V68		Drum_6_Volume
+Map	V69		Drum_7_Delay_Amount
+Map	V70		Drum_7_Dist_Drive
+Map	V71		Drum_7_Mute
+Map	V72		Drum_7_Pan
+Map	V73		Drum_7_Pitch
+Map	V74		Drum_7_Solo
+Map	V75		Drum_7_Volume
+Map	V76		Drum_8_Delay_Amount
+Map	V77		Drum_8_Dist_Drive
+Map	V78		Drum_8_Mute
+Map	V79		Drum_8_Pan
+Map	V80		Drum_8_Pitch
+Map	V81		Drum_8_Solo
+Map	V82		Drum_8_Volume
+Map	V83		Master_Decay
+Map	V84		Master_Delay
+Map	V85		Master_Distortion
+Map	V86		Master_Filter
+Map	V87		Master_Pitch
+Map	V88		Master_Reverb
+Map	V89		Master_Volume
+Map	T8		Patch Name
+Map	V90		Reverb_Decay
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.ElectricBass
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ElectricBass"
+Map	V23		Aftertouch
+Map	V24		Amp & Mic
+Map	V25		Bass
+Map	V26		Chorus Depth
+Map	V27		Chorus Level
+Map	V28		Chorus On/Off
+Map	V29		Chorus Rate
+Map	V30		Compressor Attack
+Map	V31		Compressor Level
+Map	V32		Compressor On/Off
+Map	V33		Compressor Sustain
+Map	T7		Device Name
+Map	V34		Drive Dist Dist
+Map	V35		Drive Dist Level
+Map	V36		Drive Dist On/Off
+Map	V37		Drive Dist Tone
+Map	V38		EQ Band 1
+Map	V39		EQ Band 2
+Map	V40		EQ Band 3
+Map	V41		EQ Band 4
+Map	V42		EQ Band 5
+Map	V43		EQ Gain
+Map	V44		EQ On/Off
+Map	B37		Glissando
+Map	B38		Hammer On
+Map	T8		Patch Name
+Map	V45		Pickup Mix
+Map	V46		Randomness
+Map	V47		Reamp Bass
+Map	V48		Reamp Gain
+Map	V49		Reamp Mid
+Map	V50		Reamp On/Off
+Map	V51		Reamp Pre Effects
+Map	V52		Reamp Treble
+Map	B39		Select Next Patch
+Map	B40		Select Previous Patch
+Map	V53		Source Mix
+Map	V54		Volume
+
+Scope	Propellerhead Software	se.propellerheads.ElectricGuitaristPC
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ElectricGuitaristPC"
+Map	V23		Amp
+Map	V24		Chorus
+Map	B37		Doubling
+Map	V25		Drive
+Map	B38		Drop D
+Map	V26		Echo
+Map	V27		Feel
+Map	B39		Guitar
+Map	B40		Latch
+Map	V28		Reverb
+Map	B41		Select Next Patch
+Map	B42		Select Previous Patch
+Map	V29		Slapback
+Map	V30		Swing
+Map	V31		Volume
+
+Scope	Propellerhead Software	se.propellerheads.Europa
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Europa"
+Map	V23		Aftertouch
+Map	V24		Amp Attack
+Map	V25		Amp Decay
+Map	V26		Amp Gain
+Map	V27		Amp Release
+Map	V28		Amp Sustain
+Map	V29		Amp Velocity
+Map	V30		Comp On
+Map	V31		Comp Ratio
+Map	V32		Delay Amount
+Map	V33		Delay FB
+Map	V34		Delay On
+Map	V35		Delay Pan
+Map	B37		Delay PingPong
+Map	B38		Delay Sync
+Map	V36		Delay Synced Time
+Map	V37		Delay Time
+Map	T7		Device Name
+Map	V38		Dist Amount
+Map	D17		Dist Drive
+Map	V39		Dist On
+Map	B39		Dist Type
+Map	V40		EQ Freq
+Map	V41		EQ Gain
+Map	B40		EQ On
+Map	V42		EQ Q
+Map	B41		Effect On
+Map	V43		Env 1 Rate
+Map	V44		Env 2 Rate
+Map	V45		Env 3 Rate
+Map	V46		Env 4 Rate
+Map	V47		Filter Drive
+Map	V48		Filter Freq
+Map	V49		Filter Kbd
+Map	V50		Filter Mod
+Map	V51		Filter Reso
+Map	B42		Filter Type
+Map	B43		Key Mode
+Map	V52		LFO 1 Rate
+Map	V53		Master Volume
+Map	V54		Mod Effect Amount
+Map	D18		Mod Effect Rate
+Map	B44		Mod Effect Type
+Map	V55		Mod Wheel
+Map	V56		Osc1 Blend
+Map	V57		Osc1 Detune
+Map	V58		Osc1 Filter
+Map	V59		Osc1 Filter Freq
+Map	V60		Osc1 Filter Mod
+Map	B45		Osc1 Filter On
+Map	V61		Osc1 Filter Reso
+Map	V62		Osc1 Harm Amt
+Map	B46		Osc1 Harm On
+Map	V63		Osc1 Harm Pos
+Map	V64		Osc1 Level
+Map	V65		Osc1 Mod1
+Map	V66		Osc1 Mod1 Amt
+Map	V67		Osc1 Mod1 Mod
+Map	V68		Osc1 Mod1 On
+Map	V69		Osc1 Mod2 Amt
+Map	V70		Osc1 Mod2 Mod
+Map	V71		Osc1 Mod2 On
+Map	V72		Osc1 Oct
+Map	V73		Osc1 On
+Map	V74		Osc1 Pan
+Map	V75		Osc1 Semi
+Map	V76		Osc1 Shape
+Map	V77		Osc1 Shape Amt
+Map	V78		Osc1 Shape Vel
+Map	V79		Osc1 Spread
+Map	V80		Osc1 To Filter
+Map	B47		Osc1 Unison Mode
+Map	B48		Osc1 Unison On
+Map	V81		Osc1 Wave
+Map	V82		Osc2 Blend
+Map	V83		Osc2 Detune
+Map	V84		Osc2 Filter
+Map	V85		Osc2 Filter Freq
+Map	V86		Osc2 Filter Mod
+Map	B49		Osc2 Filter On
+Map	V87		Osc2 Filter Reso
+Map	V88		Osc2 Harm Amt
+Map	B50		Osc2 Harm On
+Map	V89		Osc2 Harm Pos
+Map	V90		Osc2 Level
+Map	V91		Osc2 Mod1 Amt
+Map	V92		Osc2 Mod1 On
+Map	V93		Osc2 Mod2 Amt
+Map	V94		Osc2 Mod2 On
+Map	V95		Osc2 Oct
+Map	V96		Osc2 On
+Map	V97		Osc2 Pan
+Map	V98		Osc2 Shape
+Map	V99		Osc2 Shape Amt
+Map	V100		Osc2 Shape Vel
+Map	V101		Osc2 Spread
+Map	V102		Osc2 To Filter
+Map	B51		Osc2 Unison Mode
+Map	B52		Osc2 Unison On
+Map	V103		Osc2 Wave
+Map	V104		Osc3 Blend
+Map	V105		Osc3 Detune
+Map	V106		Osc3 Filter
+Map	V107		Osc3 Filter Freq
+Map	V108		Osc3 Filter Mod
+Map	B53		Osc3 Filter On
+Map	V109		Osc3 Filter Reso
+Map	V110		Osc3 Harm Amt
+Map	B54		Osc3 Harm On
+Map	V111		Osc3 Harm Pos
+Map	V112		Osc3 Level
+Map	V113		Osc3 Mod1 Amt
+Map	V114		Osc3 Mod1 On
+Map	V115		Osc3 Mod2 Amt
+Map	V116		Osc3 Mod2 On
+Map	V117		Osc3 Oct
+Map	V118		Osc3 On
+Map	V119		Osc3 Pan
+Map	V120		Osc3 Shape
+Map	V121		Osc3 Shape Amt
+Map	V122		Osc3 Shape Vel
+Map	V123		Osc3 Spread
+Map	V124		Osc3 To Filter
+Map	B55		Osc3 Unison Mode
+Map	B56		Osc3 Unison On
+Map	V125		Osc3 Wave
+Map	V126		OscSel
+Map	V127		Pan
+Map	T8		Patch Name
+Map	V128		Phaser On
+Map	V129		Pitch Bend
+Map	V130		Portamento
+Map	B57		Portamento Mode
+Map	V131		Reverb Amount
+Map	V132		Reverb Damp
+Map	V133		Reverb Decay
+Map	V134		Reverb On
+Map	V135		Reverb Size
+Map	V136		Select Next Patch
+Map	V137		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.Friktion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Friktion"
+Map	V23		Aftertouch
+Map	V24		Articulation Attack
+Map	V25		Articulation Decay
+Map	V26		Articulation Release
+Map	V27		Articulation Shape
+Map	V28		Aux Key
+Map	V29		Bow Accent
+Map	V30		Bow Noise
+Map	V31		Bow Position
+Map	V32		Bow Pressure
+Map	V33		Bow Variation
+Map	B37		Bow-Pluck Mode
+Map	V34		Control Keys On
+Map	T7		Device Name
+Map	B38		Doubling On
+Map	V35		EQ Hi Gain
+Map	V36		EQ Lo Gain
+Map	V37		EQ On
+Map	V38		EQ Parametric Freq
+Map	V39		EQ Parametric Gain
+Map	V40		EQ Parametric Q
+Map	V41		Glide Key
+Map	B39		Glide Mode
+Map	V42		Glide Time
+Map	V43		Harmonics Key
+Map	B40		Harmonics On
+Map	V44		Harmonics Position
+Map	V45		Harmonics Touch
+Map	V46		Hi Damp Frequency
+Map	V47		Hi Damp Slope
+Map	V48		Hi Key Range
+Map	V49		Key Mode
+Map	V50		LFO Rate
+Map	V51		LFO Wave
+Map	V52		Lo Key Range
+Map	V53		Master Level
+Map	V54		Max Start Level
+Map	V55		Max Sustain Level
+Map	V56		Min Start Level
+Map	V57		Min Sustain Level
+Map	V58		Mod Env Attack
+Map	V59		Mod Env Decay
+Map	V60		Mod1 Amt
+Map	V61		Mod1 Dest
+Map	V62		Mod1 Source
+Map	V63		Mod2 Amt
+Map	V64		Mod2 Dest
+Map	V65		Mod2 Source
+Map	V66		Mod3 Amt
+Map	V67		Mod3 Dest
+Map	V68		Mod3 Source
+Map	V69		Mod4 Amt
+Map	V70		Mod4 Dest
+Map	V71		Mod4 Source
+Map	V72		Mono Key
+Map	B41		Number Of Players
+Map	V73		Octave Transpose
+Map	T8		Patch Name
+Map	V74		Pitch Bend Range
+Map	B42		PlayRef
+Map	V75		Pluck Level
+Map	V76		Pluck Noise
+Map	V77		Pluck Position
+Map	V78		Pluck Style
+Map	V79		Poly Key
+Map	V80		Pull Level
+Map	V81		Pull Velocity Threshold
+Map	V82		Random Timing
+Map	V83		Release Damp Amount
+Map	V84		Release Damp Key
+Map	B43		Release Damp On
+Map	V85		Resonator Direct
+Map	V86		Resonator Select
+Map	V87		Resonator Size
+Map	V88		Resonator Smear
+Map	V89		Resonator Width
+Map	V90		Reverb Decay
+Map	V91		Reverb Early Reflections
+Map	V92		Reverb Level
+Map	V93		Reverb On
+Map	V94		Reverb Type
+Map	B44		Select Next Patch
+Map	B45		Select Previous Patch
+Map	V95		Stereo Image
+Map	V96		String Decay
+Map	B46		Sustain Control Select
+Map	V97		Sustain Pedal Function
+Map	V98		Tremolo Rate
+Map	V99		Velocity Curve
+Map	V100		Velocity to Start Level
+Map	V101		Vibrato Amount
+Map	V102		Vibrato Delay
+Map	V103		Vibrato Key
+Map	B47		Vibrato On
+Map	V104		Vibrato Rate
+
+Scope	Propellerhead Software	se.propellerheads.Grain
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Grain"
+Map	V23		Aftertouch
+Map	B37		Algorithm
+Map	V24		Amp Attack
+Map	V25		Amp Decay
+Map	V26		Amp Gain
+Map	V27		Amp Release
+Map	V28		Amp Sustain
+Map	V29		Comp Attack
+Map	V30		Comp On
+Map	V31		Comp Ratio
+Map	V32		Comp Release
+Map	V33		Comp Threshold
+Map	V34		Curve Amt
+Map	B38		Curve On
+Map	V35		Delay Amount
+Map	V36		Delay FB
+Map	V37		Delay On
+Map	V38		Delay Pan
+Map	V39		Delay PingPong
+Map	V40		Delay Sync
+Map	V41		Delay Synced Time
+Map	V42		Delay Time
+Map	T7		Device Name
+Map	V43		Dist Amount
+Map	V44		Dist Drive
+Map	V45		Dist On
+Map	V46		Dist Tone
+Map	B39		Dist Type
+Map	V47		EQ Freq
+Map	V48		EQ Gain
+Map	B40		EQ On
+Map	V49		EQ Q
+Map	B41		Effect On
+Map	B42		Effect Select
+Map	V50		End Pos
+Map	V51		Env 1 Rate
+Map	V52		Env 2 Rate
+Map	V53		Env 2 Syncrate
+Map	V54		Env 3 Rate
+Map	V55		Env 4 Rate
+Map	B43		Env Select
+Map	V56		FFT Size
+Map	V57		Filter Env2
+Map	V58		Filter Freq
+Map	V59		Filter KBD
+Map	V60		Filter Reso
+Map	V61		Filter Type
+Map	V62		Filter Vel
+Map	V63		Formant
+Map	V64		Formant Tune
+Map	B44		Global Position
+Map	V65		Grain Length
+Map	V66		Harm Filter
+Map	V67		Harm Snap
+Map	V68		Jitter
+Map	B45		Key Mode
+Map	V69		LFO 1 Delay
+Map	B46		LFO 1 Global
+Map	B47		LFO 1 KeySync
+Map	V70		LFO 1 Rate
+Map	V71		LFO 1 SyncRate
+Map	B48		LFO 1 TempoSync
+Map	V72		LFO 2 Delay
+Map	B49		LFO 2 Global
+Map	B50		LFO 2 KeySync
+Map	V73		LFO 2 Rate
+Map	V74		LFO 2 SyncRate
+Map	B51		LFO 2 TempoSync
+Map	V75		LFO 3 Delay
+Map	B52		LFO 3 Global
+Map	B53		LFO 3 KeySync
+Map	V76		LFO 3 Rate
+Map	V77		LFO 3 SyncRate
+Map	B54		LFO 3 TempoSync
+Map	B55		LFO Select
+Map	V78		Master Volume
+Map	V79		Mod Effect Amount
+Map	V80		Mod Effect Depth
+Map	V81		Mod Effect Rate
+Map	V82		Mod Effect Spread
+Map	B56		Mod Effect Type
+Map	V83		Mod Wheel
+Map	V84		Mod1 Dest1 Amt
+Map	V85		Mod1 Dest2 Amt
+Map	V86		Mod1 Scale
+Map	V87		Mod1 Scale Amt
+Map	V88		Mod2 Dest1 Amt
+Map	V89		Mod2 Dest2 Amt
+Map	V90		Mod2 Scale
+Map	V91		Mod2 Scale Amt
+Map	V92		Mod3 Dest1 Amt
+Map	V93		Mod3 Dest2 Amt
+Map	V94		Mod3 Scale
+Map	V95		Mod3 Scale Amt
+Map	V96		Mod4 Dest1 Amt
+Map	V97		Mod4 Dest2 Amt
+Map	V98		Mod5 Dest1 Amt
+Map	V99		Mod5 Dest2 Amt
+Map	V100		Mod6 Dest1 Amt
+Map	V101		Mod6 Dest2 Amt
+Map	V102		Mod7 Dest1 Amt
+Map	V103		Mod7 Dest2 Amt
+Map	V104		Mod8 Dest1 Amt
+Map	V105		Mod8 Dest2 Amt
+Map	B57		Motion
+Map	V106		Oct
+Map	V107		Osc Level
+Map	V108		Osc Mod
+Map	V109		Osc Oct
+Map	V110		Osc On
+Map	V111		Osc To Filter
+Map	V112		Osc Wave
+Map	V113		Pan Spread
+Map	T8		Patch Name
+Map	V114		Phaser On
+Map	V115		Pitch Bend
+Map	V116		Pitch Jitter
+Map	V117		Pitch KBD
+Map	B58		Play Pos
+Map	V118		Portamento
+Map	B59		Portamento Mode
+Map	V119		Position
+Map	V120		Rate-Spacing
+Map	B60		Record Sample
+Map	V121		Reverb Amount
+Map	V122		Reverb Damp
+Map	V123		Reverb Decay
+Map	V124		Reverb On
+Map	V125		Reverb Size
+Map	V126		Sample Level
+Map	V127		Sample To Filter
+Map	V128		Scroll
+Map	V129		Select Next Patch
+Map	V130		Select Previous Patch
+Map	V131		Semi
+Map	V132		Speed
+Map	V133		Tune
+Map	V134		XFade
+Map	V135		Zoom
+
+Scope	Propellerhead Software	se.propellerheads.Humana
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Humana"
+Map	V23		Aftertouch
+Map	V24		Amp_Attack
+Map	V25		Amp_Decay
+Map	V26		Amp_Release
+Map	V27		Amp_Sustain
+Map	V28		Delay_Amount
+Map	V29		Delay_Damp
+Map	V30		Delay_Feedback
+Map	V31		Delay_On
+Map	V32		Delay_PingPong
+Map	V33		Delay_Sync
+Map	V34		Delay_Time
+Map	T7		Device Name
+Map	V35		Filter 1 Frequency
+Map	B37		Filter 1 Mode
+Map	V36		Filter 1 Resonance
+Map	B38		Filter 1 To Filter 2
+Map	V37		Filter 2 Frequency
+Map	B39		Filter 2 Mode
+Map	V38		Filter 2 Resonance
+Map	V39		Filter_Attack
+Map	V40		Filter_Cutoff
+Map	V41		Filter_Decay
+Map	V42		Filter_Env
+Map	V43		Filter_KeyFollow
+Map	V44		Filter_On
+Map	V45		Filter_Release
+Map	V46		Filter_Reso
+Map	V47		Filter_Sustain
+Map	V48		Filter_Type
+Map	V49		Filter_Velocity
+Map	V50		Finetune
+Map	V51		Instrument
+Map	V52		Master_Volume
+Map	V53		Mod Wheel
+Map	V54		ModWheel_to_Amp_Level
+Map	V55		Octave
+Map	V56		Osc 1 Filter Select
+Map	V57		Osc 2 Filter Select
+Map	V58		Osc 3 Filter Select
+Map	T8		Patch Name
+Map	V59		Pitch Bend
+Map	V60		Reverb_Amount
+Map	V61		Reverb_HighDamp
+Map	V62		Reverb_LowDamp
+Map	V63		Reverb_On
+Map	V64		Reverb_PreDelay
+Map	V65		Reverb_Time
+Map	V66		SampleStart
+Map	V67		Select Next Patch
+Map	V68		Select Previous Patch
+Map	V69		Semitune
+Map	V70		Synced_Delay_Time
+
+Scope	Propellerhead Software	se.propellerheads.Klang
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Klang"
+Map	V23		Aftertouch
+Map	V24		Amp_Attack
+Map	V25		Amp_Decay
+Map	V26		Amp_Release
+Map	V27		Amp_Sustain
+Map	V28		Delay Amount
+Map	V29		Delay_Damp
+Map	V30		Delay_Feedback
+Map	V31		Delay_On
+Map	V32		Delay_PingPong
+Map	V33		Delay_Sync
+Map	V34		Delay_Time
+Map	T7		Device Name
+Map	V35		Filter_Attack
+Map	V36		Filter_Cutoff
+Map	V37		Filter_Decay
+Map	V38		Filter_Env
+Map	V39		Filter_KeyFollow
+Map	V40		Filter_On
+Map	V41		Filter_Release
+Map	V42		Filter_Reso
+Map	V43		Filter_Sustain
+Map	V44		Filter_Type
+Map	V45		Filter_Velocity
+Map	V46		Finetune
+Map	V47		Instrument
+Map	V48		Master_Volume
+Map	V49		Mod Wheel
+Map	V50		Mod Wheel to Amp Level
+Map	V51		Octave
+Map	T8		Patch Name
+Map	V52		Pitch Bend
+Map	V53		Reverb Amount
+Map	V54		Reverb_HighDamp
+Map	V55		Reverb_LowDamp
+Map	V56		Reverb_On
+Map	V57		Reverb_PreDelay
+Map	V58		Reverb_Time
+Map	V59		SampleStart
+Map	V60		Select Next Patch
+Map	V61		Select Previous Patch
+Map	V62		Semitune
+Map	V63		Synced_Delay_Time
+
+Scope	Propellerhead Software	se.propellerheads.MasterCompressor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.MasterCompressor"
+Map	V23		Attack
+Map	T7		Device Name
+Map	V24		Enabled
+Map	V25		Input Gain
+Map	V26		Make-Up Gain
+Map	V27		Mix
+Map	T8		Patch Name
+Map	V28		Ratio
+Map	V29		Release
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+Map	V30		Sidechain
+Map	V31		Threshold
+
+Scope	Propellerhead Software	se.propellerheads.Mimic
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Mimic"
+Map	V23		Aftertouch
+Map	V24		Algorithm
+Map	V25		Amp Attack 1
+Map	V26		Amp Attack 2
+Map	V27		Amp Attack 3
+Map	V28		Amp Attack 4
+Map	V29		Amp Attack 5
+Map	V30		Amp Attack 6
+Map	V31		Amp Attack 7
+Map	V32		Amp Attack 8
+Map	V33		Amp Decay 1
+Map	V34		Amp Decay 2
+Map	V35		Amp Decay 3
+Map	V36		Amp Decay 4
+Map	V37		Amp Decay 5
+Map	V38		Amp Decay 6
+Map	V39		Amp Decay 7
+Map	V40		Amp Decay 8
+Map	V41		Amp Gain 1
+Map	V42		Amp Gain 2
+Map	V43		Amp Gain 3
+Map	V44		Amp Gain 4
+Map	V45		Amp Gain 5
+Map	V46		Amp Gain 6
+Map	V47		Amp Gain 7
+Map	V48		Amp Gain 8
+Map	V49		Amp Mod 1
+Map	V50		Amp Mod 2
+Map	V51		Amp Mod 3
+Map	V52		Amp Mod 4
+Map	V53		Amp Mod 5
+Map	V54		Amp Mod 6
+Map	V55		Amp Mod 7
+Map	V56		Amp Mod 8
+Map	V57		Amp ModAmt 1
+Map	V58		Amp ModAmt 2
+Map	V59		Amp ModAmt 3
+Map	V60		Amp ModAmt 4
+Map	V61		Amp ModAmt 5
+Map	V62		Amp ModAmt 6
+Map	V63		Amp ModAmt 7
+Map	V64		Amp ModAmt 8
+Map	V65		Amp Release 1
+Map	V66		Amp Release 2
+Map	V67		Amp Release 3
+Map	V68		Amp Release 4
+Map	V69		Amp Release 5
+Map	V70		Amp Release 6
+Map	V71		Amp Release 7
+Map	V72		Amp Release 8
+Map	V73		Amp Sustain 1
+Map	V74		Amp Sustain 2
+Map	V75		Amp Sustain 3
+Map	V76		Amp Sustain 4
+Map	V77		Amp Sustain 5
+Map	V78		Amp Sustain 6
+Map	V79		Amp Sustain 7
+Map	V80		Amp Sustain 8
+Map	V81		Amp Velocity 1
+Map	V82		Amp Velocity 2
+Map	V83		Amp Velocity 3
+Map	V84		Amp Velocity 4
+Map	V85		Amp Velocity 5
+Map	V86		Amp Velocity 6
+Map	V87		Amp Velocity 7
+Map	V88		Amp Velocity 8
+Map	T7		Device Name
+Map	V89		Effect Mix 1
+Map	V90		Effect Mix 2
+Map	V91		Effect Mix 3
+Map	V92		Effect Mix 4
+Map	V93		Effect Mix 5
+Map	V94		Effect Mix 6
+Map	V95		Effect Mix 7
+Map	V96		Effect Mix 8
+Map	V97		Effect Mod 1
+Map	V98		Effect Mod 2
+Map	V99		Effect Mod 3
+Map	V100		Effect Mod 4
+Map	V101		Effect Mod 5
+Map	V102		Effect Mod 6
+Map	V103		Effect Mod 7
+Map	V104		Effect Mod 8
+Map	B37		Effect Type 1
+Map	V105		Effect Type 2
+Map	V106		Effect Type 3
+Map	V107		Effect Type 4
+Map	V108		Effect Type 5
+Map	V109		Effect Type 6
+Map	V110		Effect Type 7
+Map	V111		Effect Type 8
+Map	V112		End Pos 1
+Map	V113		End Pos 2
+Map	V114		End Pos 3
+Map	V115		End Pos 4
+Map	V116		End Pos 5
+Map	V117		End Pos 6
+Map	V118		End Pos 7
+Map	V119		End Pos 8
+Map	V120		Filter Attack 1
+Map	V121		Filter Attack 2
+Map	V122		Filter Attack 3
+Map	V123		Filter Attack 4
+Map	V124		Filter Attack 5
+Map	V125		Filter Attack 6
+Map	V126		Filter Attack 7
+Map	V127		Filter Attack 8
+Map	V128		Filter Decay 1
+Map	V129		Filter Decay 2
+Map	V130		Filter Decay 3
+Map	V131		Filter Decay 4
+Map	V132		Filter Decay 5
+Map	V133		Filter Decay 6
+Map	V134		Filter Decay 7
+Map	V135		Filter Decay 8
+Map	V136		Filter Drive 1
+Map	V137		Filter Drive 2
+Map	V138		Filter Drive 3
+Map	V139		Filter Drive 4
+Map	V140		Filter Drive 5
+Map	V141		Filter Drive 6
+Map	V142		Filter Drive 7
+Map	V143		Filter Drive 8
+Map	V144		Filter Env 1
+Map	V145		Filter Freq 1
+Map	V146		Filter Freq 2
+Map	V147		Filter Freq 3
+Map	V148		Filter Freq 4
+Map	V149		Filter Freq 5
+Map	V150		Filter Freq 6
+Map	V151		Filter Freq 7
+Map	V152		Filter Freq 8
+Map	V153		Filter KBD 2
+Map	V154		Filter KBD 3
+Map	V155		Filter KBD 4
+Map	V156		Filter KBD 5
+Map	V157		Filter KBD 6
+Map	V158		Filter KBD 7
+Map	V159		Filter KBD 8
+Map	V160		Filter Mod 1
+Map	V161		Filter Mod 2
+Map	V162		Filter Mod 3
+Map	V163		Filter Mod 4
+Map	V164		Filter Mod 5
+Map	V165		Filter Mod 6
+Map	V166		Filter Mod 7
+Map	V167		Filter Mod 8
+Map	V168		Filter ModAmt 1
+Map	D17		Filter ModAmt 2
+Map	D18		Filter ModAmt 3
+Map	D19		Filter ModAmt 4
+Map	D20		Filter ModAmt 5
+Map	D21		Filter ModAmt 6
+Map	D22		Filter ModAmt 7
+Map	D23		Filter ModAmt 8
+Map	V169		Filter Release 1
+Map	V170		Filter Release 2
+Map	V171		Filter Release 3
+Map	V172		Filter Release 4
+Map	V173		Filter Release 5
+Map	V174		Filter Release 6
+Map	V175		Filter Release 7
+Map	V176		Filter Release 8
+Map	V177		Filter Reso 1
+Map	V178		Filter Reso 2
+Map	V179		Filter Reso 3
+Map	V180		Filter Reso 4
+Map	V181		Filter Reso 5
+Map	V182		Filter Reso 6
+Map	V183		Filter Reso 7
+Map	V184		Filter Reso 8
+Map	V185		Filter Sustain 1
+Map	V186		Filter Sustain 2
+Map	V187		Filter Sustain 3
+Map	V188		Filter Sustain 4
+Map	V189		Filter Sustain 5
+Map	V190		Filter Sustain 6
+Map	V191		Filter Sustain 7
+Map	V192		Filter Sustain 8
+Map	V193		Filter Type 1
+Map	V194		Filter Type 2
+Map	V195		Filter Type 3
+Map	V196		Filter Type 4
+Map	V197		Filter Type 5
+Map	V198		Filter Type 6
+Map	V199		Filter Type 7
+Map	V200		Filter Type 8
+Map	B38		Global Pos 1
+Map	B39		Global Pos 2
+Map	B40		Global Pos 3
+Map	B41		Global Pos 4
+Map	B42		Global Pos 5
+Map	B43		Global Pos 6
+Map	B44		Global Pos 7
+Map	B45		Global Pos 8
+Map	V201		Grain Len 1
+Map	V202		Grain Len 2
+Map	V203		Grain Len 3
+Map	V204		Grain Len 4
+Map	V205		Grain Len 5
+Map	V206		Grain Len 6
+Map	V207		Grain Len 7
+Map	V208		Grain Len 8
+Map	V209		Hi Cut 1
+Map	V210		Hi Cut 2
+Map	V211		Hi Cut 3
+Map	V212		Hi Cut 4
+Map	V213		Hi Cut 5
+Map	V214		Hi Cut 6
+Map	V215		Hi Cut 7
+Map	V216		Hi Cut 8
+Map	V217		Key Mode 1
+Map	V218		Key Mode 2
+Map	V219		Key Mode 3
+Map	V220		Key Mode 4
+Map	V221		Key Mode 5
+Map	V222		Key Mode 6
+Map	V223		Key Mode 7
+Map	V224		Key Mode 8
+Map	B46		LFO Beat Sync 1
+Map	B47		LFO Beat Sync 2
+Map	B48		LFO Beat Sync 3
+Map	B49		LFO Beat Sync 4
+Map	B50		LFO Beat Sync 5
+Map	B51		LFO Beat Sync 6
+Map	B52		LFO Beat Sync 7
+Map	B53		LFO Beat Sync 8
+Map	V225		LFO Delay 1
+Map	V226		LFO Delay 2
+Map	V227		LFO Delay 3
+Map	V228		LFO Delay 4
+Map	V229		LFO Delay 5
+Map	V230		LFO Delay 6
+Map	V231		LFO Delay 7
+Map	V232		LFO Delay 8
+Map	B54		LFO Key Sync 1
+Map	B55		LFO Key Sync 2
+Map	B56		LFO Key Sync 3
+Map	B57		LFO Key Sync 4
+Map	B58		LFO Key Sync 5
+Map	B59		LFO Key Sync 6
+Map	B60		LFO Key Sync 7
+Map	B61		LFO Key Sync 8
+Map	V233		LFO Rate 1
+Map	V234		LFO Rate 2
+Map	V235		LFO Rate 3
+Map	V236		LFO Rate 4
+Map	V237		LFO Rate 5
+Map	V238		LFO Rate 6
+Map	V239		LFO Rate 7
+Map	V240		LFO Rate 8
+Map	V241		LFO Synced Rate 1
+Map	V242		LFO Synced Rate 2
+Map	V243		LFO Synced Rate 3
+Map	V244		LFO Synced Rate 4
+Map	V245		LFO Synced Rate 5
+Map	V246		LFO Synced Rate 6
+Map	V247		LFO Synced Rate 7
+Map	V248		LFO Synced Rate 8
+Map	V249		LFO Wave 1
+Map	V250		LFO Wave 2
+Map	V251		LFO Wave 3
+Map	V252		LFO Wave 4
+Map	V253		LFO Wave 5
+Map	V254		LFO Wave 6
+Map	V255		LFO Wave 7
+Map	V256		LFO Wave 8
+Map	V257		Lo Cut 1
+Map	V258		Lo Cut 2
+Map	V259		Lo Cut 3
+Map	V260		Lo Cut 4
+Map	V261		Lo Cut 5
+Map	V262		Lo Cut 6
+Map	V263		Lo Cut 7
+Map	V264		Lo Cut 8
+Map	V265		Loop Length 1
+Map	V266		Loop Length 2
+Map	V267		Loop Length 3
+Map	V268		Loop Length 4
+Map	V269		Loop Length 5
+Map	V270		Loop Length 6
+Map	V271		Loop Length 7
+Map	V272		Loop Length 8
+Map	B62		Loop On 1
+Map	B63		Loop On 2
+Map	B64		Loop On 3
+Map	B65		Loop On 4
+Map	B66		Loop On 5
+Map	B67		Loop On 6
+Map	B68		Loop On 7
+Map	B69		Loop On 8
+Map	V273		Loop Xfade 1
+Map	V274		Loop Xfade 2
+Map	V275		Loop Xfade 3
+Map	V276		Loop Xfade 4
+Map	V277		Loop Xfade 5
+Map	V278		Loop Xfade 6
+Map	V279		Loop Xfade 7
+Map	V280		Loop Xfade 8
+Map	V281		Master Volume
+Map	V282		Pan 1
+Map	V283		Pan 2
+Map	V284		Pan 3
+Map	V285		Pan 4
+Map	V286		Pan 5
+Map	V287		Pan 6
+Map	V288		Pan 7
+Map	V289		Pan 8
+Map	V290		Pan Mod 1
+Map	V291		Pan Mod 2
+Map	V292		Pan Mod 3
+Map	V293		Pan Mod 4
+Map	V294		Pan Mod 5
+Map	V295		Pan Mod 6
+Map	V296		Pan Mod 7
+Map	V297		Pan Mod 8
+Map	T8		Patch Name
+Map	B70		Pitch Kbd 1
+Map	B71		Pitch Kbd 2
+Map	B72		Pitch Kbd 3
+Map	B73		Pitch Kbd 4
+Map	B74		Pitch Kbd 5
+Map	B75		Pitch Kbd 6
+Map	B76		Pitch Kbd 7
+Map	B77		Pitch Kbd 8
+Map	V298		Pitch Mod 1
+Map	V299		Pitch Mod 2
+Map	V300		Pitch Mod 3
+Map	V301		Pitch Mod 4
+Map	V302		Pitch Mod 5
+Map	V303		Pitch Mod 6
+Map	V304		Pitch Mod 7
+Map	V305		Pitch Mod 8
+Map	V306		Pitch Semi 1
+Map	V307		Pitch Semi 2
+Map	V308		Pitch Semi 3
+Map	V309		Pitch Semi 4
+Map	V310		Pitch Semi 5
+Map	V311		Pitch Semi 6
+Map	V312		Pitch Semi 7
+Map	V313		Pitch Semi 8
+Map	V314		Pitchbend Range 1
+Map	V315		Pitchbend Range 2
+Map	V316		Pitchbend Range 3
+Map	V317		Pitchbend Range 4
+Map	V318		Pitchbend Range 5
+Map	V319		Pitchbend Range 6
+Map	V320		Pitchbend Range 7
+Map	V321		Pitchbend Range 8
+Map	B78		Play Mode
+Map	B79		Play Thru 1
+Map	B80		Play Thru 2
+Map	B81		Play Thru 3
+Map	B82		Play Thru 4
+Map	B83		Play Thru 5
+Map	B84		Play Thru 6
+Map	B85		Play Thru 7
+Map	B86		Play Thru 8
+Map	V322		Portamento Mode 1
+Map	V323		Portamento Mode 2
+Map	V324		Portamento Mode 3
+Map	V325		Portamento Mode 4
+Map	V326		Portamento Mode 5
+Map	V327		Portamento Mode 6
+Map	V328		Portamento Mode 7
+Map	V329		Portamento Mode 8
+Map	V330		Portamento Rate 1
+Map	V331		Reverse 1
+Map	B87		Reverse 2
+Map	B88		Reverse 3
+Map	B89		Reverse 4
+Map	B90		Reverse 5
+Map	B91		Reverse 6
+Map	B92		Reverse 7
+Map	B93		Reverse 8
+Map	V332		Select Next Patch
+Map	V333		Select Previous Patch
+Map	V334		Send1 1
+Map	V335		Send1 2
+Map	V336		Send1 3
+Map	V337		Send1 4
+Map	V338		Send1 5
+Map	V339		Send1 6
+Map	V340		Send1 7
+Map	V341		Send1 8
+Map	V342		Send2 2
+Map	V343		Send2 3
+Map	V344		Send2 4
+Map	V345		Send2 5
+Map	V346		Send2 6
+Map	V347		Send2 7
+Map	V348		Send2 8
+Map	V349		Slice Sens 1
+Map	V350		Slice Sens 2
+Map	V351		Slice Sens 3
+Map	V352		Slice Sens 4
+Map	V353		Slice Sens 5
+Map	V354		Slice Sens 6
+Map	V355		Slice Sens 7
+Map	V356		Slice Sens 8
+Map	B94		Snap Slices 1
+Map	B95		Snap Slices 2
+Map	B96		Snap Slices 3
+Map	B97		Snap Slices 4
+Map	B98		Snap Slices 5
+Map	B99		Snap Slices 6
+Map	B100		Snap Slices 7
+Map	B101		Snap Slices 8
+Map	V357		Speed Mod 1
+Map	V358		Speed Mod 2
+Map	V359		Speed Mod 3
+Map	V360		Speed Mod 4
+Map	V361		Speed Mod 5
+Map	V362		Speed Mod 6
+Map	V363		Speed Mod 7
+Map	V364		Speed Mod 8
+Map	V365		Speed ModAmt 1
+Map	V366		Speed ModAmt 2
+Map	V367		Speed ModAmt 3
+Map	V368		Speed ModAmt 4
+Map	V369		Speed ModAmt 5
+Map	V370		Speed ModAmt 6
+Map	V371		Speed ModAmt 7
+Map	V372		Speed ModAmt 8
+Map	V373		Squeeze 1
+Map	V374		Squeeze 2
+Map	V375		Squeeze 3
+Map	V376		Squeeze 4
+Map	V377		Squeeze 5
+Map	V378		Squeeze 6
+Map	V379		Squeeze 7
+Map	V380		Squeeze 8
+Map	V381		Start Mod 1
+Map	V382		Start Mod 2
+Map	V383		Start Mod 3
+Map	V384		Start Mod 4
+Map	V385		Start Mod 5
+Map	V386		Start Mod 6
+Map	V387		Start Mod 7
+Map	V388		Start Mod 8
+Map	V389		Start Pos 1
+Map	V390		Start Pos 2
+Map	V391		Start Pos 3
+Map	V392		Start Pos 4
+Map	V393		Start Pos 5
+Map	V394		Start Pos 6
+Map	V395		Start Pos 7
+Map	V396		Start Pos 8
+Map	V397		Stretch Mode 1
+Map	V398		Stretch Mode 2
+Map	V399		Stretch Mode 3
+Map	V400		Stretch Mode 4
+Map	V401		Stretch Mode 5
+Map	V402		Stretch Mode 6
+Map	V403		Stretch Mode 7
+Map	V404		Stretch Mode 8
+Map	V405		Stretch Speed 1
+Map	V406		Stretch Speed 2
+Map	V407		Stretch Speed 3
+Map	V408		Stretch Speed 4
+Map	V409		Stretch Speed 5
+Map	V410		Stretch Speed 6
+Map	V411		Stretch Speed 7
+Map	V412		Stretch Speed 8
+Map	V413		Transients On 1
+Map	V414		Transients On 2
+Map	V415		Transients On 3
+Map	V416		Transients On 4
+Map	V417		Transients On 5
+Map	V418		Transients On 6
+Map	V419		Transients On 7
+Map	V420		Transients On 8
+Map	V421		Tune 1
+Map	V422		Tune 2
+Map	V423		Tune 3
+Map	V424		Tune 4
+Map	V425		Tune 5
+Map	V426		Tune 6
+Map	V427		Tune 7
+Map	V428		Tune 8
+Map	V429		Voice Fixed 1
+Map	V430		Voice Fixed 2
+Map	V431		Voice Fixed 3
+Map	V432		Voice Fixed 4
+Map	V433		Voice Fixed 5
+Map	V434		Voice Fixed 6
+Map	V435		Voice Fixed 7
+Map	V436		Voice Fixed 8
+Map	V437		Voice Formant 1
+
+Scope	Propellerhead Software	se.propellerheads.Monotone
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Monotone"
+Map	V23		Amp Attack
+Map	V24		Amp Decay
+Map	V25		Amp Release
+Map	V26		Amp Sustain
+Map	V27		Chorus Amount
+Map	V28		Chorus Rate
+Map	V29		Chorus Spread
+Map	V30		Delay Amount
+Map	V31		Delay Feedback
+Map	V32		Delay Pingpong
+Map	V33		Delay Time
+Map	T7		Device Name
+Map	V34		FM Env Amt
+Map	V35		Filter Attack
+Map	V36		Filter Decay
+Map	V37		Filter Drive
+Map	V38		Filter Env Amount
+Map	V39		Filter Freq
+Map	V40		Filter Key Amt
+Map	V41		Filter LFO Amt
+Map	V42		Filter Release
+Map	V43		Filter Reso
+Map	V44		Filter Sustain
+Map	V45		LFO Rate
+Map	V46		LFO Wave
+Map	V47		Mod Wheel
+Map	V48		Noise
+Map	V49		Osc Detune
+Map	V50		Osc Mix
+Map	V51		Osc1 Oct
+Map	V52		Osc1 Wave
+Map	V53		Osc2 Oct
+Map	V54		Osc2 Pitch
+Map	V55		Osc2 Wave
+Map	T8		Patch Name
+Map	V56		Pitch Bend
+Map	V57		Pitch LFO Amt
+Map	V58		Portamento
+Map	V59		Portamento Mode
+Map	V60		ReTrig
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+Map	V61		Volume
+
+Scope	Propellerhead Software	se.propellerheads.NoteEcho
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.NoteEcho"
+Map	B37		On/Off
+Map	T7		Patch Name
+Map	V23		Repeats
+Map	B38		Select Next Patch
+Map	B39		Select Previous Patch
+Map	V24		Step Length Free
+Map	B40		Tempo Sync
+Map	V25		Velocity
+
+Scope	Propellerhead Software	se.propellerheads.Objekt
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Objekt"
+Map	V23		Comp On
+Map	V24		Comp Release
+Map	V25		Comp Threshold
+Map	V26		Curve Beat Sync
+Map	V27		Curve Length
+Map	V28		Curve Rate
+Map	V29		Curve Sync Rate
+Map	D17		Delay Amount
+Map	D18		Delay Feedback
+Map	V30		Delay On
+Map	B37		Delay PingPong
+Map	V31		Delay Sync
+Map	T7		Device Name
+Map	V32		Dist Amount
+Map	V33		Dist Drive
+Map	V34		Dist On
+Map	V35		Dist Type
+Map	V36		EQ On
+Map	B38		Effect Select
+Map	V37		Env Attack
+Map	V38		Env Decay
+Map	V39		Env Release
+Map	V40		Env Sustain
+Map	V41		Extern Input On
+Map	V42		Impact Diffuse On
+Map	V43		Impact Diffuse Time
+Map	V44		Impact Freq
+Map	V45		Impact Hardness
+Map	V46		Impact Level
+Map	V47		LFO 1 Beat Sync
+Map	V48		LFO 1 Global
+Map	V49		LFO 1 Rate
+Map	V50		LFO 1 Sync Rate
+Map	V51		LFO 2 Beat Sync
+Map	V52		LFO 2 Global
+Map	V53		LFO 2 Rate
+Map	V54		LFO 2 Sync Rate
+Map	B39		LFO Select
+Map	V55		Macro 1
+Map	V56		Macro 1 Bipolar
+Map	V57		Macro 2
+Map	V58		Macro 2 Bipolar
+Map	V59		Master Volume
+Map	V60		Mod1 Amt
+Map	V61		Mod1 Dest
+Map	V62		Mod1 Dest2
+Map	V63		Mod1 Source
+Map	V64		Mod2 Amt
+Map	V65		Mod2 Dest
+Map	V66		Mod2 Dest2
+Map	V67		Mod2 Source
+Map	V68		Mod3 Amt
+Map	V69		Mod3 Dest
+Map	V70		Mod3 Dest2
+Map	V71		Mod3 Source
+Map	V72		Mod4 Amt
+Map	V73		Mod4 Dest
+Map	V74		Mod4 Dest2
+Map	V75		Mod4 Source
+Map	V76		Mod5 Amt
+Map	V77		Mod5 Dest
+Map	V78		Mod5 Dest2
+Map	V79		Mod5 Source
+Map	V80		Mod6 Amt
+Map	V81		Mod6 Dest
+Map	V82		Mod6 Dest2
+Map	V83		Mod6 Source
+Map	V84		Mod7 Amt
+Map	V85		Mod7 Dest
+Map	V86		Mod7 Dest2
+Map	V87		Mod7 Source
+Map	V88		Mod8 Amt
+Map	V89		Mod8 Dest
+Map	V90		Mod8 Dest2
+Map	V91		Mod8 Source
+Map	V92		Modal Decay
+Map	V93		Modal Mix Level
+Map	V94		Modal On
+Map	V95		Modal Pickup Drive
+Map	V96		Modal Pickup On
+Map	V97		Modal Pickup Symmetry
+Map	V98		Modal Poles
+Map	B40		Modal Release Mute
+Map	V99		Noise Level
+Map	V100		Noise Rate
+Map	V101		Noise Type
+Map	V102		Obj 1 Collision Amount
+Map	V103		Obj 1 Collision Bounce
+Map	V104		Obj 1 Coupling Mode
+Map	V105		Obj 1 Coupling X-over Freq
+Map	V106		Obj 1 Damping Hi Freq
+Map	V107		Obj 1 Damping Hi Slope
+Map	V108		Obj 1 Decay
+Map	V109		Obj 1 Disp Filter
+Map	V110		Obj 1 Disp Freq
+Map	V111		Obj 1 Disp Mod
+Map	V112		Obj 1 Input Mix
+Map	V113		Obj 1 Mix Level
+Map	V114		Obj 1 Mix Lo Cut
+Map	V115		Obj 1 On
+Map	V116		Obj 1 PitchMod Amt
+Map	V117		Obj 1 PitchMod Filter
+Map	V118		Obj 1 Polarity 1
+Map	V119		Obj 1 Polarity 2
+Map	V120		Obj 1 Polarity 3
+Map	V121		Obj 1 Polarity 4
+Map	V122		Obj 1 Polarity 5
+Map	V123		Obj 1 Polarity 6
+Map	V124		Obj 1 Polarity 7
+Map	V125		Obj 1 Polarity 8
+Map	V126		Obj 1 Poles
+Map	B41		Obj 1 Release Mute
+Map	V127		Obj 2 Collision Amount
+Map	V128		Obj 2 Collision Bounce
+Map	V129		Obj 2 Coupling Mode
+Map	V130		Obj 2 Coupling X-over Freq
+Map	V131		Obj 2 Damping Hi Freq
+Map	V132		Obj 2 Damping Hi Slope
+Map	V133		Obj 2 Decay
+Map	V134		Obj 2 Disp Filter
+Map	V135		Obj 2 Disp Freq
+Map	V136		Obj 2 Disp Mod
+Map	V137		Obj 2 Input Mix
+Map	V138		Obj 2 Mix Level
+Map	V139		Obj 2 Mix Lo Cut
+Map	V140		Obj 2 On
+Map	V141		Obj 2 PitchMod Amt
+Map	V142		Obj 2 PitchMod Lp
+Map	V143		Obj 2 Polarity 1
+Map	V144		Obj 2 Polarity 2
+Map	V145		Obj 2 Polarity 3
+Map	V146		Obj 2 Polarity 4
+Map	V147		Obj 2 Polarity 5
+Map	V148		Obj 2 Polarity 6
+Map	V149		Obj 2 Polarity 7
+Map	V150		Obj 2 Polarity 8
+Map	V151		Obj 2 Poles
+Map	B42		Obj 2 Release Mute
+Map	B43		Obj Select
+Map	T8		Patch Name
+Map	V152		Polyphony
+Map	D19		Reverb Decay
+Map	D20		Reverb Level
+Map	V153		Reverb On
+Map	B44		Reverb Type
+Map	B45		Select Next Patch
+Map	B46		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.Osmium
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Osmium"
+Map	V23		Bitcrush Bits 2
+Map	V24		Bitcrush Rate 2
+Map	V25		Bitcrush Type 2
+Map	V26		CV Button
+Map	T7		Device Name
+Map	V27		Drive 2
+Map	V28		DryWet
+Map	D17		EQ Freq 2
+Map	D18		EQ Gain 2
+Map	D19		EQ Hi Gain 2
+Map	D20		EQ Lo Gain 2
+Map	V29		EQ Q 2
+Map	V30		Enabled
+Map	V31		Filter Freq 2
+Map	V32		Filter Reso 2
+Map	V33		Filter Slope 2
+Map	V34		Fold Type 2
+Map	V35		Level 2
+Map	V36		Master Level
+Map	V37		Mix 2
+Map	V38		Morph Type 2
+Map	V39		Morph Width 2
+Map	V40		Morph X 2
+Map	V41		Morph Y 2
+Map	V42		Overdrive Type 2
+Map	T8		Patch Name
+Map	V43		Saturation Type 2
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+Map	V44		Tone 2
+
+Scope	Propellerhead Software	se.propellerheads.PX7
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.PX7"
+Map	V23		Algorithm
+Map	V24		Attack
+Map	V25		Brightness
+Map	V26		Decay
+Map	V27		LFO Speed
+Map	V28		LFO Speed Tempo Synced
+Map	B37		LFO Tempo Sync
+Map	B38		LFO Waveform
+Map	V29		Operator 1 Freq Coarse
+Map	B39		Operator 1 Freq Mode
+Map	V30		Operator 1 Output Level
+Map	V31		Operator 2 Freq Coarse
+Map	B40		Operator 2 Freq Mode
+Map	V32		Operator 2 Output Level
+Map	V33		Operator 3 Freq Coarse
+Map	B41		Operator 3 Freq Mode
+Map	V34		Operator 3 Output Level
+Map	V35		Operator 4 Freq Coarse
+Map	B42		Operator 4 Freq Mode
+Map	V36		Operator 4 Output Level
+Map	V37		Operator 5 Freq Coarse
+Map	B43		Operator 5 Freq Mode
+Map	V38		Operator 5 Output Level
+Map	V39		Operator 6 Freq Coarse
+Map	B44		Operator 6 Freq Mode
+Map	V40		Operator 6 Output Level
+Map	V41		Operator Feedback
+Map	V42		Portamento Time
+Map	B45		Select Next Patch
+Map	B46		Select Previous Patch
+Map	V43		Touch Senstivity
+Map	V44		Volume
+
+Scope	Propellerhead Software	se.propellerheads.Pangea
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Pangea"
+Map	V23		Aftertouch
+Map	V24		Amp_Attack
+Map	V25		Amp_Decay
+Map	V26		Amp_Release
+Map	V27		Amp_Sustain
+Map	V28		Delay_Amount
+Map	V29		Delay_Damp
+Map	V30		Delay_Feedback
+Map	V31		Delay_On
+Map	V32		Delay_PingPong
+Map	V33		Delay_Sync
+Map	V34		Delay_Time
+Map	T7		Device Name
+Map	V35		Filter_Attack
+Map	V36		Filter_Cutoff
+Map	V37		Filter_Decay
+Map	V38		Filter_Env
+Map	V39		Filter_KeyFollow
+Map	V40		Filter_On
+Map	V41		Filter_Release
+Map	V42		Filter_Reso
+Map	V43		Filter_Sustain
+Map	V44		Filter_Type
+Map	V45		Filter_Velocity
+Map	V46		Finetune
+Map	V47		Instrument
+Map	V48		Master_Volume
+Map	V49		Mod Wheel
+Map	V50		ModWheel_to_Amp_Level
+Map	V51		Octave
+Map	T8		Patch Name
+Map	V52		Pitch Bend
+Map	V53		Reverb_Amount
+Map	V54		Reverb_HighDamp
+Map	V55		Reverb_LowDamp
+Map	V56		Reverb_On
+Map	V57		Reverb_PreDelay
+Map	V58		Reverb_Time
+Map	V59		SampleStart
+Map	V60		Select Next Patch
+Map	V61		Select Previous Patch
+Map	V62		Semitune
+Map	V63		Synced_Delay_Time
+
+Scope	Propellerhead Software	se.propellerheads.Parsec
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Parsec"
+Map	V23		A Cutoff Freq
+Map	V24		A Cutoff Kbd
+Map	V25		A Cutoff Slope
+Map	V26		A Gen Select
+Map	V27		A Gen X
+Map	V28		A Mod1 On
+Map	V29		A Mod1 Select
+Map	V30		A Mod1 X
+Map	V31		A Mod1 Y
+Map	V32		A Mod2 On
+Map	V33		A Mod2 Select
+Map	V34		A Mod2 X
+Map	V35		A Mod2 Y
+Map	V36		A Oct
+Map	V37		A Phase Sync
+Map	V38		Aftertouch
+Map	V39		Amp Attack
+Map	V40		Amp Decay
+Map	V41		Amp Release
+Map	V42		Amp Sustain
+Map	V43		B Cutoff Freq
+Map	V44		B Cutoff Kbd
+Map	V45		B Cutoff Slope
+Map	B37		B Enable
+Map	V46		B Gen Select
+Map	V47		B Gen X
+Map	V48		B Mod1 On
+Map	V49		B Mod1 Select
+Map	V50		B Mod1 X
+Map	V51		B Mod1 Y
+Map	V52		B Mod2 On
+Map	V53		B Mod2 Select
+Map	V54		B Mod2 X
+Map	V55		B Mod2 Y
+Map	V56		B Oct
+Map	V57		B Phase Sync
+Map	V58		Balance
+Map	V59		Delay DryWet
+Map	V60		Delay Feedback
+Map	V61		Delay On
+Map	B38		Delay Sync
+Map	V62		Delay Time
+Map	V63		Delay Time Synced
+Map	T7		Device Name
+Map	V64		Env1 Attack
+Map	V65		Env1 Decay
+Map	V66		Env1 Release
+Map	V67		Env1 Sustain
+Map	V68		Env2 Attack
+Map	V69		Env2 Decay
+Map	V70		Env2 Delay
+Map	V71		Env2 Hold
+Map	B39		Env2 Loop
+Map	V72		Env2 Release
+Map	V73		Env2 Sustain
+Map	V74		Gain
+Map	B40		Key Mode
+Map	V75		LFO1 Delay
+Map	V76		LFO1 Rate
+Map	V77		LFO1 Wave
+Map	V78		LFO2 Rate
+Map	V79		LFO2 Sync
+Map	V80		LFO2 Synced Rate
+Map	V81		LFO2 Wave
+Map	V82		Link Engines
+Map	V83		Master Level
+Map	V84		Mod1 Dest1
+Map	V85		Mod1 Dest1 Amt
+Map	V86		Mod2 Dest1
+Map	V87		Mod2 Dest1 Amt
+Map	V88		Mod3 Dest1
+Map	V89		Mod3 Dest1 Amt
+Map	V90		Mod4 Dest1
+Map	V91		Mod4 Dest1 Amt
+Map	V92		Mod5 Dest1
+Map	V93		Mod5 Dest1 Amt
+Map	V94		Mod6 Dest1
+Map	V95		Mod6 Dest1 Amt
+Map	V96		Mod7 Dest1
+Map	V97		Mod7 Dest1 Amt
+Map	V98		Mod8 Dest1
+Map	V99		Mod8 Dest1 Amt
+Map	T8		Patch Name
+Map	V100		Portamento
+Map	B41		Portamento Mode
+Map	V101		Reverb Damp
+Map	V102		Reverb Decay
+Map	V103		Reverb Level
+Map	V104		Reverb On
+Map	V105		Reverb Size
+Map	V106		Select Next Patch
+Map	V107		Select Previous Patch
+Map	V108		Source 1
+Map	V109		Source 2
+Map	V110		Source 3
+Map	V111		Source 4
+Map	V112		Source 5
+Map	V113		Source 6
+Map	V114		Source 7
+Map	V115		Source 8
+Map	V116		Spread
+
+Scope	Propellerhead Software	se.propellerheads.Polar
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Polar"
+Map	V23		Algorithm Type
+Map	V24		Analysis Type
+Map	V25		Auto Pan Rate
+Map	V26		Buffer Env Amount
+Map	V27		Buffer LFO Amount
+Map	V28		Delay/Buffer Delay Mode
+Map	V29		Delay/Buffer Position
+Map	T7		Device Name
+Map	V30		Dry Auto Pan Amount
+Map	V31		Dry Delay
+Map	B37		Dry Enable
+Map	V32		Dry Level
+Map	V33		Dry Pan
+Map	B38		Enabled
+Map	B39		Env To Amp
+Map	V34		Envelope Attack
+Map	V35		Envelope Decay
+Map	B40		Envelope Gate
+Map	V36		Envelope Release
+Map	V37		Envelope Sustain
+Map	V38		Filter Enable
+Map	V39		Filter Env Amount
+Map	V40		Filter Frequency
+Map	V41		Filter Keyboard Tracking
+Map	V42		Filter LFO Amount
+Map	V43		Filter Resonance
+Map	V44		Filter Type
+Map	B41		Keyboard Input Enable
+Map	V45		LFO Phase
+Map	V46		LFO Rate Free
+Map	V47		LFO Rate Synced
+Map	V48		LFO Tempo Sync
+Map	V49		LFO Waveform
+Map	B42		Lock Buffer
+Map	V50		Loop Length
+Map	T8		Patch Name
+Map	B43		Select Next Patch
+Map	B44		Select Previous Patch
+Map	V51		Shifter 1 Auto Pan
+Map	V52		Shifter 1 Env Amount
+Map	V53		Shifter 1 Feedback
+Map	V54		Shifter 1 Fine
+Map	V55		Shifter 1 LFO Amount
+Map	V56		Shifter 1 Level
+Map	V57		Shifter 1 Semi
+Map	V58		Shifter 2 Auto Pan
+Map	V59		Shifter 2 Delay
+Map	B45		Shifter 2 Enable
+Map	V60		Shifter 2 Env Amount
+Map	V61		Shifter 2 Feedback
+Map	V62		Shifter 2 Fine
+Map	V63		Shifter 2 LFO Amount
+Map	V64		Shifter 2 Level
+Map	V65		Shifter 2 Semi
+
+Scope	Propellerhead Software	se.propellerheads.Polytone
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Polytone"
+Map	V23		Amp Env Attack A
+Map	V24		Amp Env Attack B
+Map	V25		Amp Env Decay A
+Map	V26		Amp Env Decay B
+Map	V27		Amp Env Release A
+Map	V28		Amp Env Release B
+Map	V29		Amp Env Sustain A
+Map	V30		Amp Env Sustain B
+Map	V31		Chorus Amount
+Map	V32		Chorus Type
+Map	T7		Device Name
+Map	V33		FM Amt A
+Map	V34		FM Amt B
+Map	V35		Filter Env Amt A
+Map	V36		Filter Env Amt B
+Map	V37		Filter Env Attack A
+Map	V38		Filter Env Attack B
+Map	V39		Filter Env Decay A
+Map	V40		Filter Env Decay B
+Map	V41		Filter Env Release A
+Map	V42		Filter Env Release B
+Map	V43		Filter Env Sustain A
+Map	V44		Filter Env Sustain B
+Map	V45		Filter Freq A
+Map	V46		Filter Freq B
+Map	V47		Filter Reso A
+Map	V48		Filter Reso B
+Map	V49		Filter Type A
+Map	V50		Filter Type B
+Map	V51		Global LFO Rate
+Map	V52		Layer Balance
+Map	V53		Master Volume
+Map	V54		Noise Level A
+Map	V55		Noise Level B
+Map	D17		Osc 1 Pitch A
+Map	D18		Osc 1 Pitch B
+Map	V56		Osc 1 Shape A
+Map	V57		Osc 1 Shape B
+Map	V58		Osc 1 Wave A
+Map	V59		Osc 1 Wave B
+Map	V60		Osc 2 Shape A
+Map	V61		Osc 2 Shape B
+Map	V62		Osc 2 Wave A
+Map	V63		Osc 2 Wave B
+Map	V64		Osc Mix A
+Map	V65		Osc Mix B
+Map	V66		Osc Sync A
+Map	V67		Osc Sync B
+Map	T8		Patch Name
+Map	V68		Portamento Mode A
+Map	V69		Reverb Amount
+Map	V70		Reverb Decay
+Map	V71		Reverb Type
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.ProcessedPianos
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ProcessedPianos"
+Map	V23		Aftertouch
+Map	V24		Bass
+Map	V25		Chorus_Depth
+Map	B37		Chorus_Enabled
+Map	B38		Chorus_Mode
+Map	V26		Chorus_Rate
+Map	V27		Clean_Level
+Map	V28		Compressor_Attack
+Map	V29		Compressor_DryWet
+Map	V30		Compressor_MakeUpGain
+Map	B39		Compressor_On
+Map	V31		Compressor_Ratio
+Map	V32		Compressor_Release
+Map	V33		Compressor_Threshold
+Map	T7		Device Name
+Map	V34		EQ_HiFreq
+Map	V35		EQ_HiGain
+Map	V36		EQ_HiMidFreq
+Map	V37		EQ_HiMidGain
+Map	V38		EQ_HiMidQ
+Map	V39		EQ_LoMidFreq
+Map	V40		EQ_LoMidGain
+Map	V41		EQ_LoMidQ
+Map	V42		EQ_LowFreq
+Map	V43		EQ_LowGain
+Map	V44		EQ_On
+Map	V45		Echo_Feedback_Amount
+Map	V46		Echo_Feedback_Filter
+Map	V47		Echo_Feedback_Saturation
+Map	V48		Echo_Level
+Map	B40		Echo_On
+Map	B41		Echo_Sync
+Map	V49		Echo_Synced_Time
+Map	V50		Echo_Tap_Resonance
+Map	V51		Echo_Time
+Map	V52		Filter_Enabled
+Map	V53		Filter_Frequency
+Map	V54		Filter_Mode
+Map	B42		Filter_Position
+Map	V55		Filter_Resonance
+Map	V56		FreqShifter_Depth
+Map	V57		FreqShifter_DryWet
+Map	B43		FreqShifter_Enabled
+Map	V58		FreqShifter_Feedback
+Map	V59		FreqShifter_Range
+Map	V60		InsertEchoAmount
+Map	V61		InsertFX_Level
+Map	V62		InsertReverbAmount
+Map	V63		LFO_1_Rate
+Map	V64		LFO_2_Rate
+Map	V65		LoFi_BitDepth
+Map	V66		LoFi_Distortion
+Map	V67		LoFi_DryWet
+Map	V68		LoFi_Enabled
+Map	V69		LoFi_SampleRate
+Map	V70		Mic_A_Attack
+Map	V71		Mic_A_DryLevel
+Map	V72		Mic_A_EchoAmount
+Map	V73		Mic_A_FXLevel
+Map	V74		Mic_A_HammerNoise
+Map	V75		Mic_A_HiCut
+Map	V76		Mic_A_LowCut
+Map	V77		Mic_A_On
+Map	V78		Mic_A_Pan
+Map	V79		Mic_A_ReverbAmount
+Map	V80		Mic_A_StereoWidth
+Map	V81		Mic_B_Attack
+Map	V82		Mic_B_DryLevel
+Map	V83		Mic_B_EchoAmount
+Map	V84		Mic_B_FXLevel
+Map	V85		Mic_B_HammerNoise
+Map	V86		Mic_B_HiCut
+Map	V87		Mic_B_LowCut
+Map	V88		Mic_B_On
+Map	V89		Mic_B_Pan
+Map	V90		Mic_B_ReverbAmount
+Map	V91		Mic_B_StereoWidth
+Map	V92		Mic_C_Attack
+Map	V93		Mic_C_DryLevel
+Map	V94		Mic_C_EchoAmount
+Map	V95		Mic_C_FXLevel
+Map	V96		Mic_C_HammerNoise
+Map	V97		Mic_C_HiCut
+Map	V98		Mic_C_LowCut
+Map	V99		Mic_C_On
+Map	V100		Mic_C_Pan
+Map	V101		Mic_C_ReverbAmount
+Map	V102		Mic_C_StereoWidth
+Map	V103		Mod_Matrix_Amount_1
+Map	V104		Mod_Matrix_Amount_2
+Map	V105		Mod_Matrix_Amount_3
+Map	T8		Patch Name
+Map	V106		Reverb_HiDamp
+Map	V107		Reverb_Level
+Map	V108		Reverb_LoDamp
+Map	B44		Reverb_On
+Map	V109		Reverb_PreDelay
+Map	V110		Reverb_Shimmer
+Map	V111		Reverb_Time
+Map	B45		Select Next Patch
+Map	B46		Select Previous Patch
+Map	V112		Treble
+Map	V113		Volume
+
+Scope	Propellerhead Software	se.propellerheads.Pulsar
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Pulsar"
+Map	V23		Attack
+Map	T7		Device Name
+Map	V24		Keyboard Track
+Map	V25		LFO1 ENV Level
+Map	V26		LFO1 Env Rate
+Map	V27		LFO1 Env Sync
+Map	V28		LFO1 Lag
+Map	V29		LFO1 Level
+Map	V30		LFO1 Phase
+Map	V31		LFO1 Rate Free
+Map	V32		LFO1 Rate Synced
+Map	V33		LFO1 Shuffle
+Map	V34		LFO1 Tempo Sync
+Map	V35		LFO1 Waveform
+Map	V36		LFO2 ENV Level
+Map	V37		LFO2 Enabled
+Map	V38		LFO2 Env Rate
+Map	V39		LFO2 Lag
+Map	V40		LFO2 Level
+Map	V41		LFO2 Phase
+Map	V42		LFO2 Rate Free
+Map	V43		LFO2 Rate Synced
+Map	V44		LFO2 Shuffle
+Map	V45		LFO2 Tempo Sync
+Map	V46		LFO2 Triggers Envelope
+Map	V47		LFO2 Waveform
+Map	V48		LFO2 to LFO1 Level
+Map	V49		LFO2 to LFO1 Rate
+Map	V50		Release
+Map	V51		Sync LFO1 to LFO2
+Map	B37		Trig
+
+Scope	Propellerhead Software	se.propellerheads.Quartet
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Quartet"
+Map	V23		BBD Delay
+Map	V24		BBD Depth
+Map	V25		BBD DryWet
+Map	V26		BBD Noise
+Map	V27		BBD Rate
+Map	V28		BBD Width
+Map	V29		Chorus Delay
+Map	V30		Chorus Depth
+Map	V31		Chorus DryWet
+Map	V32		Chorus Feedback
+Map	V33		Chorus Rate
+Map	V34		Chorus Width
+Map	T7		Device Name
+Map	V35		Effect Select
+Map	V36		Enabled
+Map	V37		FFT Depth
+Map	V38		FFT DryWet
+Map	V39		FFT End
+Map	V40		FFT Size
+Map	V41		FFT Start
+Map	V42		FFT Width
+Map	V43		Grain Density
+Map	V44		Grain Depth
+Map	V45		Grain DryWet
+Map	V46		Grain Jitter
+Map	V47		Grain Phase
+Map	V48		Grain Size
+Map	V49		Grain Width
+Map	T8		Patch Name
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+Map	V50		Stereo Mode
+
+Scope	Propellerhead Software	se.propellerheads.RDK
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.RDK"
+Map	T7		Device Name
+Map	T8		Patch Name
+Map	V23		Select Next Patch
+Map	V24		Select Previous Patch
+Map	V25		am_cmp_makeup
+Map	B37		am_cmp_on
+Map	V26		am_cmp_ratio
+Map	V27		am_cmp_thrs
+Map	V28		am_dist_drive
+Map	B38		am_dist_mode
+Map	B39		am_dist_on
+Map	V29		am_eq_hs_freq
+Map	V30		am_eq_hs_gain
+Map	V31		am_eq_ls_freq
+Map	V32		am_eq_ls_gain
+Map	B40		am_eq_on
+Map	V33		am_eq_peak_freq
+Map	V34		am_eq_peak_gain
+Map	V35		am_eq_peak_q
+Map	V36		am_mix_mute
+Map	V37		am_mix_vol
+Map	V38		am_mix_width
+Map	V39		bd_decay
+Map	V40		bd_dist_drive
+Map	B41		bd_dist_mode
+Map	B42		bd_dist_on
+Map	V41		bd_eq_hs_freq
+Map	V42		bd_eq_hs_gain
+Map	V43		bd_eq_ls_freq
+Map	V44		bd_eq_ls_gain
+Map	B43		bd_eq_on
+Map	V45		bd_eq_peak_freq
+Map	V46		bd_eq_peak_gain
+Map	V47		bd_eq_peak_q
+Map	V48		bd_level
+Map	V49		bd_mix_mute
+Map	V50		bd_mix_vol
+Map	V51		bd_pan
+Map	V52		bd_pitch
+Map	V53		bd_rvb_send
+Map	B44		bd_trans_on
+Map	V54		clfs_dist_drive
+Map	B45		clfs_dist_mode
+Map	B46		clfs_dist_on
+Map	V55		clfs_eq_hs_freq
+Map	V56		clfs_eq_hs_gain
+Map	V57		clfs_eq_ls_freq
+Map	V58		clfs_eq_ls_gain
+Map	B47		clfs_eq_on
+Map	V59		clfs_eq_peak_freq
+Map	V60		clfs_eq_peak_gain
+Map	V61		clfs_eq_peak_q
+Map	V62		clfs_level
+Map	V63		clfs_pan
+Map	V64		clfs_rvb_send
+Map	B48		clfs_trans_on
+Map	V65		cr1_decay
+Map	V66		cr1_dist_drive
+Map	B49		cr1_dist_mode
+Map	B50		cr1_dist_on
+Map	V67		cr1_eq_hs_freq
+Map	V68		cr1_eq_hs_gain
+Map	V69		cr1_eq_ls_freq
+Map	V70		cr1_eq_ls_gain
+Map	B51		cr1_eq_on
+Map	V71		cr1_eq_peak_freq
+Map	V72		cr1_eq_peak_gain
+Map	V73		cr1_eq_peak_q
+Map	V74		cr1_level
+Map	V75		cr1_pan
+Map	V76		cr1_pitch
+Map	B52		cr1_trans_on
+Map	V77		cr2_decay
+Map	V78		cr2_dist_drive
+Map	B53		cr2_dist_mode
+Map	B54		cr2_dist_on
+Map	V79		cr2_eq_hs_freq
+Map	V80		cr2_eq_hs_gain
+Map	V81		cr2_eq_ls_freq
+Map	V82		cr2_eq_ls_gain
+Map	B55		cr2_eq_on
+Map	V83		cr2_eq_peak_freq
+Map	V84		cr2_eq_peak_gain
+Map	V85		cr2_eq_peak_q
+Map	V86		cr2_level
+Map	V87		cr2_pan
+Map	V88		cr2_pitch
+Map	B56		cr2_trans_on
+Map	V89		hh_decay
+Map	V90		hh_dist_drive
+Map	B57		hh_dist_mode
+Map	B58		hh_dist_on
+Map	V91		hh_eq_hs_freq
+Map	V92		hh_eq_hs_gain
+Map	V93		hh_eq_ls_freq
+Map	V94		hh_eq_ls_gain
+Map	B59		hh_eq_on
+Map	V95		hh_eq_peak_freq
+Map	V96		hh_eq_peak_gain
+Map	V97		hh_eq_peak_q
+Map	V98		hh_level
+Map	V99		hh_mix_mute
+Map	V100		hh_mix_vol
+Map	V101		hh_pan
+Map	V102		hh_pitch
+Map	V103		hh_rvb_send
+Map	B60		hh_trans_on
+Map	V104		mst_cmp_drive
+Map	V105		mst_cmp_makeup
+Map	V106		mst_cmp_mix
+Map	V107		mst_cmp_on
+Map	V108		mst_cmp_ratio
+Map	V109		mst_cmp_thrs
+Map	V110		mst_mix_vol
+Map	V111		mst_rvb_ret
+Map	V112		oh_cmp_makeup
+Map	B61		oh_cmp_on
+Map	V113		oh_cmp_ratio
+Map	V114		oh_cmp_thrs
+Map	V115		oh_dist_drive
+Map	B62		oh_dist_mode
+Map	B63		oh_dist_on
+Map	V116		oh_eq_hs_freq
+Map	V117		oh_eq_hs_gain
+Map	V118		oh_eq_ls_freq
+Map	V119		oh_eq_ls_gain
+Map	B64		oh_eq_on
+Map	V120		oh_eq_peak_freq
+Map	V121		oh_eq_peak_gain
+Map	V122		oh_eq_peak_q
+Map	V123		oh_mix_mute
+Map	V124		oh_mix_vol
+Map	V125		oh_mix_width
+Map	V126		rd_decay
+Map	V127		rd_dist_drive
+Map	B65		rd_dist_mode
+Map	B66		rd_dist_on
+Map	V128		rd_eq_hs_freq
+Map	V129		rd_eq_hs_gain
+Map	V130		rd_eq_ls_freq
+Map	V131		rd_eq_ls_gain
+Map	B67		rd_eq_on
+Map	V132		rd_eq_peak_freq
+Map	V133		rd_eq_peak_gain
+Map	V134		rd_eq_peak_q
+Map	V135		rd_level
+Map	V136		rd_pan
+Map	V137		rd_pitch
+Map	B68		rd_trans_on
+Map	V138		sd_decay
+Map	V139		sd_dist_drive
+Map	B69		sd_dist_mode
+Map	B70		sd_dist_on
+Map	V140		sd_eq_hs_freq
+Map	V141		sd_eq_hs_gain
+Map	V142		sd_eq_ls_freq
+Map	V143		sd_eq_ls_gain
+Map	B71		sd_eq_on
+Map	V144		sd_eq_peak_freq
+Map	V145		sd_eq_peak_gain
+Map	V146		sd_eq_peak_q
+Map	V147		sd_mix_mute
+Map	V148		sd_mix_vol
+Map	V149		sd_pan
+Map	V150		sd_pitch
+Map	V151		sd_rvb_send
+Map	V152		sd_sb
+Map	V153		sd_top
+Map	B72		sd_trans_on
+Map	V154		tb_dist_drive
+Map	B73		tb_dist_mode
+Map	B74		tb_dist_on
+Map	V155		tb_eq_hs_freq
+Map	V156		tb_eq_hs_gain
+Map	V157		tb_eq_ls_freq
+Map	V158		tb_eq_ls_gain
+Map	B75		tb_eq_on
+Map	V159		tb_eq_peak_freq
+Map	V160		tb_eq_peak_gain
+Map	V161		tb_eq_peak_q
+Map	V162		tb_level
+Map	V163		tb_pan
+Map	V164		tb_rvb_send
+Map	B76		tb_trans_on
+Map	V165		tm_decay
+Map	V166		tm_dist_drive
+Map	B77		tm_dist_mode
+Map	B78		tm_dist_on
+Map	V167		tm_eq_hs_freq
+Map	V168		tm_eq_hs_gain
+Map	V169		tm_eq_ls_freq
+Map	V170		tm_eq_ls_gain
+Map	B79		tm_eq_on
+Map	V171		tm_eq_peak_freq
+Map	V172		tm_eq_peak_gain
+Map	V173		tm_eq_peak_q
+Map	V174		tm_high_level
+Map	V175		tm_high_pan
+Map	V176		tm_low_level
+Map	V177		tm_low_pan
+Map	V178		tm_mid_level
+Map	V179		tm_mid_pan
+Map	V180		tm_mix_mute
+Map	V181		tm_mix_vol
+Map	V182		tm_pitch
+Map	V183		tm_rvb_send
+Map	B80		tm_trans_on
+
+Scope	Propellerhead Software	se.propellerheads.RadicalKeys
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.RadicalKeys"
+Map	V23		Ambience Level
+Map	V24		Ambience OnOff
+Map	V25		Ambience Type
+Map	V26		Character
+Map	V27		Chorus DryWet
+Map	V28		Chorus Intensity
+Map	V29		Chorus OnOff
+Map	V30		Chorus Stereo
+Map	V31		Comp Amount
+Map	V32		Comp Fast
+Map	V33		Comp OnOff
+Map	T7		Device Name
+Map	V34		EQ Hi Gain
+Map	V35		EQ Lo Gain
+Map	V36		EQ Mid Gain
+Map	V37		EQ OnOff
+Map	V38		EQ Pre Overdrive
+Map	V39		Env Attack
+Map	V40		Env Decay Curve
+Map	V41		Env Release
+Map	V42		Instrument Blend
+Map	V43		Key Down Level
+Map	V44		Key Up Level
+Map	V45		Master Volume
+Map	V46		Mic1
+Map	V47		Mic2
+Map	V48		Overdrive Drive
+Map	V49		Overdrive OnOff
+Map	V50		Overdrive Presence
+Map	V51		Overdrive Type
+Map	T8		Patch Name
+Map	V52		Pedal Level
+Map	V53		Phaser Color
+Map	V54		Phaser Depth
+Map	V55		Phaser OnOff
+Map	V56		Phaser Rate
+Map	V57		Phaser Stereo
+Map	V58		Select Next Patch
+Map	V59		Select Previous Patch
+Map	V60		Symp Res Level
+Map	V61		Symp Res Release
+Map	V62		Tremolo Depth
+Map	V63		Tremolo OnOff
+Map	V64		Tremolo Speed Free
+Map	V65		Tremolo Speed Synced
+Map	V66		Tremolo Stereo Width
+Map	B37		Tremolo Sync
+Map	V67		Tremolo Type
+Map	V68		Tune
+Map	V69		Tune Drift
+Map	V70		Vel Resp Curve
+Map	V71		Vel Resp High
+Map	V72		Vel Resp Low
+
+Scope	Propellerhead Software	se.propellerheads.ReasonAmp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ReasonAmp"
+Map	V23		Amp Switch
+Map	V24		Bass
+Map	V25		Boost
+Map	V26		Cab Switch
+Map	T7		Device Name
+Map	B37		Enabled
+Map	V27		Gain
+Map	V28		Gate
+Map	V29		Mid
+Map	T8		Patch Name
+Map	V30		Poweramp Gain
+Map	V31		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V32		Select Previous Patch
+Map	V33		Treble
+Map	V34		Volume
+
+Scope	Propellerhead Software	se.propellerheads.ReasonBassAmp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ReasonBassAmp"
+Map	V23		Amp Switch
+Map	V24		Bass
+Map	V25		Cab Switch
+Map	T7		Device Name
+Map	V26		Drive
+Map	B37		Enabled
+Map	V27		Mid Freq
+Map	V28		Middle
+Map	T8		Patch Name
+Map	V29		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V30		Select Previous Patch
+Map	V31		Treble
+Map	V32		Ultra Hi
+Map	V33		Ultra Lo
+Map	V34		Volume
+
+Scope	Propellerhead Software	se.propellerheads.Ripley
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Ripley"
+Map	V23		Band Freq Shift
+Map	V24		Bit Crush
+Map	V25		Delay On
+Map	V26		Delay Tempo Sync
+Map	V27		Delay Time
+Map	V28		Delay Width
+Map	T7		Device Name
+Map	V29		Digital Dry-Wet
+Map	B37		Digital On
+Map	B38		Digital Position
+Map	V30		Dist Drive
+Map	V31		Dist Dry-Wet
+Map	B39		Dist On
+Map	V32		Dry-Wet
+Map	V33		Ducker Amount
+Map	B40		Ducker On
+Map	B41		EQ On
+Map	V34		Enabled
+Map	V35		Feedback
+Map	V36		Filter On
+Map	V37		Filter Type
+Map	V38		Freeze
+Map	V39		Hi Cut Freq
+Map	B42		Keep Pitch
+Map	V40		Lo Cut Freq
+Map	V41		Noise Amount
+Map	D17		Noise Character
+Map	V42		Noise On
+Map	B43		Noise Type
+Map	D18		Output Gain
+Map	T8		Patch Name
+Map	B44		Ping Pong
+Map	V43		Ping Pong Pan
+Map	V44		Rate Crush
+Map	B45		Select Next Patch
+Map	B46		Select Previous Patch
+Map	V45		Space Amount
+Map	V46		Space Decay
+Map	V47		Space On
+Map	V48		Synced Time
+Map	V49		Time Multiplier
+Map	V50		Wobbler Amount
+
+Scope	Propellerhead Software	se.propellerheads.Rotor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Rotor"
+Map	V23		Acceleration
+Map	V24		Blend
+Map	T7		Device Name
+Map	V25		Distance
+Map	V26		Doppler
+Map	V27		Drive
+Map	V28		Drive Type
+Map	V29		Dry Wet
+Map	B37		Enabled
+Map	V30		Fast Speed
+Map	T8		Patch Name
+Map	V31		Rotor Lamp
+Map	V32		Select Next Patch
+Map	V33		Select Previous Patch
+Map	V34		Slow Fast
+Map	V35		Slow Speed
+Map	B38		Stop
+Map	V36		Volume
+Map	V37		X-Over Frequency
+
+Scope	Propellerhead Software	se.propellerheads.ScalesAndChords
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ScalesAndChords"
+Map	B37		Add Color
+Map	B38		Add Octave Down
+Map	B39		Add Octave Up
+Map	B40		Alter
+Map	B41		Chords
+Map	B42		Filter Notes
+Map	B43		On/Off
+Map	B44		Open Chords
+Map	T7		Patch Name
+Map	B45		Select Next Patch
+Map	B46		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.ScenicHybrid
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.ScenicHybrid"
+Map	V23		Aftertouch
+Map	T7		Device Name
+Map	V24		EA_AmpEnv_Attack
+Map	V25		EA_AmpEnv_Decay
+Map	V26		EA_AmpEnv_Release
+Map	V27		EA_AmpEnv_Sustain
+Map	B37		EA_EchoReverb_OnOff
+Map	V28		EA_Echo_Feedback
+Map	V29		EA_Echo_Flutter
+Map	V30		EA_Echo_High_Damping
+Map	V31		EA_Echo_Level
+Map	V32		EA_Echo_Low_Damping
+Map	B38		EA_Echo_OnOff
+Map	V33		EA_Echo_Saturation
+Map	V34		EA_Echo_Synced_Time
+Map	V35		EA_Echo_Time
+Map	V36		EA_FilterEnv_Attack
+Map	V37		EA_FilterEnv_Decay
+Map	V38		EA_FilterEnv_ModInt
+Map	V39		EA_FilterEnv_Release
+Map	V40		EA_FilterEnv_Sustain
+Map	B39		EA_FilterType
+Map	V41		EA_Filter_OnOff
+Map	V42		EA_Frequency
+Map	V43		EA_Granular_Random_Pitch
+Map	V44		EA_Granular_Random_Pos
+Map	V45		EA_Granular_Rate
+Map	V46		EA_Granular_Size
+Map	V47		EA_InsertFX_Chorus_Depth
+Map	V48		EA_InsertFX_Chorus_Man
+Map	V49		EA_InsertFX_Chorus_Mix
+Map	B40		EA_InsertFX_Chorus_OnOff
+Map	V50		EA_InsertFX_Chorus_Rate
+Map	B41		EA_InsertFX_OnOff
+Map	V51		EA_InsertFX_Phaser_Feedback
+Map	V52		EA_InsertFX_Phaser_Mix
+Map	B42		EA_InsertFX_Phaser_OnOff
+Map	V53		EA_InsertFX_Phaser_Rate
+Map	V54		EA_InsertFX_Phaser_Spread
+Map	V55		EA_InsertFX_Sat_Density
+Map	V56		EA_InsertFX_Sat_Drive
+Map	V57		EA_InsertFX_Sat_Level
+Map	B43		EA_InsertFX_Sat_OnOff
+Map	V58		EA_InsertFX_Sat_Threshold
+Map	V59		EA_InsertFX_TS_High
+Map	V60		EA_InsertFX_TS_HighFreq
+Map	V61		EA_InsertFX_TS_HighFreq_Mod_Amount
+Map	V62		EA_InsertFX_TS_Low
+Map	V63		EA_InsertFX_TS_LowFreq
+Map	V64		EA_InsertFX_TS_LowFreq_Mod_Amount
+Map	V65		EA_InsertFX_TS_Mid
+Map	B44		EA_InsertFX_TS_OnOff
+Map	B45		EA_OnOff
+Map	V66		EA_Pitch
+Map	V67		EA_Resonance
+Map	V68		EA_Reverb_Damping
+Map	V69		EA_Reverb_Level
+Map	V70		EA_Reverb_Low_Damping
+Map	B46		EA_Reverb_OnOff
+Map	V71		EA_Reverb_Pre_Delay
+Map	V72		EA_Reverb_Time
+Map	V73		EA_Start_Pos
+Map	V74		EA_Volume
+Map	V75		EB_AmpEnv_Attack
+Map	V76		EB_AmpEnv_Decay
+Map	V77		EB_AmpEnv_Release
+Map	V78		EB_AmpEnv_Sustain
+Map	B47		EB_EchoReverb_OnOff
+Map	V79		EB_Echo_Feedback
+Map	V80		EB_Echo_Flutter
+Map	V81		EB_Echo_High_Damping
+Map	V82		EB_Echo_Level
+Map	V83		EB_Echo_Low_Damping
+Map	B48		EB_Echo_OnOff
+Map	V84		EB_Echo_Saturation
+Map	V85		EB_Echo_Synced_Time
+Map	V86		EB_Echo_Time
+Map	V87		EB_FilterEnv_Attack
+Map	V88		EB_FilterEnv_Decay
+Map	V89		EB_FilterEnv_ModInt
+Map	V90		EB_FilterEnv_Release
+Map	V91		EB_FilterEnv_Sustain
+Map	B49		EB_FilterType
+Map	V92		EB_Filter_OnOff
+Map	V93		EB_Frequency
+Map	V94		EB_Granular_Random_Pitch
+Map	V95		EB_Granular_Random_Pos
+Map	V96		EB_Granular_Rate
+Map	V97		EB_Granular_Size
+Map	V98		EB_InsertFX_Chorus_Depth
+Map	V99		EB_InsertFX_Chorus_Man
+Map	V100		EB_InsertFX_Chorus_Mix
+Map	B50		EB_InsertFX_Chorus_OnOff
+Map	V101		EB_InsertFX_Chorus_Rate
+Map	B51		EB_InsertFX_OnOff
+Map	V102		EB_InsertFX_Phaser_Feedback
+Map	V103		EB_InsertFX_Phaser_Mix
+Map	B52		EB_InsertFX_Phaser_OnOff
+Map	V104		EB_InsertFX_Phaser_Rate
+Map	V105		EB_InsertFX_Phaser_Spread
+Map	V106		EB_InsertFX_Sat_Density
+Map	V107		EB_InsertFX_Sat_Drive
+Map	V108		EB_InsertFX_Sat_Level
+Map	B53		EB_InsertFX_Sat_OnOff
+Map	V109		EB_InsertFX_Sat_Threshold
+Map	V110		EB_InsertFX_TS_High
+Map	V111		EB_InsertFX_TS_HighFreq
+Map	V112		EB_InsertFX_TS_HighFreq_Mod_Amount
+Map	V113		EB_InsertFX_TS_Low
+Map	V114		EB_InsertFX_TS_LowFreq
+Map	V115		EB_InsertFX_TS_LowFreq_Mod_Amount
+Map	V116		EB_InsertFX_TS_Mid
+Map	B54		EB_InsertFX_TS_OnOff
+Map	B55		EB_OnOff
+Map	V117		EB_Pitch
+Map	V118		EB_Resonance
+Map	V119		EB_Reverb_Damping
+Map	V120		EB_Reverb_Level
+Map	V121		EB_Reverb_Low_Damping
+Map	B56		EB_Reverb_OnOff
+Map	V122		EB_Reverb_Pre_Delay
+Map	V123		EB_Reverb_Time
+Map	V124		EB_Start_Pos
+Map	V125		EB_Volume
+Map	V126		Engine_Balance
+Map	V127		LFO_1_Rate
+Map	D17		LFO_1_Synced_Rate
+Map	V128		LFO_2_Rate
+Map	D18		LFO_2_Synced_Rate
+Map	V129		Macro1
+Map	V130		Macro2
+Map	V131		Macro3
+Map	V132		MasterFX_Comp_Attack
+Map	V133		MasterFX_Comp_DryWet
+Map	V134		MasterFX_Comp_Gain
+Map	V135		MasterFX_Comp_OnOff
+Map	V136		MasterFX_Comp_Ratio
+Map	V137		MasterFX_Comp_Release
+Map	V138		MasterFX_Comp_Threshold
+Map	B57		MasterFX_OnOff
+Map	V139		MasterFX_Reverb_DryWet
+Map	V140		MasterFX_Reverb_HiCut
+Map	V141		MasterFX_Reverb_LoCut
+Map	V142		MasterFX_Reverb_OnOff
+Map	V143		MasterFX_Reverb_Time
+Map	V144		MasterFX_Reverb_Width
+Map	V145		MasterFX_Volume
+Map	T8		Patch Name
+Map	V146		Pulses_Rate
+Map	B58		Select Next Patch
+Map	B59		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.Sweeper
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Sweeper"
+Map	V23		Bandwidth
+Map	V24		BeatSync
+Map	T7		Device Name
+Map	V25		DryWet
+Map	V26		Enabled
+Map	V27		Env Amp Mod
+Map	V28		Env Freq Mod
+Map	V29		Env Loop
+Map	V30		Env Rate
+Map	V31		Env Synced Rate
+Map	V32		Feedback
+Map	V33		Filter Drive
+Map	V34		Filter Type
+Map	V35		Follow Attack
+Map	V36		Follow Gain
+Map	V37		Follow Release
+Map	V38		Freq
+Map	V39		LFO Amp Mod
+Map	V40		LFO Freq Mod
+Map	V41		LFO Rate
+Map	V42		LFO Sync
+Map	V43		LFO Synced Rate
+Map	V44		LFO Wave
+Map	V45		ModType
+Map	V46		Mute Dry
+Map	T8		Patch Name
+Map	V47		Phaser Stages
+Map	V48		Polarity
+Map	V49		Rate Mod
+Map	V50		Reso
+Map	B37		Select Next Patch
+Map	B38		Select Previous Patch
+Map	V51		Spread
+Map	V52		Stereo Mode
+Map	V53		Trig On
+Map	V54		Type
+Map	V55		Volume
+
+Scope	Propellerhead Software	se.propellerheads.Synchronous
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Synchronous"
+Map	V23		Delay  Amount
+Map	V24		Delay Feedback
+Map	V25		Delay Keep Pitch
+Map	V26		Delay On
+Map	V27		Delay Pan
+Map	V28		Delay Ping Pong
+Map	V29		Delay Roll
+Map	V30		Delay SendReturn
+Map	V31		Delay Synched Time
+Map	V32		Delay Tempo Sync
+Map	V33		Delay Time
+Map	T7		Device Name
+Map	V34		Dist Amount
+Map	V35		Dist Character
+Map	V36		Dist On
+Map	V37		Dist Post Filter
+Map	V38		Dist Type
+Map	V39		DryWet
+Map	V40		Enabled
+Map	V41		Filter Freq
+Map	V42		Filter Lag
+Map	V43		Filter On
+Map	V44		Filter Reso
+Map	V45		Filter Type
+Map	V46		Level
+Map	V47		Level InOut
+Map	V48		Master Level
+Map	T8		Patch Name
+Map	V49		Reverb Amount
+Map	V50		Reverb Damp
+Map	V51		Reverb Decay
+Map	V52		Reverb On
+Map	V53		Reverb SendReturn
+Map	V54		Reverb Size
+Map	V55		Select Next Patch
+Map	V56		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.Umpf
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.Umpf"
+Map	V23		Aftertouch
+Map	V24		Beat_Chop_Repeat_Chance
+Map	V25		Beat_Chop_Repitch_Chance
+Map	V26		Beat_Chop_Reverse_Chance
+Map	V27		Chop_Output_Level
+Map	V28		Clean_Output_Level
+Map	V29		Compressor_Output_Level
+Map	V30		Compressor_Ratio
+Map	V31		Compressor_Sidechain_On
+Map	V32		Compressor_Threshold
+Map	V33		Delay_Feedback
+Map	V34		Delay_Output_Level
+Map	V35		Delay_Synced_Time
+Map	V36		Delay_Time
+Map	T7		Device Name
+Map	V37		Drum_1_Chop_Amount
+Map	V38		Drum_1_Crush_Bit_Depth
+Map	V39		Drum_1_Crush_Sample_Rate
+Map	V40		Drum_1_Delay_Amount
+Map	B37		Drum_1_Filter_On
+Map	V41		Drum_1_Hi_Cut_Freq
+Map	V42		Drum_1_Hold
+Map	V43		Drum_1_Lo_Cut_Freq
+Map	B38		Drum_1_Mute
+Map	V44		Drum_1_Pan
+Map	V45		Drum_1_Pitch
+Map	V46		Drum_1_Release
+Map	V47		Drum_1_Reverb_Amount
+Map	B39		Drum_1_Solo
+Map	B40		Drum_1_To_Clean
+Map	B41		Drum_1_To_Comp
+Map	V48		Drum_1_Volume
+Map	V49		Drum_2_Chop_Amount
+Map	V50		Drum_2_Crush_Bit_Depth
+Map	V51		Drum_2_Crush_Sample_Rate
+Map	V52		Drum_2_Delay_Amount
+Map	B42		Drum_2_Filter_On
+Map	V53		Drum_2_Hi_Cut_Freq
+Map	V54		Drum_2_Hold
+Map	V55		Drum_2_Lo_Cut_Freq
+Map	B43		Drum_2_Mute
+Map	V56		Drum_2_Pan
+Map	V57		Drum_2_Pitch
+Map	V58		Drum_2_Release
+Map	V59		Drum_2_Reverb_Amount
+Map	B44		Drum_2_Solo
+Map	B45		Drum_2_To_Clean
+Map	B46		Drum_2_To_Comp
+Map	V60		Drum_2_Volume
+Map	V61		Drum_3_Chop_Amount
+Map	V62		Drum_3_Crush_Bit_Depth
+Map	V63		Drum_3_Crush_Sample_Rate
+Map	V64		Drum_3_Delay_Amount
+Map	B47		Drum_3_Filter_On
+Map	V65		Drum_3_Hi_Cut_Freq
+Map	V66		Drum_3_Hold
+Map	V67		Drum_3_Lo_Cut_Freq
+Map	B48		Drum_3_Mute
+Map	V68		Drum_3_Pan
+Map	V69		Drum_3_Pitch
+Map	V70		Drum_3_Release
+Map	V71		Drum_3_Reverb_Amount
+Map	B49		Drum_3_Solo
+Map	B50		Drum_3_To_Clean
+Map	B51		Drum_3_To_Comp
+Map	V72		Drum_3_Volume
+Map	V73		Drum_4_Chop_Amount
+Map	V74		Drum_4_Crush_Bit_Depth
+Map	V75		Drum_4_Crush_Sample_Rate
+Map	V76		Drum_4_Delay_Amount
+Map	B52		Drum_4_Filter_On
+Map	V77		Drum_4_Hi_Cut_Freq
+Map	V78		Drum_4_Hold
+Map	V79		Drum_4_Lo_Cut_Freq
+Map	B53		Drum_4_Mute
+Map	V80		Drum_4_Pan
+Map	V81		Drum_4_Pitch
+Map	V82		Drum_4_Release
+Map	V83		Drum_4_Reverb_Amount
+Map	B54		Drum_4_Solo
+Map	B55		Drum_4_To_Clean
+Map	B56		Drum_4_To_Comp
+Map	V84		Drum_4_Volume
+Map	V85		Drum_5_Chop_Amount
+Map	V86		Drum_5_Crush_Bit_Depth
+Map	V87		Drum_5_Crush_Sample_Rate
+Map	V88		Drum_5_Delay_Amount
+Map	B57		Drum_5_Filter_On
+Map	V89		Drum_5_Hi_Cut_Freq
+Map	V90		Drum_5_Hold
+Map	V91		Drum_5_Lo_Cut_Freq
+Map	B58		Drum_5_Mute
+Map	V92		Drum_5_Pan
+Map	V93		Drum_5_Pitch
+Map	V94		Drum_5_Release
+Map	V95		Drum_5_Reverb_Amount
+Map	B59		Drum_5_Solo
+Map	B60		Drum_5_To_Clean
+Map	B61		Drum_5_To_Comp
+Map	V96		Drum_5_Volume
+Map	V97		Drum_6_Chop_Amount
+Map	V98		Drum_6_Crush_Bit_Depth
+Map	V99		Drum_6_Crush_Sample_Rate
+Map	V100		Drum_6_Delay_Amount
+Map	B62		Drum_6_Filter_On
+Map	V101		Drum_6_Hi_Cut_Freq
+Map	V102		Drum_6_Hold
+Map	V103		Drum_6_Lo_Cut_Freq
+Map	B63		Drum_6_Mute
+Map	V104		Drum_6_Pan
+Map	V105		Drum_6_Pitch
+Map	V106		Drum_6_Release
+Map	V107		Drum_6_Reverb_Amount
+Map	B64		Drum_6_Solo
+Map	B65		Drum_6_To_Clean
+Map	B66		Drum_6_To_Comp
+Map	V108		Drum_6_Volume
+Map	V109		Drum_7_Chop_Amount
+Map	V110		Drum_7_Crush_Bit_Depth
+Map	V111		Drum_7_Crush_Sample_Rate
+Map	V112		Drum_7_Delay_Amount
+Map	B67		Drum_7_Filter_On
+Map	V113		Drum_7_Hi_Cut_Freq
+Map	V114		Drum_7_Hold
+Map	V115		Drum_7_Lo_Cut_Freq
+Map	B68		Drum_7_Mute
+Map	V116		Drum_7_Pan
+Map	V117		Drum_7_Pitch
+Map	V118		Drum_7_Release
+Map	V119		Drum_7_Reverb_Amount
+Map	B69		Drum_7_Solo
+Map	B70		Drum_7_To_Clean
+Map	B71		Drum_7_To_Comp
+Map	V120		Drum_7_Volume
+Map	V121		Drum_8_Chop_Amount
+Map	V122		Drum_8_Crush_Bit_Depth
+Map	V123		Drum_8_Crush_Sample_Rate
+Map	V124		Drum_8_Delay_Amount
+Map	B72		Drum_8_Filter_On
+Map	V125		Drum_8_Hi_Cut_Freq
+Map	V126		Drum_8_Hold
+Map	V127		Drum_8_Lo_Cut_Freq
+Map	B73		Drum_8_Mute
+Map	V128		Drum_8_Pan
+Map	V129		Drum_8_Pitch
+Map	V130		Drum_8_Release
+Map	V131		Drum_8_Reverb_Amount
+Map	B74		Drum_8_Solo
+Map	B75		Drum_8_To_Clean
+Map	B76		Drum_8_To_Comp
+Map	V132		Drum_8_Volume
+Map	V133		LFO_1_Rate
+Map	B77		LFO_1_Synced_Rate
+Map	V134		LFO_2_Rate
+Map	B78		LFO_2_Synced_Rate
+Map	V135		Master_Volume
+Map	V136		Mod_Matrix_Amount_1
+Map	V137		Mod_Matrix_Amount_2
+Map	V138		Mod_Matrix_Amount_3
+Map	T8		Patch Name
+Map	V139		Reverb_Output_Level
+Map	V140		Reverb_To_Compressor
+Map	B79		Select Next Patch
+Map	B80		Select Previous Patch
+
+Scope	Propellerhead Software	se.propellerheads.UmpfRetroBeats
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.UmpfRetroBeats"
+Map	V23		Aftertouch
+Map	V24		Delay_Feedback
+Map	V25		Delay_Output_Level
+Map	V26		Delay_Synced_Time
+Map	V27		Delay_Time
+Map	T7		Device Name
+Map	V28		Drum_1_Delay_Amount
+Map	B37		Drum_1_Filter_On
+Map	V29		Drum_1_Gated_Reverb_Amount
+Map	V30		Drum_1_Hi_Cut_Freq
+Map	V31		Drum_1_Hold
+Map	B38		Drum_1_Insert_FX_1_On
+Map	B39		Drum_1_Insert_FX_2_On
+Map	V32		Drum_1_LoFi_Bit_Depth
+Map	V33		Drum_1_LoFi_Sample_Rate
+Map	V34		Drum_1_Lo_Cut_Freq
+Map	B40		Drum_1_Mute
+Map	V35		Drum_1_Pan
+Map	V36		Drum_1_Pitch
+Map	V37		Drum_1_Release
+Map	V38		Drum_1_Reverb_Amount
+Map	B41		Drum_1_Solo
+Map	V39		Drum_1_Volume
+Map	V40		Drum_2_Delay_Amount
+Map	B42		Drum_2_Filter_On
+Map	V41		Drum_2_Gated_Reverb_Amount
+Map	V42		Drum_2_Hi_Cut_Freq
+Map	V43		Drum_2_Hold
+Map	B43		Drum_2_Insert_FX_1_On
+Map	B44		Drum_2_Insert_FX_2_On
+Map	V44		Drum_2_LoFi_Bit_Depth
+Map	V45		Drum_2_LoFi_Sample_Rate
+Map	V46		Drum_2_Lo_Cut_Freq
+Map	B45		Drum_2_Mute
+Map	V47		Drum_2_Pan
+Map	V48		Drum_2_Pitch
+Map	V49		Drum_2_Release
+Map	V50		Drum_2_Reverb_Amount
+Map	B46		Drum_2_Solo
+Map	V51		Drum_2_Volume
+Map	V52		Drum_3_Delay_Amount
+Map	B47		Drum_3_Filter_On
+Map	V53		Drum_3_Gated_Reverb_Amount
+Map	V54		Drum_3_Hi_Cut_Freq
+Map	V55		Drum_3_Hold
+Map	B48		Drum_3_Insert_FX_1_On
+Map	B49		Drum_3_Insert_FX_2_On
+Map	V56		Drum_3_LoFi_Bit_Depth
+Map	V57		Drum_3_LoFi_Sample_Rate
+Map	V58		Drum_3_Lo_Cut_Freq
+Map	B50		Drum_3_Mute
+Map	V59		Drum_3_Pan
+Map	V60		Drum_3_Pitch
+Map	V61		Drum_3_Release
+Map	V62		Drum_3_Reverb_Amount
+Map	B51		Drum_3_Solo
+Map	V63		Drum_3_Volume
+Map	V64		Drum_4_Delay_Amount
+Map	B52		Drum_4_Filter_On
+Map	V65		Drum_4_Gated_Reverb_Amount
+Map	V66		Drum_4_Hi_Cut_Freq
+Map	V67		Drum_4_Hold
+Map	B53		Drum_4_Insert_FX_1_On
+Map	B54		Drum_4_Insert_FX_2_On
+Map	V68		Drum_4_LoFi_Bit_Depth
+Map	V69		Drum_4_LoFi_Sample_Rate
+Map	V70		Drum_4_Lo_Cut_Freq
+Map	B55		Drum_4_Mute
+Map	V71		Drum_4_Pan
+Map	V72		Drum_4_Pitch
+Map	V73		Drum_4_Release
+Map	V74		Drum_4_Reverb_Amount
+Map	B56		Drum_4_Solo
+Map	V75		Drum_4_Volume
+Map	V76		Drum_5_Delay_Amount
+Map	B57		Drum_5_Filter_On
+Map	V77		Drum_5_Gated_Reverb_Amount
+Map	V78		Drum_5_Hi_Cut_Freq
+Map	V79		Drum_5_Hold
+Map	B58		Drum_5_Insert_FX_1_On
+Map	B59		Drum_5_Insert_FX_2_On
+Map	V80		Drum_5_LoFi_Bit_Depth
+Map	V81		Drum_5_LoFi_Sample_Rate
+Map	V82		Drum_5_Lo_Cut_Freq
+Map	B60		Drum_5_Mute
+Map	V83		Drum_5_Pan
+Map	V84		Drum_5_Pitch
+Map	V85		Drum_5_Release
+Map	V86		Drum_5_Reverb_Amount
+Map	B61		Drum_5_Solo
+Map	V87		Drum_5_Volume
+Map	V88		Drum_6_Delay_Amount
+Map	B62		Drum_6_Filter_On
+Map	V89		Drum_6_Gated_Reverb_Amount
+Map	V90		Drum_6_Hi_Cut_Freq
+Map	V91		Drum_6_Hold
+Map	B63		Drum_6_Insert_FX_1_On
+Map	B64		Drum_6_Insert_FX_2_On
+Map	V92		Drum_6_LoFi_Bit_Depth
+Map	V93		Drum_6_LoFi_Sample_Rate
+Map	V94		Drum_6_Lo_Cut_Freq
+Map	B65		Drum_6_Mute
+Map	V95		Drum_6_Pan
+Map	V96		Drum_6_Pitch
+Map	V97		Drum_6_Release
+Map	V98		Drum_6_Reverb_Amount
+Map	B66		Drum_6_Solo
+Map	V99		Drum_6_Volume
+Map	V100		Drum_7_Delay_Amount
+Map	B67		Drum_7_Filter_On
+Map	V101		Drum_7_Gated_Reverb_Amount
+Map	V102		Drum_7_Hi_Cut_Freq
+Map	V103		Drum_7_Hold
+Map	B68		Drum_7_Insert_FX_1_On
+Map	B69		Drum_7_Insert_FX_2_On
+Map	V104		Drum_7_LoFi_Bit_Depth
+Map	V105		Drum_7_LoFi_Sample_Rate
+Map	V106		Drum_7_Lo_Cut_Freq
+Map	B70		Drum_7_Mute
+Map	V107		Drum_7_Pan
+Map	V108		Drum_7_Pitch
+Map	V109		Drum_7_Release
+Map	V110		Drum_7_Reverb_Amount
+Map	B71		Drum_7_Solo
+Map	V111		Drum_7_Volume
+Map	V112		Drum_8_Delay_Amount
+Map	B72		Drum_8_Filter_On
+Map	V113		Drum_8_Gated_Reverb_Amount
+Map	V114		Drum_8_Hi_Cut_Freq
+Map	V115		Drum_8_Hold
+Map	B73		Drum_8_Insert_FX_1_On
+Map	B74		Drum_8_Insert_FX_2_On
+Map	V116		Drum_8_LoFi_Bit_Depth
+Map	V117		Drum_8_LoFi_Sample_Rate
+Map	V118		Drum_8_Lo_Cut_Freq
+Map	B75		Drum_8_Mute
+Map	V119		Drum_8_Pan
+Map	V120		Drum_8_Pitch
+Map	V121		Drum_8_Release
+Map	V122		Drum_8_Reverb_Amount
+Map	B76		Drum_8_Solo
+Map	V123		Drum_8_Volume
+Map	V124		Gated_Reverb_Decay
+Map	V125		Gated_Reverb_Hold
+Map	V126		Gated_Reverb_Output_Level
+Map	B77		Gated_Reverb_Sidechain_OnOff
+Map	V127		LFO_1_Rate
+Map	B78		LFO_1_Synced_Rate
+Map	V128		LFO_2_Rate
+Map	B79		LFO_2_Synced_Rate
+Map	V129		Master_Volume
+Map	V130		Mod_Matrix_Amount_1
+Map	V131		Mod_Matrix_Amount_2
+Map	V132		Mod_Matrix_Amount_3
+Map	T8		Patch Name
+Map	V133		Reverb_Output_Level
+Map	B80		Select Next Patch
+Map	B81		Select Previous Patch
+Map	V134		Tape_Master_Compress
+Map	V135		Tape_Master_Drive
+Map	V136		Tape_Master_Mix
+
+Scope	Propellerhead Software	se.propellerheads.externalmidiinstrument
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.externalmidiinstrument"
+Map	V23		CC 0
+Map	V24		CC 1
+Map	V25		CC 10
+Map	V26		CC 100
+Map	V27		CC 101
+Map	V28		CC 102
+Map	V29		CC 103
+Map	V30		CC 104
+Map	V31		CC 105
+Map	V32		CC 106
+Map	V33		CC 107
+Map	V34		CC 108
+Map	V35		CC 109
+Map	V36		CC 11
+Map	V37		CC 110
+Map	V38		CC 111
+Map	V39		CC 112
+Map	V40		CC 113
+Map	V41		CC 114
+Map	V42		CC 115
+Map	V43		CC 116
+Map	V44		CC 117
+Map	V45		CC 118
+Map	V46		CC 119
+Map	V47		CC 12
+Map	V48		CC 13
+Map	V49		CC 14
+Map	V50		CC 15
+Map	V51		CC 16
+Map	V52		CC 17
+Map	V53		CC 18
+Map	V54		CC 19
+Map	V55		CC 20
+Map	V56		CC 21
+Map	V57		CC 22
+Map	V58		CC 23
+Map	V59		CC 24
+Map	V60		CC 25
+Map	V61		CC 26
+Map	V62		CC 27
+Map	V63		CC 28
+Map	V64		CC 29
+Map	V65		CC 3
+Map	V66		CC 30
+Map	V67		CC 31
+Map	V68		CC 32
+Map	V69		CC 33
+Map	V70		CC 34
+Map	V71		CC 35
+Map	V72		CC 36
+Map	V73		CC 37
+Map	V74		CC 38
+Map	V75		CC 39
+Map	V76		CC 4
+Map	V77		CC 40
+Map	V78		CC 41
+Map	V79		CC 42
+Map	V80		CC 43
+Map	V81		CC 44
+Map	V82		CC 45
+Map	V83		CC 46
+Map	V84		CC 47
+Map	V85		CC 48
+Map	V86		CC 49
+Map	V87		CC 5
+Map	V88		CC 50
+Map	V89		CC 51
+Map	V90		CC 52
+Map	V91		CC 53
+Map	V92		CC 54
+Map	V93		CC 55
+Map	V94		CC 56
+Map	V95		CC 57
+Map	V96		CC 58
+Map	V97		CC 59
+Map	V98		CC 6
+Map	V99		CC 60
+Map	V100		CC 61
+Map	V101		CC 62
+Map	V102		CC 63
+Map	V103		CC 65
+Map	V104		CC 66
+Map	V105		CC 67
+Map	V106		CC 68
+Map	V107		CC 69
+Map	V108		CC 7
+Map	V109		CC 70
+Map	V110		CC 71
+Map	V111		CC 72
+Map	V112		CC 73
+Map	V113		CC 74
+Map	V114		CC 75
+Map	V115		CC 76
+Map	V116		CC 77
+Map	V117		CC 78
+Map	V118		CC 79
+Map	V119		CC 8
+Map	V120		CC 80
+Map	V121		CC 81
+Map	V122		CC 82
+Map	V123		CC 83
+Map	V124		CC 84
+Map	V125		CC 85
+Map	V126		CC 86
+Map	V127		CC 87
+Map	V128		CC 88
+Map	V129		CC 89
+Map	V130		CC 9
+Map	V131		CC 90
+Map	V132		CC 91
+Map	V133		CC 92
+Map	V134		CC 93
+Map	V135		CC 94
+Map	V136		CC 95
+Map	V137		CC 96
+Map	V138		CC 97
+Map	V139		CC 98
+Map	V140		CC 99
+Map	V141		Next MIDI Channel
+Map	V142		Next MIDI Program
+Map	V143		Pitch Bend
+Map	V144		Previous MIDI Channel
+Map	V145		Previous MIDI Program
+
+Scope	Propellerhead Software	se.propellerheads.layers
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.layers"
+Map	V23		Comp_Amount
+Map	V24		Compressor
+Map	T7		Device Name
+Map	V25		GL_Delay
+Map	V26		GL_Delay_Beats
+Map	V27		GL_Delay_FB
+Map	B37		GL_Delay_Mode
+Map	V28		GL_Delay_Sync
+Map	V29		GL_Delay_TimeSec
+Map	V30		GL_LFO2_Rate
+Map	V31		GL_LFO2_Sync
+Map	V32		GL_LFO2_Synced_Rate
+Map	V33		GL_LFO2_Wave
+Map	V34		GL_PBRange
+Map	V35		GL_Reverb
+Map	V36		GL_Reverb_Damp
+Map	V37		GL_Reverb_LowCut
+Map	V38		GL_Reverb_PreDelay
+Map	V39		GL_Reverb_Time
+Map	V40		LA_Amp_Attack
+Map	V41		LA_Amp_Decay
+Map	V42		LA_Amp_LFO1
+Map	V43		LA_Amp_LFO2
+Map	V44		LA_Amp_Release
+Map	V45		LA_Amp_Sustain
+Map	V46		LA_Delay_Amount
+Map	V47		LA_Dist_Amount
+Map	B38		LA_Distortion
+Map	V48		LA_Filter_Attack
+Map	V49		LA_Filter_Cutoff
+Map	V50		LA_Filter_Decay
+Map	V51		LA_Filter_Env
+Map	V52		LA_Filter_LFO1
+Map	V53		LA_Filter_LFO2
+Map	V54		LA_Filter_Release
+Map	V55		LA_Filter_Reso
+Map	V56		LA_Filter_Sustain
+Map	V57		LA_Filter_Type
+Map	V58		LA_Finetune
+Map	B39		LA_Flanger
+Map	V59		LA_Flanger_Feedback
+Map	V60		LA_Flanger_Intensity
+Map	V61		LA_Flanger_Manual
+Map	V62		LA_Flanger_Rate
+Map	V63		LA_LFO1_Rate
+Map	V64		LA_LFO1_Sync
+Map	V65		LA_LFO1_Synced_Rate
+Map	V66		LA_LFO1_Wave
+Map	V67		LA_LowCut
+Map	B40		LA_Mute
+Map	V68		LA_Pan
+Map	V69		LA_Pattern_Enable
+Map	V70		LA_Reverb_Amount
+Map	V71		LA_TrigDelay
+Map	V72		LA_Volume
+Map	V73		LB_Amp_Attack
+Map	V74		LB_Amp_Decay
+Map	V75		LB_Amp_Release
+Map	V76		LB_Amp_Sustain
+Map	V77		LB_Delay_Amount
+Map	V78		LB_Dist_Amount
+Map	B41		LB_Distortion
+Map	V79		LB_Filter_Attack
+Map	V80		LB_Filter_Cutoff
+Map	V81		LB_Filter_Decay
+Map	V82		LB_Filter_Env
+Map	V83		LB_Filter_Release
+Map	V84		LB_Filter_Reso
+Map	V85		LB_Filter_Sustain
+Map	V86		LB_Filter_Type
+Map	V87		LB_Finetune
+Map	B42		LB_Flanger
+Map	V88		LB_Flanger_Feedback
+Map	V89		LB_Flanger_Intensity
+Map	V90		LB_Flanger_Manual
+Map	V91		LB_Flanger_Rate
+Map	V92		LB_LFO1_Rate
+Map	V93		LB_LFO1_Sync
+Map	V94		LB_LFO1_Synced_Rate
+Map	V95		LB_LFO1_Wave
+Map	V96		LB_LowCut
+Map	B43		LB_Mute
+Map	V97		LB_Pan
+Map	V98		LB_Pattern_Enable
+Map	V99		LB_Reverb_Amount
+Map	V100		LB_TrigDelay
+Map	V101		LB_Volume
+Map	V102		LC_Amp_Attack
+Map	V103		LC_Amp_Decay
+Map	V104		LC_Amp_Release
+Map	V105		LC_Amp_Sustain
+Map	V106		LC_Delay_Amount
+Map	V107		LC_Dist_Amount
+Map	B44		LC_Distortion
+Map	V108		LC_Filter_Attack
+Map	V109		LC_Filter_Cutoff
+Map	V110		LC_Filter_Decay
+Map	V111		LC_Filter_Env
+Map	V112		LC_Filter_Release
+Map	V113		LC_Filter_Reso
+Map	V114		LC_Filter_Sustain
+Map	V115		LC_Filter_Type
+Map	V116		LC_Finetune
+Map	B45		LC_Flanger
+Map	V117		LC_Flanger_Feedback
+Map	V118		LC_Flanger_Intensity
+Map	V119		LC_Flanger_Manual
+Map	V120		LC_Flanger_Rate
+Map	V121		LC_LFO1_Rate
+Map	V122		LC_LFO1_Sync
+Map	V123		LC_LFO1_Synced_Rate
+Map	V124		LC_LFO1_Wave
+Map	V125		LC_LowCut
+Map	B46		LC_Mute
+Map	V126		LC_Pan
+Map	V127		LC_Pattern_Enable
+Map	V128		LC_Reverb_Amount
+Map	V129		LC_TrigDelay
+Map	V130		LC_Volume
+Map	V131		LD_Amp_Attack
+Map	V132		LD_Amp_Decay
+Map	V133		LD_Amp_Release
+Map	V134		LD_Amp_Sustain
+Map	V135		LD_Delay_Amount
+Map	V136		LD_Dist_Amount
+Map	B47		LD_Distortion
+Map	V137		LD_Filter_Attack
+Map	V138		LD_Filter_Cutoff
+Map	V139		LD_Filter_Decay
+Map	V140		LD_Filter_Env
+Map	V141		LD_Filter_Release
+Map	V142		LD_Filter_Reso
+Map	V143		LD_Filter_Sustain
+Map	V144		LD_Filter_Type
+Map	V145		LD_Finetune
+Map	B48		LD_Flanger
+Map	V146		LD_Flanger_Feedback
+Map	V147		LD_Flanger_Intensity
+Map	V148		LD_Flanger_Manual
+Map	V149		LD_Flanger_Rate
+Map	V150		LD_LFO1_Rate
+Map	V151		LD_LFO1_Sync
+Map	V152		LD_LFO1_Synced_Rate
+Map	V153		LD_LFO1_Wave
+Map	V154		LD_LowCut
+Map	B49		LD_Mute
+Map	V155		LD_Pan
+Map	V156		LD_Pattern_Enable
+Map	V157		LD_Reverb_Amount
+Map	V158		LD_TrigDelay
+Map	V159		LD_Volume
+Map	V160		Main_Volume
+Map	T8		Patch Name
+Map	B50		Select Next Patch
+Map	B51		Select Previous Patch
+Map	B52		Trig_Seq
+Map	V161		noteLength
+Map	V162		polymode
+Map	B53		seqMode
+Map	V163		seqRate
+
+Scope	Propellerhead Software	se.propellerheads.layers_wave_edition
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.layers_wave_edition"
+Map	V23		Comp_Amount
+Map	V24		Compressor
+Map	T7		Device Name
+Map	V25		GL_Delay
+Map	V26		GL_Delay_Beats
+Map	V27		GL_Delay_FB
+Map	B37		GL_Delay_Mode
+Map	V28		GL_Delay_Sync
+Map	V29		GL_Delay_TimeSec
+Map	V30		GL_LFO2_Rate
+Map	V31		GL_LFO2_Sync
+Map	V32		GL_LFO2_Synced_Rate
+Map	V33		GL_LFO2_Wave
+Map	V34		GL_PBRange
+Map	V35		GL_Reverb
+Map	V36		GL_Reverb_Damp
+Map	V37		GL_Reverb_LowCut
+Map	V38		GL_Reverb_PreDelay
+Map	V39		GL_Reverb_Time
+Map	V40		LA_Amp_Attack
+Map	V41		LA_Amp_Decay
+Map	V42		LA_Amp_LFO1
+Map	V43		LA_Amp_LFO2
+Map	V44		LA_Amp_Release
+Map	V45		LA_Amp_Sustain
+Map	V46		LA_Delay_Amount
+Map	V47		LA_Dist_Amount
+Map	B38		LA_Distortion
+Map	V48		LA_Filter_Attack
+Map	V49		LA_Filter_Cutoff
+Map	V50		LA_Filter_Decay
+Map	V51		LA_Filter_Env
+Map	V52		LA_Filter_LFO1
+Map	V53		LA_Filter_LFO2
+Map	V54		LA_Filter_Release
+Map	V55		LA_Filter_Reso
+Map	V56		LA_Filter_Sustain
+Map	V57		LA_Filter_Type
+Map	V58		LA_Finetune
+Map	B39		LA_Flanger
+Map	V59		LA_Flanger_Feedback
+Map	V60		LA_Flanger_Intensity
+Map	V61		LA_Flanger_Manual
+Map	V62		LA_Flanger_Rate
+Map	V63		LA_LFO1_Rate
+Map	V64		LA_LFO1_Sync
+Map	V65		LA_LFO1_Synced_Rate
+Map	V66		LA_LFO1_Wave
+Map	V67		LA_LowCut
+Map	B40		LA_Mute
+Map	V68		LA_Pan
+Map	V69		LA_Pattern_Enable
+Map	V70		LA_Reverb_Amount
+Map	V71		LA_TrigDelay
+Map	V72		LA_Volume
+Map	V73		LB_Amp_Attack
+Map	V74		LB_Amp_Decay
+Map	V75		LB_Amp_Release
+Map	V76		LB_Amp_Sustain
+Map	V77		LB_Delay_Amount
+Map	V78		LB_Dist_Amount
+Map	B41		LB_Distortion
+Map	V79		LB_Filter_Attack
+Map	V80		LB_Filter_Cutoff
+Map	V81		LB_Filter_Decay
+Map	V82		LB_Filter_Env
+Map	V83		LB_Filter_Release
+Map	V84		LB_Filter_Reso
+Map	V85		LB_Filter_Sustain
+Map	V86		LB_Filter_Type
+Map	V87		LB_Finetune
+Map	B42		LB_Flanger
+Map	V88		LB_Flanger_Feedback
+Map	V89		LB_Flanger_Intensity
+Map	V90		LB_Flanger_Manual
+Map	V91		LB_Flanger_Rate
+Map	V92		LB_LFO1_Rate
+Map	V93		LB_LFO1_Sync
+Map	V94		LB_LFO1_Synced_Rate
+Map	V95		LB_LFO1_Wave
+Map	V96		LB_LowCut
+Map	B43		LB_Mute
+Map	V97		LB_Pan
+Map	V98		LB_Pattern_Enable
+Map	V99		LB_Reverb_Amount
+Map	V100		LB_TrigDelay
+Map	V101		LB_Volume
+Map	V102		LC_Amp_Attack
+Map	V103		LC_Amp_Decay
+Map	V104		LC_Amp_Release
+Map	V105		LC_Amp_Sustain
+Map	V106		LC_Delay_Amount
+Map	V107		LC_Dist_Amount
+Map	B44		LC_Distortion
+Map	V108		LC_Filter_Attack
+Map	V109		LC_Filter_Cutoff
+Map	V110		LC_Filter_Decay
+Map	V111		LC_Filter_Env
+Map	V112		LC_Filter_Release
+Map	V113		LC_Filter_Reso
+Map	V114		LC_Filter_Sustain
+Map	V115		LC_Filter_Type
+Map	V116		LC_Finetune
+Map	B45		LC_Flanger
+Map	V117		LC_Flanger_Feedback
+Map	V118		LC_Flanger_Intensity
+Map	V119		LC_Flanger_Manual
+Map	V120		LC_Flanger_Rate
+Map	V121		LC_LFO1_Rate
+Map	V122		LC_LFO1_Sync
+Map	V123		LC_LFO1_Synced_Rate
+Map	V124		LC_LFO1_Wave
+Map	V125		LC_LowCut
+Map	B46		LC_Mute
+Map	V126		LC_Pan
+Map	V127		LC_Pattern_Enable
+Map	V128		LC_Reverb_Amount
+Map	V129		LC_TrigDelay
+Map	V130		LC_Volume
+Map	V131		LD_Amp_Attack
+Map	V132		LD_Amp_Decay
+Map	V133		LD_Amp_Release
+Map	V134		LD_Amp_Sustain
+Map	V135		LD_Delay_Amount
+Map	V136		LD_Dist_Amount
+Map	B47		LD_Distortion
+Map	V137		LD_Filter_Attack
+Map	V138		LD_Filter_Cutoff
+Map	V139		LD_Filter_Decay
+Map	V140		LD_Filter_Env
+Map	V141		LD_Filter_Release
+Map	V142		LD_Filter_Reso
+Map	V143		LD_Filter_Sustain
+Map	V144		LD_Filter_Type
+Map	V145		LD_Finetune
+Map	B48		LD_Flanger
+Map	V146		LD_Flanger_Feedback
+Map	V147		LD_Flanger_Intensity
+Map	V148		LD_Flanger_Manual
+Map	V149		LD_Flanger_Rate
+Map	V150		LD_LFO1_Rate
+Map	V151		LD_LFO1_Sync
+Map	V152		LD_LFO1_Synced_Rate
+Map	V153		LD_LFO1_Wave
+Map	V154		LD_LowCut
+Map	B49		LD_Mute
+Map	V155		LD_Pan
+Map	V156		LD_Pattern_Enable
+Map	V157		LD_Reverb_Amount
+Map	V158		LD_TrigDelay
+Map	V159		LD_Volume
+Map	V160		Main_Volume
+Map	T8		Patch Name
+Map	B50		Select Next Patch
+Map	B51		Select Previous Patch
+Map	B52		Trig_Seq
+Map	V161		noteLength
+Map	V162		polymode_LA
+Map	B53		seqMode
+Map	V163		seqRate
+
+Scope	Propellerhead Software	se.propellerheads.radicalpiano
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"se.propellerheads.radicalpiano"
+Map	V23		Ambience Level
+Map	V24		Ambience Type
+Map	V25		Character
+Map	V26		Compression Amount
+Map	T7		Device Name
+Map	V27		EQ Hi Gain
+Map	V28		EQ Lo Gain
+Map	V29		EQ Mid Gain
+Map	V30		EQ On/Off
+Map	V31		Env Attack
+Map	V32		Env Decay Curve
+Map	V33		Env Release
+Map	V34		Key Down Level
+Map	V35		Key Up Level
+Map	V36		Master Volume
+Map	V37		Microphone 1 Type
+Map	V38		Microphone 2 Type
+Map	V39		Microphone and Instrument Blend
+Map	T8		Patch Name
+Map	V40		Pedal Level
+Map	V41		Select Next Patch
+Map	D17		Select Patch Delta
+Map	V42		Select Previous Patch
+Map	V43		Stereo Width
+Map	V44		Symp Res Level
+Map	V45		Symp Res Release Time
+Map	V46		Tune
+Map	V47		Tune Drift
+Map	V48		Vel Response Curve
+Map	V49		Vel Response High
+Map	V50		Vel Response Low
+
+Scope	Arturia	vst.ARP3
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.ARP3"
+Map	V23		Delay Volume
+Map	T7		Device Name
+Map	V24		P1 Brightness
+Map	V25		P1 Movement
+Map	V26		P1 Param2
+Map	V27		P1 Timbre
+Map	V28		P1 Time
+Map	V29		Phaser Mix
+Map	V30		Reverb Volume
+
+Scope	Arturia	vst.AStr
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.AStr"
+Map	T7		Device Name
+
+Scope	Arturia	vst.AVcs
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.AVcs"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Alav.Analog Lab V
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Alav.Analog Lab V"
+Map	V23		Delay Volume
+Map	T7		Device Name
+Map	V24		Master
+Map	V25		Master Bass
+Map	V26		Master Mid
+Map	V27		Master Treble
+Map	V28		P1 Brightness
+Map	V29		P1 Movement
+Map	V30		P1 Param2
+Map	V31		P1 Timbre
+Map	V32		P1 Time
+Map	V33		Phaser Mix
+Map	V34		Reverb Volume
+
+Scope	Arturia	vst.BuEa
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.BuEa"
+Map	T7		Device Name
+
+Scope	Arturia	vst.CMIv
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.CMIv"
+Map	T7		Device Name
+
+Scope	Arturia	vst.CSV4
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.CSV4"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Clav
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Clav"
+Map	T7		Device Name
+
+Scope	Arturia	vst.CsCz
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.CsCz"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Dx71
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Dx71"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Emu1
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Emu1"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Farf
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Farf"
+Map	T7		Device Name
+
+Scope	Arturia	vst.JUP4
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.JUP4"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Jun1
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Jun1"
+Map	T7		Device Name
+
+Scope	Arturia	vst.KMSV
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.KMSV"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Kat1
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Kat1"
+Map	T7		Device Name
+Map	V23		Master
+
+Scope	Arturia	vst.MLTN
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.MLTN"
+Map	T7		Device Name
+
+Scope	Arturia	vst.MOD3
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.MOD3"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Mat2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Mat2"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Min3
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Min3"
+Map	T7		Device Name
+
+Scope	Arturia	vst.OBS2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.OBS2"
+Map	T7		Device Name
+
+Scope	Arturia	vst.OBXa
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.OBXa"
+Map	T7		Device Name
+
+Scope	Arturia	vst.PRO5
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.PRO5"
+Map	T7		Device Name
+
+Scope	Arturia	vst.PRVS
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.PRVS"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Pia3.Piano V3
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Pia3.Piano V3"
+Map	V23		Age
+Map	V24		Ambient Mics
+Map	V25		Brightness
+Map	T7		Device Name
+Map	V26		Drive
+Map	V27		Dynamics_2
+Map	V28		Hammer Hardness
+Map	V29		Hammer Position
+Map	V30		Harmonics
+Map	V31		Master Volume
+Map	V32		Reverb Dry/Wet
+Map	V33		St. Width
+Map	V34		Timbre
+
+Scope	Arturia	vst.SNTY
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.SNTY"
+Map	T7		Device Name
+
+Scope	Arturia	vst.SQ80
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.SQ80"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Sol2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Sol2"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Stg2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Stg2"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Sycl
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Sycl"
+Map	T7		Device Name
+
+Scope	Arturia	vst.TnW2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.TnW2"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Voco
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Voco"
+Map	T7		Device Name
+
+Scope	Arturia	vst.Vox2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.Vox2"
+Map	T7		Device Name
+
+Scope	Arturia	vst.WUR2
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+Map	T6		"vst.WUR2"
+Map	T7		Device Name
+
